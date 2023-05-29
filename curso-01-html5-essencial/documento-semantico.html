@@ -1,0 +1,332 @@
+<!-- 
+production 
+
+#Notas de Estudos
+secao-10-curso-I-unidade-09-novos-elementos-estruturais-do-html5
+
+-----------------------------------------------------------------------------------------------
+44. Elemento 'main'
+
+A mudança principal do HTML5 é a semântica.
+
+Semântica neste sentido é ser mais claro oque está querendo dizer ao engine do browser,
+assim identificando de forma mais otimizada cada elemento.
+
+<div></div> São caixas de elemto de conteúdo, semanticamente o browser não identifica de forma
+            otimizada as div's assim aplicando o mêtodo semântico do html5.
+            No html5 foi adicionado novas tags que deixa mais claro suas funções dentre elas:
+
+<main></main> Principal - podemos ter apenas um elemento main no documento.
+
+20/05/2023
+Tempo aplicado: 25m.
+-------------------------------------------------------------------------------------------------
+45. Elemento 'header'
+
+<header></header>  No HTML5 veio para substituir de forma semântica o topo do documento pode estar
+                   em amis de um elemento.
+
+20/05/2023
+Tempo aplicado: 25m.
+-------------------------------------------------------------------------------------------------
+46. Elemento 'nav
+
+<nav></nav>  Recomendado apenas para uso de navegação da página.
+
+20/05/2023
+Tempo aplicado: 25m.
+-------------------------------------------------------------------------------------------------
+47. Elemento 'article'
+
+<article></article>  Seção independente do conteúdo do documento.
+
+Sendo seus propósitos de aplicação:
+- post de forum
+- artigo de magazine
+- artigo de notícias
+- post de blog
+- comentário submetido
+
+https://www.w3.org/TR/2011/WD-html5-author-20110809/the-article-element.html
+
+20/05/2023
+Tempo aplicado: 25m.
+-------------------------------------------------------------------------------------------------
+47. Elemento 'section'
+
+<section></section> Representa uma seção genêrica do documento ou aplicação. 
+                    Costuma-se usar para áreas menores do website.
+
+Sendo seus propósitos de aplicação:
+- capítulos.
+- abas de divisão de páginas ou janela de diálogo
+- númeração de seção
+
+20/05/2023
+Tempo aplicado: 25m.
+-------------------------------------------------------------------------------------------------
+48. Elemento 'aside'
+
+<aside></aside> Representa uma seção de uma página que está com informação relacionada aquele
+                conteúdo mas considerada em destaque.
+
+Sendo seus propósitos de aplicação:
+- pull quotes:  destaque relacionadas com a relação com o texto.
+- sidebars:  barras laterais de grupos de links.
+- adversiting:  barras relacionadas compropaganda.
+- groups of nav elements: relação de grupos de links.
+
+20/05/2023
+Tempo aplicado: 25m.
+-------------------------------------------------------------------------------------------------
+48. Elemento 'footer'
+
+<footer></footer> Representa o rodapé do documento pode aplicar em duas situações no rodapé
+                  da página como um todo ou a a´rea do rodapé de uma seção.
+
+Sendo seus propósitos de aplicação:
+- autor
+- links relacionado a documentos
+- data
+- direitos autorais
+
+20/05/2023
+Tempo aplicado: 25m.
+-------------------------------------------------------------------------------------------------
+
+-->
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cafe Fontenebleu</title>
+        
+		<style>
+
+            html { 
+                    background-color:#F6F6F6; 
+                }
+            
+            main { 
+                    width:955px; 
+                    margin:-1px auto 10px; 
+                    border:1px solid #ddd; 
+                    background-color:#FFF; 
+                    font-family:Arial, Helvetica, sans-serif; 
+                }
+
+            header { 
+                    width:955px; 
+                    height:95px; 
+                }
+            
+            nav { 
+                    width: 955px; 
+                    background-color: #5D240A;
+                }
+
+            nav ul { 
+                    list-style:none; 
+                    margin:0; 
+                    padding:4px; 
+                }
+
+            nav ul li { 
+                        display:inline-block; 
+                    }
+
+            nav ul li a { 
+                           font-size: 0.85em; 
+                           text-decoration: none; 
+                           color: #FFF; 
+                           padding: 4px 20px; 
+                        }
+
+            nav ul li a:hover { 
+                                background-color: #B4531A; 
+                            }
+            
+            article { 
+                        float:left; 
+                        margin:30px 20px; 
+                        width:600px 
+                    }
+
+            aside   {
+                        float:left;
+                        width:230px;
+                        border-top:1px solid #cc6633;
+                        border-bottom:1px solid #cc6633;
+                        padding: 40px 10px 0;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        font-style: italic;
+                        background: url(../src/images/aspas.gif) no-repeat;
+                    }
+
+            aside p {
+                        color: #999;
+                    }
+
+            #apoio {    
+                        float:right; 
+                        width:300px; 
+                        margin-top:30px; 
+                    }
+
+            footer {   
+                        clear:both; 
+                        width:700px; 
+                        margin:0 auto; 
+                        font-size:0.75em; 
+                        text-align:center; 
+                        background-color:#ECECEC; 
+                        padding:5px; 
+                    }
+            
+            h1, h2, h4 { 
+                            font-family:Georgia, "Times New Roman", Times, serif; 
+                            color:#C63; 
+                            font-style:italic; 
+                            letter-spacing:-0.05em; 
+                        }
+
+            h1 { 
+                    font-size:2.6em; 
+                    margin:0 5px; 
+                }
+
+            h4 {    
+                    font-size:1.6em;
+                    margin:0 5px; }
+
+            p, li { 
+                    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+                    font-size:0.9,5em; 
+                    color:#555; 
+                    line-height:1.8 
+                }
+
+        </style>        
+    
+    </head>
+
+    <body>
+        
+        <main>
+    
+            <header>
+                <img src="src/images/topo_principal.jpg">
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Special Events</a></li>
+                    <li><a href="#">DVD</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Review</a></li>
+                </ul>
+            </nav>
+
+            <article>
+
+                <h1>Restaurant Review</h1>
+
+                    <p>
+                        Francesco and Jane Bienni, founders and owners of San Francisco's world-class restaurant, have many reasons to celebrate. Cafe Townsend has been a San Francisco favorite for more than 19 years, and their latest restaurant venture, Cafe Isabella, will soon expand to more locations. Their biggest celebration is for their son Steven's recent graduation from New York's highly acclaimed Culinary Institute of America. San Francisco diners should join the Bienni's in their celebration because this graduation means an even better menu selection at Cafe Townsend, as Steven is lending his modern and innovative culinary talents to his father's traditional, Old World kitchen.
+                    </p>
+
+
+                    <aside>
+                        <p>
+                            What I am doing is using seasonal Italian ingredients and combining them to create dishes with a modern flair that will invigorate our customers' palates, Steven says.
+                        </p>
+                    </aside>
+
+
+                    <p>
+                        Those who have enjoyed Cafe Townsend and its world-class cuisine shouldn't worry - the stellar tableside service, scrumptious regional specials and menu favorites remain. But Steven's latest menu additions are something you don't want to miss.
+                    </p>
+
+                    <p>
+                        &quot;The utilization of regional seafood with the accompaniment of our fresh-grown herbs is something I'm avid about.&quot;
+                    </p>
+
+                <h4>Appetizer</h4>
+
+                    <ul>
+                        <li>
+                            Prosciutto di Parma con Insalata Miele - Thinly sliced cured Italian ham with 
+                            julienne of apples with frisee in a red wine poppy seed vinaigrette, garnished 
+                            with goat's cheese crostini.</li>
+                        <li>
+                            Salmone, Pecorino e Rucola - Smoked salmon with goat's cheese and arugola
+                        </li>
+                    </ul>
+
+                <h4>Pasta</h4>
+                    <ul>
+                        <li>
+                            Penne con Pomodoro Fresco e Provolone - Quill-shaped pasta with tomato sauce, 
+                            garlic, fresh basil and provolone cheese
+                        </li>
+                        <li>
+                            Orechiette alla Panorama - &quot;Little ears&quot; of pasta with calamari and 
+                            tiger shrimp in a light tomato sauce with olive oil
+                        </li>
+                        <li>
+                            Gnocchi al Forno con Salsiccia - Homemade pillows of potato and ricotta 
+                            gnocchi in a hearty tomato sauce with sweet Italian sausage and pork shoulder, 
+                            baked with fresh mozzarella
+                        </li>
+                    </ul>
+
+                <h4>Main Course</h4>
+                    <ul>
+                        <li>
+                            Pollo Farcito con Fontina e Prosciutto - Boneless breast of chicken stuffed 
+                            with fontina cheese and prosciutto in white wine
+                        </li>
+                        <li>
+                            Pollo alla Zenzero - Semi-boneless half of chicken sauteed with garlic, 
+                            rosemary, mustard and sage in a fresh ginger-spiked sauce
+                        </li>
+                        <li>
+                            Vitello Dolce Bacio - Veal medallions sauteed with mixed mushrooms in a 
+                            marsala wine sauce with a touch of cream and chopped tomato, crowned with a 
+                            jumbo shrimp
+                        </li>
+                    </ul>
+
+            </article>
+
+            <div id="apoio">
+
+                <section class="fotos_apoio">
+                    <h2>Mapa</h2>
+                    <img src="src/images/mapa_como_chegar.gif" width="275" height="299" />
+                </section>
+
+                <section class="fotos_apoio">
+                    <h2>Fotos</h2>
+                    <img src="src/images/fotos.jpg" width="275" height="205" />
+                </section>
+
+                <section class="fotos_apoio">
+                    <h2>Vinhos</h2>
+                    <img src="src/images/vinhos.jpg" width="275" height="203" /> 
+                </section>
+
+            </div>
+
+            <footer>
+                Cafe Fontenebleu - Rua Ernesto de Paula Santos, 187 Sala 506 - Recife-PE
+            </footer>
+    
+        </main>
+
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!--
+#Notas de Estudos
+secao-14-curso-I-unidade-13-formularios
+####################################################################################
+60. Criação de  formulário simples.
+
+Criando:
+
+'action'               Destino das variáveis recebidas pelo 'form'
+
+'method'               Método usado para o envio de variáveis recebidas pelo 'form'.
+                       -- post - Usado para inserção e login enviado de forma oculta.
+                       -- get  - Usado para pesquisa.
+
+'id'                   Sempre utilizado na utilização de JavaScript para ação específica.
+
+'label'                Duas formas de uso uma que fica ao redor do 'input' e outra utilizando o atributo 'for'
+                       o 'for' determina qual campo o 'label' está direcionado se comunicando com 'id' no 'input'.
+
+'size'	               Especifica a largura (em caracteres) de um campo de entrada.
+
+'maxlength'	           Especifica o número máximo de caracteres para um campo de entrada.
+
+<input type="submit">  Exibe um botão de envio (para enviar o formulário)
+
+'value'	               Especifica o valor padrão para um campo de entrada.
+
+'name'                 Identifica na comunicação com a lógica do envio de formulário a informação
+                       recebida pelo 'input'.
+
+Observação:
+
+Ao criar um formulário pensamos que estes dados serão inseridos no nosso banco de dados.
+No banco de dados criamos o campo chamado 'nome' que vai receber as informações inseridas.
+Quando determinamos o campo no banco de dados determinamos quantos caracteres serão inseridos na coluna do banco.
+Caso a informação inserida e enviada for maior que o tamanho pré-determinado ocorrerá erro no banco de dados.
+
+21/05/2023
+Tempo aplicado: 20m.
+####################################################################################
+ -->
+<!doctype html>
+<!-- created 2023/05/21 -->
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+        <link href="src/css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <h2>Formulário</h2>
+		<form action="destino.php" method="post">
+			<label for="login">Nome</label>
+			<input type="text" id="nome" name="nome" size="30" maxlength="100">
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" name="telefone" size="30" maxlength="30">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" size="30" maxlength="60">
+			<input type="submit" id="botao" value="Login">
+		</form>
+    </body>
+</html>

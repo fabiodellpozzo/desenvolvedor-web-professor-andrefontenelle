@@ -1,0 +1,694 @@
+#Nota de Estudos
+secao-15-curso-II-unidade-01-css3-fundamentl
+secao-16-curso-II-unidade-02-css3-fundamentos-de-css
+
+18/05/2023
+######################################################################################
+Seção 16: Curso II - Unidade 2 - Fundamentos CSS
+
+color:#fff 
+75. O que é CSS?
+
+Cascading Style Sheets (ou CSS) é uma linguagem de estilo utilizada para definir a apresentação de 
+documentos escritos em uma linguagem de marcação, como HTML ou XML.
+Seu principal benefício é prover a separação entre o formato e o conteúdo de um documento.
+Alusão do nome efeito cascata onde estilos sobrepõe estilos.
+
+https://www.csszengarden.com/
+
+
+Podemos criar estilos para dispositivos diferentes por exemplo.
+
+Estilos é uma coleção de regras de formatação, neste conjunto de regras defini-se as aparêcias.
+
+
+h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:120px;
+    font-style:italic;
+    color:#FC6;
+}
+
+Neste exemplo definimos que a tag h4 terá a aparencia com a fonte padrão o conjunto de fontes 'font-family: Georgia, "Times New Roman", Times, serif;'  com tamanh 120%  'font-size:120px;' com estilo italico e cor #FC6.
+
+p,li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    line-height: 160%;
+    color:#C63;
+}
+
+a{
+    font-weight: bold;
+    color:#C63;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#CC3;
+    text-decoration:underline;
+}
+
+color:#93c 
+#Modelo externo.
+
+É muito comum ver os estilos usando arquivos externos, tendo o arquivo html e o arquivo css o arquivo css você pode usar em diversos arquivos html. Com isso ganha-se produtividade cria um arquivos com as páginas da mesma aparência você aplica o mesmo estilo a elas.
+
+<html>
+    <head>
+        <link href="estilos.css" rel="stylesheet">
+    </head>
+    <body>
+
+    </body>
+<html>
+
+color:#fff 
+#Modelo incorporado.
+
+Existe o modelo incorporado  o css fica dentro do documento html esta aplicação fica útil apenas ao 
+documento aplicado.
+
+<html>
+    <head>
+        <style>
+        h1 {
+            font-size:200%;
+            color:#54c
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Título</h1>
+    </body>
+<html>
+
+color:#fff 
+#Modelo inline
+
+No modelo inline o estilo é aplicado diretamente na tag no qual este estilo fica aplicado apenas a esta tag.
+
+<html>
+    <head>
+
+    </head>
+    <body>
+       <h1 style="color:red">Título da página</h1>
+    </body>
+<html>
+
+Caso exista um outro h1 na mesma página html ela não terá a mesma aparência  pois foi aplicado apenas a ela.
+
+color:#fff 
+76. Sintaxe da linguagem CSS.
+
+Uma regra CSS é composta por 'seletor' e sua declaração
+
+
+
+SELETOR     DECLARAÇÃO
+-------     -------------------------------------------------------
+p           {                          VALORES
+                                       ----------------------------
+                        font-family:   Arial, Helvetica, sans-serif;
+                        color:         #F00;
+            }           ------------
+                        PROPRIEDADES
+
+Entre uma regra e outra existe  o ';' (ponto e vírgula)  para separar uma definição da 
+outra.
+
+Pode declarar mais definições na mesma linha:
+
+    p  {font-family:Arial, Helvetica, sans-serif; color:#F00;}
+
+Pode adicionar mais seletores na mesma regra CSS:
+
+    p, li, a {font-family:Arial, Helvetica, sans-serif; color:#F00;}
+
+Isso economiza tempo e digitação caso compartilhe das mesmas características.
+
+Pode adicionar comentários no código CSS:
+
+/* Comentário de única linha */
+
+/*
+   Comentário de
+   múltiplas linhas
+*/
+
+https://www.w3.org/standards/webdesign/
+
+
+color:#fff 
+77. Tipos de seletores.
+
+Redefinir a aparência de uma tag. Quando cria-se uma regra para uma tag css estou redefindo a sua aparência,
+neste exemplo estamos redefinindo a aparência da tag 'p'.
+
+Atribuindo uma nova 'font-family' e uma nova cor 'color' 
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        color:#F00;
+    }
+
+Podemos redefinir a aparência de várias outras tags, neste modelo redefinindo a font, tamanho e cor.
+
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.6em;
+        color:#F00; 
+    }
+
+color:#fff 
+- Criar classe
+
+Ao criar uma classe css precedemos ela com '.' (ponto)
+
+    .destaque {
+        font-weight:bold;
+        text-decoration:underline;
+        color:#F00;
+    }
+
+    para sua aplicação:
+
+    <p class="destaque">Hoje é quarta-feira.</p>
+
+color:#fff
+- Criar id
+
+Para criar um id em css precede com cerquilha(#) 
+
+    #janela {
+        float:left;
+        width:200px; height:100px;
+        background-color:#CCC;
+    }
+
+    para sua aplicação:
+
+    <div id="janela"></div>
+
+color:#fff
+- Diferença entre um 'id' e 'class'.
+
+'id' é uma identificação que criamos a um elemento do HTML. Tem como característica principal, ser aplicado
+a um único elemento em um documento web.
+
+Em seu uso em mais de um elemento é renderizado pela engine do browser porem não é recomendado
+pois dará inconsistência ao documento na análise de códificação por validadores.
+
+'class'  também é o nome atribuído a elemento 'html' porém pode ser aplicado a mais de um elemento, no mesmo
+documento web.
+
+color:#fff 
+- Seletor em grupo
+
+Desejando atribuir a mesma característica a mais de um parâgrafo.
+
+<html>
+    <head>
+
+    <style>
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size:90%
+            color:#069;
+        }
+
+    </style>
+
+    </head>
+
+    <body>
+
+       <p>Título da página</p>
+
+       <ul>
+           <li>Item 1</li>
+           <li>Item 2</li>
+           <li>Item 3</li>
+       </ul>
+
+       <a href="#">Link</a>
+
+    </body>
+
+<html>
+
+color:#fff 
+Método 1 - 3 regras distintas com os seletores individuais.
+
+        
+<html>
+    <head>
+        <style>
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:90%
+                color:#069;
+            }
+            li {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:90%
+                color:#069;
+            }
+            a {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:90%
+                color:#069;
+            }
+        </style>
+    </head>
+    <body>
+       <p>Título da página</p>
+       <ul>
+           <li>Item 1</li>
+           <li>Item 2</li>
+           <li>Item 3</li>
+       </ul>
+       <a href="#">Link</a>
+    </body>
+<html>
+
+
+color:#fff 
+Método 2 - Regra distinta  unificando os 3 seletrores 'p','li','a'.      
+
+<html>
+    <head>
+        <style>
+            p, li, a {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:90%
+                color:#069;
+            }
+        </style>
+    </head>
+    <body>
+       <p=>Título da página</p>
+       <ul>
+           <li>Item 1</li>
+           <li>Item 2</li>
+           <li>Item 3</li>
+       </ul>
+       <a href="#">Link</a>
+    </body>
+<html>
+
+
+color:#fff 
+Método 3 - Método em Cascata
+           Regra distinta  unificando os 3 seletrores 'p','li','a'.
+           adicionando uma classe para modificar o seleter escolhido 
+           entres para adicionar uma nova regra ao seletor aplicando
+           através da classe a tag escolhida 'p'.
+           Substituindo a regra 'color' anterior mas mantendo as outras
+           características anteriores.
+
+<html>
+    <head>
+        <style>
+
+            p, li, a {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:90%
+                color:#069;
+            }
+
+            .destaque {
+                color:#93c;
+            }
+
+            /* adicionamos um estilização adicional agrupando 'li' com a classe '.destaque' */
+
+            li.destaque {font-weight:bold;}
+
+        </style>
+    </head>
+    <body>
+       <p class="destaque">Título da página</p>
+       <ul>
+           <li>Item 1</li>
+           <li class="destaque">Item 2</li>
+           <li>Item 3</li>
+       </ul>
+       <a href="#">Link</a>
+    </body>
+<html>
+
+color:#ffff 
+- Seletor descendente
+    Uma determinda alteração de caracteristica do 'p' mas apenas aos que estão dentro da 'div'.
+
+<html>
+    <head>
+        <style>
+            div p {
+                font-family: Arial, Helvetica, sans-serif;
+                color:#069;
+            }
+        </style>
+    </head>
+    <body>
+
+    <div>
+        <p>Exemplo de parágrafo dentro da DIV - CSS</p>
+        <p>Segundo parágrafo dentro DIV - CSS</p>
+    </div>
+
+        <p class="destaque">Texto fora da DIV - CSS</p>
+    </body>
+<html>
+
+color:#fff 
+- Seletor adjacente
+    Determinda a ordem no qual a alteração será aplicada.
+
+    h2+p{color:#f00;}
+
+    OA regra será aplicada ao primeiro 'p' que estiver depois do 'h2'
+
+
+<html>
+    <head>
+        <style>
+            h2 {font-family: Arial, Helvetica, sans-serif;}
+            p {color:#069;}
+            h2+pa { color:#f00;}
+        </style>
+    </head>
+    <body>
+        <h2>Título da página</h2>
+        <p>Primeiro texto</p>
+        <p>Segundo texto</p>
+    </body>
+<html>
+
+color:#fff 
+78. Como escrever um código de forma eficiente.
+    Boas práticas.
+
+    - Estruturar o HTML para adicionar apenas o conteúdo.
+    - Não focar no estilo quando for estrutura o código.
+    - Escrever um código limpo e eficiente.
+    - Um código bem estruturado é muito mais fácil de estilizar.
+    - Indente corretamente as regras de seu código.
+
+###Exemplo código sujo###
+
+<div id="central">
+  <h1 class="textoGrande Preto Negrito">Cafe Townsend - Menu</h1>
+  <div id="menu">
+    <a href="#appertizers"> Appertizers</a> | <a href="#entress"> Entress</a> | <a href="#desserts"> Desserts</a>
+  </div>
+  <h3 class="textoMedio">Appetizers</h3>
+  <img id="minhaFoto" src="images/appertizer.jpg" width="475" height="102" alt="appetizers" />
+  <ul class="listaprincipal">
+   <li>Roasted Tomato Soup - served with goat cheese croutons and basil puree.</li>
+   <li>Summer Salad - organic butter lettuce with apples and garlic crostini. Good for sharing.</li>
+   <li>Foundue of Brie, Goat Cheese, and Gruyere - served with green apples and garlic crostini. Good for sharing.</li>
+   <li>Crispy Flatbread - topped with asiago, prosciutto, and rocket.</li>
+   <li>Yellow-finAhi Tatar - served on a bed of shredded cabbage with avocado relish and a green peppercon dressing.</li>
+  </ul>
+</div>
+
+##########################
+###Exemplo código limpo###
+
+<div id="central">
+
+    <h1>Cafe Townsend - Menu</h1>
+
+    <div id="menu">
+        <a href="#appertizers">Appertizers</a> | <a href="#entress">Entress</a> | <a href="#desserts">Desserts</a>
+    </div>
+
+    <h3 class="textoMedio">Appetizers</h3>
+
+    <img src="images/appertizer.jpg" width="475" height="102" alt="appetizers"/>
+
+    <ul>
+        <li>Roasted Tomato Soup - served with goat cheese croutons and basil puree.</li>
+        <li>Summer Salad - organic butter lettuce with apples and garlic crostini. Good for sharing.</li>
+        <li>Foundue of Brie, Goat Cheese, and Gruyere - served with green apples and garlic crostini. Good for sharing.</li>
+        <li>Crispy Flatbread - topped with asiago, prosciutto, and rocket.</li>
+        <li>Yellow-finAhi Tatar - served on a bed of shredded cabbage with avocado relish and a green peppercon dressing.</li>
+    </ul>
+
+</div>
+
+##########################
+color:#fff
+- Nomeclatura dos 'ids' e 'classes'
+
+  -No momento de declarar o nome de um 'id' digite '#' antes do nome.
+  Exemplo: #principal ou #central
+
+  -Ao declarar uma classe digite '.' antes do nome.
+  Exemplo> .destaque ou .meuItem
+
+  -Não utilize caracteres especiais como acentos ou 'ç' ou espaços.
+
+- Aplicando mais de uma classe ao mesmo elemento.
+  Por exemplo existe duas classes 'destaque' e 'vermelho' basta deixar um espaço um nome e outro. 
+
+  <div class="destaque vermelho"></div>
+
+- Aplicando 'id' e 'class' no mesmo elemento.
+
+  <div id="janel" class="destaque"></div>
+
+color:#fff
+79. Como os navegadores leem CSS.
+
+O css substitui, dentro do meu estilo css temos uma definição para 'p' , dentro do 'html' foi realizado alterações.
+
+CSS         |    
+estilo.css  |  p{ font-family:Arial, Helvetica, sans-serif;color:#0f0;}
+
+HTML        |  p{ font-family:Arial, Helvetica, sans-serif;} 
+index.html  |       
+               <p style="color:#f00">Texto dentro de um paragrafo de um site.</p>
+
+
+1º  regra prioritaria css 'inline'
+    todas as regras no documento habilitadas a 'inline' é renderizada pelo browser.
+
+2º  regra prioritaria css 'incorporado'
+    sem estilização 'inline' linkado com css'externo' o estilo interno é prioritario é renderizada pelo browser.
+        
+3º  regra prioritária css 'vinculado'
+    na ausencia de estilo 'inline' e ' interno' o css 'externo' é prioritario é renderizada pelo browser.
+
+#secao-16-curso-II-unidade-02-css3-fundamentos-de-css
+#23/05/2023     
+#####################################################################################################
+#secao-17-curso-II-unidade-03-css3-fundamentos-de-css
+#24/05/2023 
+
+color:#fff
+80. Com aplicar CSS no HTML
+
+
+Aplicação do css incorporado significa que está dentro do arquivo html, entre as tags <head><head>
+aplica entre as tags <style></style> a estilização do documento.
+  
+Estilizando o 'h1' entre as tags <style></style>  adicionando as propriedade e seus valores. Inicialmente alterando utilizando a propriedade 'color' com o valor 'red'.
+
+Em seguida alteramos o tipo de fonte através da propriedade 'font-family' lembrando que entre uma propriedade e outra separamos utilizando ';'.
+
+Criamos uma nova propriedade para a tag 'p' para a customização do parágrafo. Quanto utilizamos uma propriedade padrão afetamos o estilo de todas as propriedades 'p' do documento.
+
+<html>
+    <head>
+        <title>Curso de CSS3 - Essencial</title>
+        <meta charset="utf-8">
+        <style>
+
+            h1 {
+                color:red;
+                font-family: sans-serif;
+            }
+
+            p {
+                color:brow;
+                font-family: sans-serif;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Cafe Townsend welcomes you</h1>
+        <p>Cafe Townsend's visionary chef leads the way in a culinary revolution. Proclaimed by many to be the best chef in the world today, Chef Bienni blends earthy seasonal flavors and bold ingredients to create exquisite contemporary cuisine. </p>
+        <p>The name Cafe Townsend comes from our first restaurant, located in a historic building on Townsend Street in San Francisco, where we opened the doors in 1985. We've replicated the elegant interior, exceptional service, and world-class cuisine in our restaurants around the country.</p>          
+    </body>
+</html>
+
+color:#fff
+81. CSS inline
+
+Inline significa em linha, a linga da tag os as propriedades serão apicadas receberão o estilo. Neste caso estilizamos de forma específica a tag incluindo em sua linha as propriedades. Esta estilização inicia-se através da propriedade 'style' dentro da própria tag '<p style="color:green">' nota-se que apenas a tag com a estilização inline foi afetada esta customização foi específica a tag com o 'style'.
+
+É possível fazer uma combinação de estilo combinando com o css inline e o incorporado, neste caso definindo no css incorporado o tipo de fonte no qual será abrangente a todos s 'p's do documento.
+
+A fonte foi alterada para tods os paragrafos do documento mas apenas a estilização de cor está no parágrafo com a estilização inline. Para aplicações locais podemos usar a tag '<span></span>" adicionando a propriedade customizando parte do texto permeado pela tag. Diferente da aplicação da propriedade de forma 'inline' onde a propriedade é escrita utilizando '=' e aspas duplas ' "" ' 'style="valor"' no estilo incorporado escrevemos a propriedade seguida de ':' e sem aspas duplas o valor 'style:valor;'.
+
+<span style="background:yellow">Cafe Townsend</span>
+
+No estilo 'inline' podemos combinar com outros atributos separando entre aspas, aplicando 'font-weight' optando por 'bold' deixando em negrito todo o parágrafo. Adicionando utras propriedades sempre separando-as por ';'.
+
+<p style="color:green;font-weight:bold">
+
+<html>
+    <head>
+        <title>css-inline</title>
+        <meta charset="utf-8">
+        <style>
+            p {
+                font-family:sans-serif;
+            } 
+        </style>
+    </head>
+    <body>
+        <h1>Cafe Townsend welcomes you</h1>
+        <p style="color:green;font-weight:bold">Cafe Townsend's visionary chef leads the way in a culinary revolution. Proclaimed by many to be the best chef in the world today, Chef Bienni blends earthy seasonal flavors and bold ingredients to create exquisite contemporary cuisine. </p>
+        <p>The name <span style="background:yellow">Cafe Townsend</span> comes from our first restaurant, located in a historic building on Townsend Street in San Francisco, where we opened the doors in 1985. We've replicated the elegant interior, exceptional service, and world-class cuisine in our restaurants around the country.</p>          
+    </body>
+</html>
+
+25/05/2023
+
+color:#fff
+82. CSS importado
+
+O mesmo arquivo css pode aplicar em várias páginas beneficiando em produtividade e padronização.
+Criamos a folha de estilo css na pasta 'src' nomeando como 'estilo.css'.
+
+No arquivo 'estilo.css' adicionamos os seguintes valores e propriedades.
+
+'estilo.css'
+
+h1 {
+    font-family: sans-serif;
+    font-size:36px;
+    color:brown;
+}
+
+p {
+    font-family: sans-serif;
+    font-size:12px;
+    color:gray; 
+}
+
+'index.html'
+
+<html>
+    <head>
+        <title>css-inline</title>
+        <meta charset="utf-8">
+        <link href="src/estilo.css rel-"stylesheet">
+    </head>
+    <body>
+        <h1>Cafe Townsend welcomes you</h1>
+        <p style="color:green;font-weight:bold">Cafe Townsend's visionary chef leads the way in a culinary revolution. Proclaimed by many to be the best chef in the world today, Chef Bienni blends earthy seasonal flavors and bold ingredients to create exquisite contemporary cuisine. </p>
+        <p>The name <span style="background:yellow">Cafe Townsend</span> comes from our first restaurant, located in a historic building on Townsend Street in San Francisco, where we opened the doors in 1985. We've replicated the elegant interior, exceptional service, and world-class cuisine in our restaurants around the country.</p>          
+    </body>
+</html>
+
+Vinculamos o arquivo css externo atravé do link:
+
+<link href="src/estilo.css rel-"stylesheet">
+
+O "href" vem de referência, ele indica onde está o arquivo que você quer importar, que pode ser um arquivo dentro de uma pasta no seu computador, por exemplo: "href"="/estilos/styles.css", ou também uma URL da internet.
+
+O atributo rel vem de relationship serve para você dizer qual o relacionamento do arquivo que você quer utilizar com o arquivo atual. Quando você coloca rel="stylesheet", você está dizendo que o arquivo importado é o arquivo responsável pelo estilo da sua página.
+
+
+color:#fff
+83. Proriedade de Cascata
+28/05/2023
+
+Cascading Staly Sheet significa folha de estilo em cascata em alusão (Queda de água, natual ou artificial castatear cair em forma de cascata) uma série de folhas de estilos podem mudar a atribuição anterior, por exemplo temos o estilo no estilo externo atribuições.
+
+O efeito castata permite mudar atribuições anteriores.
+        Seguindo as seguintes prioridades:
+
+        1º regra prioriza css 'inline'
+           todas as regras no documento habilitadas a 'inline' é renderizada pelo browser.
+
+        2º regra prioriza css 'incorporado'
+           sem estilização 'inline' linkado com css'externo' o estilo interno é prioritario é renderizada pelo browser.
+        
+        3º regra prioriza css 'vinculado'
+           na ausencia de estilo formtando vindo do 'inline' e ' interno' o css 'externo' é prioritario é renderizada pelo browser.
+
+           Neste exemplo temos o <h1> definico sua cor em 'color:#FC6;' no arquivo css externo para o efeito cascata a 
+           a atribuição incorporada define a cor 'color: darkblue;' lembrando que o arquivo externo mantem a propriedades para todas as páginas estillizada por ela já o estilo incorporado irá mudar esta atribuição apenas a esta página.
+
+           Considera-se prioritário a formatação mais próxima da tag.
+
+color:#fff
+84 System Fonts x Web Fonts
+
+Trabalhando com fontes - Tipografia
+Se a fonte padrão da página não for alterada ela será efinida com a fonte padrão do computador que estiver acessando
+a página por padrão é 'Times New Roman'.
+
+Opções de fontes:
+
+    - Fontes do sistema
+      -- Largamente suportada
+      -- Escolhas limitadas
+
+    - Fontes da Web
+      -- Método atual
+      -- Baixo suporte a navegadores antigos.
+
+color:#fff
+- Fontes do Sistema.
+
+Serif              Sans Serif     Monospace       Cursive
+- Times            - Arial        - Courier       - Comic Sans
+- Times New Roman  - Helvetica    - Courier New
+- George           - Verdana      - Monaco
+                   - Geneva
+
+A font precisa estar nstalado no dispositco client.
+
+Normalmente na atribui-se nas regras uma família de fontes causa ocorra ausência dela fica definido sua substiuição.
+Caso a font Arial não se encontra instalada no dispositivo o navegador irá procurar a fonte seguinte determinada na família, caso não encontre sua última atribuição irá procurara a família de fonts sans-serif. 
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+color:#fff
+- Fonts Web
+
+Web Font possue a técnica de embutir fontes em aqruivos web usando mpetodo @font-face. Isto permite que desenvolvedores possam usar recursos sem a preocupação se o usuário tenha ou não aquela fonte.
+
+@font-face {
+
+    font-family: 'Philosopher Regular';
+        src:url('../fonts/philosopher-webfont.eot?') format('eot'),
+            url('../fonts/philosopher-webfont.woff') format('woff'),
+            url('../fonts/philosopher-webfont.ttf')  format('truetype'),
+            url('../fonts/philosopher-webfont.svg#webfontKWmDqtHI')  format('svg');
+    
+    font-weight: normal;
+    font-style: normal;
+        
+}
+
+Existem inúmeras maneiras mais fáceis e simples de você utilizar web fonts em seu website.
+
+- Google Fonts
+- fonts.com
+- Adobe Edge Web Fonts
+
+
+

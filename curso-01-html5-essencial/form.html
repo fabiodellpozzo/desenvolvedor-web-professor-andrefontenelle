@@ -1,0 +1,177 @@
+<!--
+#Notas de Estudos
+secao-14-curso-I-unidade-13-formularios
+####################################################################################
+59. O que é formulários?
+
+Formulário é um espaço em um site ou aplicativo onde usuário interage com o conteúdo.
+
+Tipos de formulários:
+
+ - cadastro
+ - login
+ - recuperação
+ - pesquisa
+
+ Como funciona o formulário:
+ 
+ É composto pela tag '<form></form>' e nele contém diversos atributos entre 
+ os essenciais  são eles:
+
+ - action - Destino das variáveis recebidas pelo 'form'.
+ - method - Método usado para o envio das variáveis recebidas pelo 'form'.
+   -- post - Usado para inserção e login enviado de forma oculta.
+   -- get  - Usado para pesquisa.
+
+ <form action="destino.php" method="post">
+	Dentre o intervalo de '<form>' adicionamos todos os campos a resgatar de informações do usuário. 
+ </form>
+
+#Tipos de campos:
+
+ - <input> No 'input' existe vários 'types':
+
+Type                            Description
+
+<input type="button">           Exibe um botão clicável
+<input type="checkbox">         Exibe uma caixa de seleção (para selecionar zero ou mais opções).
+<input type="color">            É usado para campos de entrada que devem conter uma cor.
+<input type="date">             É usado para campos de entrada que devem conter uma data.
+<input type="datetime-local">   Especifica campo de entrada de data e hora, sem fuso horário.
+<input type="email">            É usado para campos de entrada que devem conter um endereço de e-mail.
+<input type="file">             Define campo de seleção de arquivo e um botão procurar para uploads de arquivos.
+<input type="hidden">           Define um campo de entrada oculto (não visível para um usuário).
+<input type="image">            Define uma imagem como um botão de envio. Especificado no atributo src.
+<input type="month">            Permite ao usuário selecionar um mês e ano.
+<input type="number">           Define um campo de entrada numérico.
+<input type="password">         Define um campo de senha.
+<input type="radio">            Exibe um botão de opção (para selecionar uma das muitas opções)
+<input type="range">            Define um controle para inserir número cujo valor exato não é importante
+                                (como um controle deslizante).
+<input type="reset">            Define botão de redefinição dos valores do formulário para o valor padrão
+<input type="search">           Para campos de pesquisa (se comporta como um campo de texto normal).
+<input type="submit">           Exibe um botão de envio (para enviar o formulário)
+<input type="tel">              Usado para campos de entrada que devem conter um número de telefone.
+<input type="text">             Exibe um campo de entrada de texto de linha única.   
+<input type="time">             Permite ao usuário selecionar um horário (sem fuso horário).
+<input type="url">              Usado para campos de entrada que devem conter um endereço de URL.
+<input type="week">             Selecionar uma semana e um ano.
+
+#Novos atributos
+
+'autocomplete'  Permite que o formulário tenha a função de auto completar os campos
+					<form action="destino.php" autocomplete="on">
+						<input type="email" name="email" autocomplete="off">
+					</form>
+
+'novalidate'    Não validar a informação.
+					<form action="destino.php" novalidade>
+						<input type="email" name="email">
+					</form>
+
+'validate'      Validar a informação.
+					<form action="destino.php" validade>
+						<input type="email" name="email">
+					</form>
+
+'required'      Obrigatoriedade de preenchimento do campo por parte do usuário.
+
+'placeholder'   Adiciona um valor inicial que é apresentado no campo, mais usado como informação opção ao 'label'.
+
+'pattern'
+
+'list'
+
+'autofocus'     Determina o foco na caixa especificamente ao acessar o documento com form.
+
+#Restrições de entrada
+Aqui está uma lista de algumas restrições de entrada comuns:
+
+Atributo	Descrição
+
+'checked'	Especifica que um campo de entrada deve ser pré-selecionado quando a página for carregada.
+            (for type="checkbox" or type="radio").
+'disabled'	Especifica que um campo de entrada deve ser desabilitado.
+'max'       Especifica o valor máximo para um campo de entrada.
+'maxlength'	Especifica o número máximo de caracteres para um campo de entrada.
+'min'	    Especifica o valor mínimo para um campo de entrada.
+'pattern'	Especifica uma expressão regular para verificar o valor de entrada.
+'readonly'	Especifica que um campo de entrada é somente leitura (não pode ser alterado).
+'required'	Especifica que um campo de entrada é obrigatório (deve ser preenchido).
+'size'	    Especifica a largura (em caracteres) de um campo de entrada.
+'step'	    Especifica os intervalos de número legal para um campo de entrada.
+'value'	    Especifica o valor padrão para um campo de entrada.
+
+-   <label></label>   Aplica-se para identificar que tipo de informação irá adicionar identificado 
+                    através do atributo 'for' vinculado ao 'id' dentro do 'input' relacionado 
+					por exemplo:
+
+	<form action="destino.php" method="post">
+		<label for="login">Login</label>
+		<input type="text" id="login" name="login">
+		
+		<label for="senha">Senha</label>
+		<input type="password" id="senha" name="senha">
+
+		<input type="submit" id="botao" value="Login">
+	</form>
+
+#Os mais populares:
+
+<input type="text" id="nomecompleto" name="nomecompleto">
+    Entrada ede texto simples.
+
+<input type="checkbox" id="aceito" name="aceito" value="sim">   
+    De acordo com esta informação" ou possibilita multiplas respostas.
+
+<input type="rediobutton" id="pagamento" name="pagamento" value="dinheiro"> 
+    Possibilita escolhas.												
+
+-   atributo 'name' identifica na comunicação com a lógica do envio de formulário a informação
+                    recebida pelo 'input'.
+
+#Campo Select = Lista
+- Este tipo de campo está entre os mais populares disponibiliza diversas opções de escolha.
+
+<select>   - Habilita campo
+<option>   - Disponibiliza a visulização do dado.
+'value'    - Valor que será remetido ao destino.
+'selected' - Atributo que define por padrão o valor escolhido pré-selecionado.
+
+<select name="estadoID" id="estadoID">
+	<option value="1">Rio de Janeiro</option>
+	<option value="2" selected>São Paulo</option>
+	<option value="3">Pernambuco</option>
+	<option value="4">Rio Grande do Sul</option>
+	<option value="5">Bahia</option>
+</select>
+
+21/05/2023
+Tempo aplicado: 20m.
+####################################################################################
+ -->
+<!doctype html>
+<!-- created 2023/05/21 -->
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Formulários</title>
+			<link href="src/css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+		<form action="destino.php" method="post">
+			<label for="login">Login</label>
+			<input type="text" id="login" name="login">
+			<label for="senha">Senha</label>
+			<input type="password" id="senha" name="senha">
+			<select name="estadoID" id="estadoID">
+				<option value="1">Rio de Janeiro</option>
+				<option value="2" selected>São Paulo</option>
+				<option value="3">Pernambuco</option>
+				<option value="4">Rio Grande do Sul</option>
+				<option value="5">Bahia</option>
+			</select>
+			<input type="submit" id="botao" value="Login">
+		</form>
+    </body>
+</html>

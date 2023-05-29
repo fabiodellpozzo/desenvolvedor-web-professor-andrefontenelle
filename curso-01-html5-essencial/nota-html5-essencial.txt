@@ -1,0 +1,1373 @@
+#Nota de Estudos
+secao-01-curso-I-unidade-01-apresentacao-da-fomacao-desenvolvedor-web-completo
+######################################################################################
+    color:#93c Seção 1 - Apresentação da Formação Desenvolvedor Web Completo
+
+    01. apresentação
+    
+    Seja bem vindo ao segundo video de nosso curso. Nesta etapa vou te apresentar o 
+    que será ensinado neste treinamento, então vamos lá?
+
+    Esta formação é composta por 13 cursos. Sabe porque chamamos este curos de 
+    completo? 
+    Nesta formação vamos aprender os dois lados do deenvolvimento web, o lado que 
+    chamamos de front-end no qual o usuário 
+    percebe a programação porque é algo que ele vê é a interface do projeto e o lado 
+    back-end é tudo aquilo que acontece do 
+    lado do servidor que normalmente o usuário não faz idéia de como foi feito.
+
+    Nos cursos de front-end você vai aprender nos curso de HTML5, CSS3 e JavaScript.
+
+    Estes três primeiros cursos são muito importantes é a base para todo programador
+    front-end. Em seguida vamos aprender  
+    trabalhar com a mais conhecida biblioteca JavaScript o Jquery e depois vamos para 
+    o curso de Bootstrap, o curso que te 
+    ensina como criar sites responsivos e em seguida virá o curso de ECMASCRIPT6.0 a evoluçõ do JavaScript.
+
+    Depois o curso de Youtube API, neste treinamento aprenderá como pegar os vídeos do Youtube e criar uma galeria de vídeos 
+    para o seu website e por final os cursos que não é especificamente de front-end mas aborda técnicas que todo 
+    desenvolvedor front-end precisa conhecer que é o curso de SEO um curso importantíssimo para deixar o site bem ranqueado 
+    no Google.
+
+    Ao total são 278 aulas de front-end.
+
+    Nos cursos de back-end vamos aprender os cursos completos de PHP Fundamental, Banco de Dados MySQL, PHP com MySQL, PHP 
+    com MySQL Avançado e o curso de PHP com AJAX para deixar as aplicações super avançadas.
+    Todo este treinamento são mais de 460 vídeo aulas mais de 32 horas de aulas gravadas.
+    
+    Para quem foi criado este curso?
+
+    Este curso foi criado para o estudante quem nunca antes programou em uma linguagem estruturada. Contando de que você 
+    esteja do zero com noções de acesso a internet e saiba mexer no seu computador.
+
+    Curso HTML 5 Essencial  (61 aulas)
+    Curso CSS 3 Fundamental (50 aulas)
+    Curso Javascript Fundamental (32 aulas)
+    Curso jQuery Essencial (34 aulas )
+    Curso BootStrap Fundamental (43 aulas) 
+    Curso ECMAScript 6.0 (23 aulas)
+    Curso YouTube API v3.0 (15 aulas)
+    Curso SEO na prática (12 aulas) 
+    Curso PHP Fundamental 2020 (65 aulas) 
+    Curso Banco de Dados MySQL 2020 (45 aulas)
+    Curso PHP com Banco de Dados MySQL Fundamental (24 aulas)
+    Curso PHP com Banco de Dados MySQL Avançado (41 aulas)
+    Curso PHP com AJAX (42 aulas)
+    Curso Webpack Essential (47 aulas)
+
+    Total: 515 aulas.
+
+    18/05/2023
+    Tempo aplicado: 3m.
+######################################################################################
+    color:#93c 02. Como Iniciar o Curso
+
+    Uma das perguntas que fazer com a maior frequência é "Como é que eu começo ?".
+
+    # Informações de uso na plataforma.
+
+    18/05/2023
+    Tempo aplicado: 8m.
+######################################################################################
+    color:#93c 03. Paguei o curso e ele ainda não foi liberado.
+
+    Paguei o curso e ele ainda não foi liberado.
+
+    # Informações de uso na plataforma.
+
+    18/05/2023
+    Tempo aplicado: 1m.
+######################################################################################
+   color:#93c 04. Como organizamos nossas aulas.
+
+    Como organizamos nossos cursos no Udemy.
+    
+    Apresentamos como organizamos nossos cursos dentro da Udemy para que entenda e fique bem situado o tempo todo.
+
+    Temos dentro deta formação 13 cursos, sabemos que são muto cursos e precisamos deixá-los muito bem organizados.
+
+    Na Udemy não existe a figura chamada formação, que digamos seria um produto com vários sub-produtos ou sub-cursos não 
+    existe. Fazer uma formação ou fazer um curso único organizado da mesma maneira, como fazemos para deixar o máximo de 
+    organização.
+
+    Os curso são separados por seções, existe alguns instrutores que separam cursos por seções, mas fica uma sessão muito 
+    longa com muitas videos aulas isto atrapalha um pouco para se situar em que momento você está aprendendo ou que técnica 
+    você está se concentrando.
+
+    Como fazemos?
+
+    Na próxima aula será iniciado o curso de HTML5 denominamos de Cursos I o primeiro curso HTML5 Esssencial onde é iniciado 
+    o vídeo de apresentação dete curso com links para fazer o download dos exercícios limpos no momento inicial e depois 
+    começa uma nova sessão onde vamos abordar asuntos introdutórios.
+
+    Então começa sendo o Curso I - Unidade 1 - Introdução, contendo as vídeo aulas desta categoria. Depois começa uma outra 
+    unidade Curso 1 - Unidade 2 - Passos Iniciais deixando dest forma a organização mais clara possível e controlar o momento 
+    do aprendizado onde está.
+
+    No curso de CSS3 por exemplo já denomina como Curso 2 - CSS3 Fundamental seguido pela aula de apresentação/ links para 
+    download dos conteúdos  de exercícios limpos e ai começa depois uma outra unidade Curso 2 - Unidade 2 - Fundamentos 
+    depois Curso 2 - Unidade 3 - Conceitos Básicos e assim sucedendo cada uma das unidades normalmente existe 6, 7, 8, 10 
+    unidades cada curso com várias video aulas em cada uma destas unidades.
+
+    Ao total são mais de 100 seções ou 100 unidades que tem toda esta formação dividido por unidades para ficar bem 
+    organizado para saber e se concentrar na unidade específica para colocar em prática os exercícios limpos para avançar dia 
+    a pós dia.
+
+    18/05/2023
+    Tempo aplicado: 3m.
+######################################################################################
+color:#93c 05. Interação.
+
+Divulgação do instrutor nas Redes Sociais.
+
+# Instagram Professor André Fontenelle está lá Prof. André Fontenelle
+# Youtube Anrdré Fontenelle
+
+18/05/2023
+Tempo aplicado: 3m.
+####################################################################################
+color:#93c 13. Como baixar os arquivos limpos.
+
+Instruções para download arquivos de estudos.
+
+18/05/2023
+Tempo aplicado: 3m.
+####################################################################################
+color:#93c 14. Link para download exercicios limpos.
+
+Instruções para download arquivos de estudos.
+
+18/05/2023
+Tempo aplicado: 1m.
+####################################################################################
+color:#93c 15. Como usar os arquivos limpos.
+
+Instruções para download arquivos de estudos.
+
+18/05/2023
+Tempo aplicado: 3m.
+####################################################################################
+color:#93c 16. Esta gostando do curso.
+
+Instruções para avaliação do curso.
+
+18/05/2023
+Tempo aplicado: 2m.
+
+####################################################################################
+color:#93c 17. Criar a primeira página html.
+
+Configurações do IDE
+    
+Tags essenciais para criação do documento
+Toda tag iniciada é necessario seu fechamento com '/' por exemplo: '<html></html>'.
+Na sua estrutura na área pensante do documento web temos o '<head></head>' não 
+confundir com o outro elemento '<header></header>' este usado no corpo do documento.
+
+'<body></body>' O corpo da página.
+
+'DOCTYPE' Tag especial para identificaçãode documento para o navegador.
+'lang' Atributo para identificar a lingua nativa do conteúdo do documento.
+
+19/05/2023
+Tempo aplicado: 10m.
+####################################################################################
+color:#93c 18. Adicionar as primeiras tags.
+
+<html lang="pt-br">
+   <head>
+    <title>Titulo da Página</title>
+   </head>
+   <body>
+     <h1>Título do Documento</h1>
+     <p>Parágrafo do documento.</p>
+   </body>
+</html>
+
+
+Após adicionar na aula anterior os elementos da estrutura básica do arquivo 
+iniciando e tags essenciais entre elas:
+<title></title> Define o título da página no qual aparece na aba do navegador.
+
+O conteúdo no qual é inserido entre as tags <title> pode ser adicionado o que 
+quiser inclusive códigos dinâmicos. 
+
+<meta></meta> A tag meta é constituída por vários atributos, dentre estes atributos 
+um dos mais mportantes é 'charset' no qual define o consjunto de caracteres utilizado 
+na página onde em seu conjunto possui e seu conjunto no qual determina determinada 
+lingua, cada língua de detrmnado pais tem o seu conjunto.
+
+'charset="utf-8"' Este charset universal que abrange um grande número de conjustos de 
+caracteres de várias línguas.
+
+'<p></p>' Define um parágrafo.
+
+19/05/2023
+Tempo aplicado: 10m.
+####################################################################################
+color:#93c 19. Pre-Visualizar no Navegador.
+    
+Usar o 'LiveServer' através do lícone na barra do VSCode 'Go Live'
+Podemos selecionar e arrastar o arquivo para o navegado para abrir.
+
+19/05/2023
+Tempo aplicado: 7m.
+####################################################################################
+color:#93c 20. Compreendendo espaços vazios e comentários.
+
+Entre uma palavra e outra por mais que de espaços com o teclado o navegador não ira 
+interpretar. Não resulta em múltiplos espaços.
+
+Para adicionar espaços adicionais entre as palavras é necessário utilizar a 
+entidade html '&nbsp;'.
+
+Comentários podem ser adicionado entre o conteúdo html utilizando <!-- -->
+porem em outras lnguahens comentários possuem seus métodos específicos.
+
+Para mais linhas bastar recolocar a tag de comentário de fechamnto abaixo do texto.
+Lembrando que este tipo de comentário é público.
+  
+<!-- Comentário de uma linha -->
+        
+<!-- 
+  Comentário de mais linhas.
+  Comentário de mais linhas. 
+  Comentário de mais linhas.  
+-->
+
+Vale resaltar que o consteúdo adicionado entre comentário vca fisivel ao visualizar o 
+codigo da página no navegador. Informações restritas privadas podem ser comprometidas.
+
+Para comentários restridos utilizar apenas utilizando linguages de servidor.
+
+19/05/2023
+Tempo aplicado: 10m.
+####################################################################################
+color:#93c 21. Adicionar caracteres especiais html.
+
+Nos caracteres especiais existe uma lista completa com todas as entidades especiais 
+em html que podem ser aplicadas utilizando sets de nomes e números de entidades.
+
+Entre elas as mais utilizadas:
+
+Resultado Descrição                           Nome da Entidade  Número da Entidade
+	        non-breaking space	                &nbsp;	          &#160;	
+<	        less than	                          &lt;	            &#60;	
+>	        greater than	                      &gt;	            &#62;	
+&	        ampersand	                          &amp;	            &#38;	
+"	        double quotation mark	              &quot;	          &#34;	
+'	        single quotation mark (apostrophe)	&apos;	          &#39;	
+¢	        cent	                              &cent;	          &#162;	
+£	        pound	                              &pound;	          &#163;	
+¥	        yen	                                &yen;	            &#165;	
+€	        euro	                              &euro;	          &#8364;	
+©	        copyright                         	&copy;	          &#169;	
+®	        registered trademark	              &reg;	            &#174;
+
+19/05/2023
+Tempo aplicado: 7m.
+####################################################################################
+#Nota de Estudos
+secao-02-curso-I-unidade-01-curso-html5-essencial
+######################################################################################
+color:#93c 06. Apresentação do Curso.
+
+# Por que fazer o curso de HTML5?
+
+    Para responder esta pergunta precisamos ver a história do desenvolvimento web.
+
+    O reinado do Flash.
+    Por alguns anos nesta história o Flash reinou absoluto, tufo que era inovação na web era atrelado a este software. Era 
+    uma verdadeira febre. Companhias de todos os tamanhos e alguns sites se tornaram imortais.
+
+    Mas como todo produto tem seu nascimento sua ascensão e também sua queda o número de aplicações criados  em Flas caíram 
+    bastante e aplicações móveis não implacaram.
+
+    E o motivo foi o lançamento do primeiro smartphoe de verdade o que triuxe uma maneira diferente de navegar na internet 
+    com mobilidade total o iPhone.
+
+    O iPhone foi o grande algoz do Flas uma vez que seus navegadores não rodavam o plugin in Flas Player, vital para o 
+    usuário acessar sites criados no software da Adobe.
+
+    O lançamento deste produto fex com que uma linguagem que ainda estava precoce como estimativa de finalização em 2022 
+    tivesse seu uso e crescimento acelerado que foi o HTML5 e começou ali um novo reinado. A dinastia do HTML5 sem 
+    anecessidade de plugins mais aberto mais democrático se tornou popular em pouquíssimo tempo e logo foi apontado como o 
+    Flash killer.
+
+    Porém este reinado não é exercido por apenas um rei. Ele tem outras majestades o CSS# em conjunto com o JavaScript estão 
+    levando a web tudo aquilo que o Flash levava, porém roda nos smartphones, tablets e todos aqueles produtos que hoje são 
+    obrigatórios ela lares e empresas. Dominar bem o HTML5, CSS3 e JavaScript é essencial para qualquer desenvolvedor web.
+
+    O propósito deste curso é levar todo o conhecimento necessário para trabalhar bem com essas linguagens e muitas outras.
+
+    # Oque vamos aprender?
+
+    Oque vamos aprender neste curso. Vamos falar dos principais tópicos desse treinamento:
+
+    - Introdução a linguagem do HTML5.
+    - Conceitos básicos do HTML.
+    - Adicionar imagens.
+    - Adicionar links.
+    - Criar uma página do zero utilizando os novos elementos estruturais do HTML5.
+
+    Para quem foi criado este curso?
+
+    Este curso foi desenvolvido para estudante que nunca antes programou em uma linguagem contando de que esteja do zero.
+
+    Quais são as vantagen de escolher cursos de André Fontenelle?
+
+    Desenvolve cursos online desde 2005 quano poucos acreditavam em cursos online. Os primeiros cursos nasceram como material 
+    didádico para os alunos de formação presencial e depois tornando-se despois tornando-se uma empresa exclusiva de cursos 
+    online.
+
+    Na conclusão do curso é recebido o certificado de conclusão podendo assitir as videos aulas em computador ou dispositivos 
+    móveis.
+
+
+    18/05/2023
+    Tempo aplicado: 3m.
+######################################################################################
+
+color:#93c 07. Software Recomendados.
+
+ Softwares Necessários.
+  
+  Além do seu navegador você tem que ter ou seja no computador ou seja no dispositivo móvel acesso a plataformapara assitir 
+  as aulas.
+  
+  Necessita ter um programa instalado em seu computador para por em prática o que você; vai aprender em nosso curso que 
+  estudar, o editor HTML sela ele qual for pode ser o Dreamweaver poder ser o Sublime, Visual Studio Code neste curso 
+  utilizaremos inicialmente Brackets porem após o fim de sua continuidade pela Adobe adotamos o Visual Studio Code.
+
+  Quantos aos princ&iacute;pios b&aacute;sicos &eacute; que tem para as tr&ecirc;s plataformas, para Mac para Linux e para 
+  Windows não importando qual sistema operacional você tem instalado o Brackets é uma boa opção. 
+  
+  Além disso existe uma característica importante são IDES gratuitas. Não tem custo nenhum para se usar em seu computador.
+
+  Novos updates informam que a Adobe descontinuou o projeto e ele está sendo mantido pela comunidade brackets.io atualmente.
+
+  Como uma IDE mais estável recomenda-se o uso do Visual Studio Code.
+
+
+  18/05/2023
+  Tempo aplicado: 3m.
+
+######################################################################################
+
+color:#93c 08. Instruções sobre a Nova IDE.
+
+Instruções sobre nova IDE.
+
+    Na aula anterior falamos sobre IDE que são os softwares no qual vai escolher para programar para acompanhar o 
+    curso. 
+    
+    O curso inteiro não tem nada a ver com a IDE não precisa seguir a IDE no qual está sendo utilizada no curso.
+
+    Na aula anterior foi recomendado a utilização do Brackets no qul foi utilizado na produção deste curso mas de
+    acordo com  a descontinuidade do Brackets pela Adobe.
+    
+    ## Em pesquisa pessoal o Brackets foi descontinuado pela Adobe e agora mantido pela comunidade Brackets.io no
+    qual  ocorreu o novo lançamento da IDE Web o Editor de Código Phoenix onde traz todos os poderes do Brackets
+    e suas extensões para navegadores web, nenhuma instalação necessária.
+
+    https://phcode.dev/
+
+
+    Dicas:
+
+    - Alterar Tema no Modo Padrão.
+       Vá em: Arquivo->Preferências->Tema->Tema de Cores (CTRL+K mantém pressionado CTRL +T)
+       E aberta na Área de Trabalho a aba de sugestões a escolher, ao mover com a seta para cima ou para baixo 
+       muda automaticamente a interface para visualização em tempo real e para habilitar o tema escolhido 
+       apertar ENTER.
+    
+    - Extesão LiveServer
+       Recurso no qual facilita a abertura da codificação no browser apenas com 1 click no ícone "Go Live" que ira aparecer na barra de informações no rodapé do VSCode.
+
+    - Extensão VSCode Icons
+       Recurso no qual adiciona ícones relacionais ao tipo de arquivo no qual se faz referência a sua extensão.
+
+    - Extensão Pomodoro Timer
+       Recurso que controla o tempo de programação para foco no desenvolvimento promovendo pausas durante o trabalho.
+
+    - Extensão Microsoft Edge Tools - renderiza na stage area o browserpara visualização do projeto.
+
+    18/05/2023
+    Tempo aplicado: 7m.
+
+######################################################################################
+
+color:#93c 09. Como baixar uma iDE.
+
+Instruções.
+
+######################################################################################
+
+color:#93c 10. Fundamentos de HTML.
+
+Fundamentos de HTML
+
+    Após a escolha da IDE instalação e configuração foi baixado a pasta de recursos adicicionada na área Local 
+    Server da instalação do Wampp.
+
+    Utilizando o menu do VCScode após download do arquivo na plataforma e adicionado a pasta principal "www" do 
+    Wamp clicando em: Arquivo-> Abrir Pasta (CTRL+K mantendo o pressionado CTRL +O) abrirá a caixa de seleção de 
+    arquivos do sistema operacional para escolha da pasta de trabalho.
+
+    Após anexar a pasta 'fundamentos' a lista do Explorador do VSCode é apresentada as imagens padrões do curso.
+
+    Clicando em "Novo Arquivo" do ícone na aba título da pasta do projeto criando um novo arquivo nomeando como 
+    'pizza-calabreza.html'. (CTRL+Alt+Windows+N) abre o menu de sugestão para concluir a criação e um novo 
+    arquivo clicar (CTRL+N) -> (CTRL+S) para nomer e salvar o novo arquivo.
+
+    Uma forma para adiconar a etrutura de código HTML5 no VSCode digite 'html:5' o recurso Emmet Abbreviation 
+    oferece opções de edição que facilita o processo de criação.
+
+    Mas nestas primeiras video aulas escreveremos o código manualmente.
+
+    HTML
+
+    HTML - Hyper Text Markup Language
+
+    Linguagem de marcação de hipertexto utilizada para estruturar contúdo em páginas web.
+
+    O HTML foi criado em 1991 por Tim Berners-Lee (físico britânico) no CERN (European Council for Nuclear Research) na Suíça. Inicialmente, o HTML foi projetado para interligar instituições de pesquisa próximas e compartilhar documentos com facilidade.
+
+    Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.
+
+    HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.
+
+    SGML é um padrão de formatação de textos. Não foi desenvolvido para hipertexto, mas tornou-se conveniente para transformar documentos em hiper-objetos e para descrever as ligações.
+
+    Versões HTML publicadas
+    Versão     Ano
+    HTML       1991
+    HTML 2.0   1995
+    HTML 3.2   1997
+    HTML 4.01  1999
+    XHTML      2000
+    HTML 5     2014
+    HTML 5.1   2016
+    HTML 5.2   2017
+
+  - Sintaxe do HTML
+
+   Nos comendos são utilizadas duas marcas ou tags que são:
+
+   <> - Tag de abertura
+   </> - Tag de fechamento
+
+   Sendo a base estrutural de comando composto por:
+
+    <comando atributo1="valor1" ...atributoN="valorN">
+      Content
+    </comando>
+    
+    Exemplo
+    
+    <p id="paragrafo">
+        Hello World
+    </p>
+    
+    As tags HTML não são case sensitive, portanto escrevendo <HTML>, <Html>, <html> ou <HtMl> será interpretado pelo browser
+    porém recomendações de padrão de uso direciona a utilizar <html>.
+    
+    As tags são usadas para delimitar o início e o fim dos elementos na marcação. Texto bruto , texto bruto escapável e 
+    elementos normais têm uma marca inicial para indicar onde começam e uma marca final para indicar onde terminam. 
+    As tags iniciais e finais de certos elementos normais podem ser omitidas. 
+    Aqueles que não podem ser omitidos não devem ser omitidos. Os elementos vazios possuem apenas uma marca inicial; 
+    tags finais não devem ser especificadas para elementos void . elementos devem ter uma tag inicial e uma tag final, 
+    ou uma tag inicial marcada como de fechamento automático; nesse caso, elas não devem ter uma tag final.
+    
+    O conteúdo do elemento deve ser colocado logo após a tag inicial (que pode estar implícita, em certos casos ) 
+    e logo antes da tag final (que, novamente, pode estar implícita em certos casos ). Os conteúdos exatos permitidos de 
+    cada elemento individual dependem do modelo de conteúdo desse elemento, conforme descrito anteriormente nesta especificação. 
+    Os elementos não devem conter conteúdo que seu modelo de conteúdo não permita. Além das restrições impostas aos conteúdos 
+    por esses modelos de conteúdo, no entanto, os cinco tipos de elementos têm requisitos sintáticos adicionais.
+    Elementos vazios não podem ter nenhum conteúdo (já que não há tag final, nenhum conteúdo pode ser colocado entre a tag inicial e a tag final).
+    
+    Fonte: https://html.spec.whatwg.org/multipage/syntax.html#the-doctype
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        Content
+    </body>
+  </html>
+
+
+<!DOCTYPE html>
+ - Indica ao browser que o conteúdo do arquivo é uma página html.
+   Em HTML, o doctype é o preâmbulo obrigatório "<!DOCTYPE html>" encontrado na parte superior de todos os documentos. 
+   Seu único objetivo é impedir que um navegador mude para o chamado "modo peculiar" ao renderizar um documento; ou seja, 
+   o doctype "<!DOCTYPE html>" garante que o navegador faça o melhor esforço para seguir as especificações relevantes, 
+   em vez de usar um modo de renderização diferente que seja incompatível com algumas especificações.
+
+
+
+- Códigos de idioma ISO
+  Você deve sempre incluir o atributo lang dentro da tag <html>, para declarar o idioma da página da Web. Isso serve para ajudar os 
+  mecanismos de pesquisa e navegadores:
+
+<html lang="en"></html>
+ - Entre os atributos html fica toda a codificação no qual será renderizada pelo browser.
+ - O elemento representa a raiz (elemento de nível superior) de um documento HTML, por isso também é chamado de elemento raiz. Todos os 
+   outros elementos devem ser descendentes deste elemento.
+ - Atributos especiais são acrescido a esta tag como por exemplo 'lang' no qual especifica o idioma do recurso vinculado.
+
+  <html>
+    A tag mãe onde tudo vai estar entro entre estas tags, um dos princípios da 
+    linguagem é usar atributos na tag em exceção onde as tags não recebam atributos por padrão. 
+
+    Um atributo muito importnte é o atributo 'lang' este atributo descreve para a navegador qual lingua está 
+    sendo utilizada nesta página.
+    
+    O termo meta tag é, na verdade, formado por 2 palavras que se juntam para dar seu significado. E para entender este significado, é preciso entender as 2 palavras, em separado:
+
+Meta é um prefixo grego que significa algo como "após, "que ultrapassa", "que engloba", "que está além". Este não é um prefixo utilizado somente no desenvolvimento para web; você já deve ter ouvido e lido palavras como "metabolismo" e "metamorfose". Este prefixo meta refere-se à "coisas sobre a própria coisa" ou, em outras palavras, dados sobre dados, informação sobre a informação.
+
+Tag é uma palavra do inglês que significa "etiqueta" ou "rótulo". Tanto nos EUA, no Brasil ou qualquer parte do mundo, etiquetas servem para identificar, nomear e marcar algo ou alguma coisa para que possa ser identificado e/ou corretamente catalogado – dentre outras coisas, são tags que descrevem o documento web a qual pertencem ("informação sobre a informação"); as meta tags são para descrever informações sobre sites e páginas que as contém; informam sobre qual conteúdo está ali e mostra informações extras a respeito deste conteúdo.
+
+As metatags são colocadas como elementos-filho de <head>, no HTML, e sua sintaxe obedece à seguinte convenção:
+
+<meta name="nome-da-meta" c />
+Meta tags mais usadas
+
+Existem muitas meta tags disponíveis para se usar, entretanto, algumas são de especial importância e devem ser obrigatoriamente inseridas em cada uma das páginas.
+
+Meta tag "description" Esta meta tag descreve o conteúdo do documento.
+
+<meta name="description" c>
+
+Meta tag "keywords" Nesta meta tag você coloca uma lista de palavras-chave.
+
+<meta c>
+
+Meta tag "robots" Serve para controlar os bots de busca quanto à sua tarefa de indexação. Através dos diferentes valores possíveis para seu conteúdo, é possível passar instruções aos bots de busca para dizer qual o critério de indexação foi escolhido para tal ou qual página de seu site. Os valores mais comuns para esta meta tag são:
+
+    all. Valor padrão, significa "vazio" – o robô de busca não recebe nenhuma informação;
+    index. Os robôs de busca podem incluir a página normalmente;
+    follow. Robôs podem indexar a página e ainda seguir os links para outras páginas que ela contém;
+    noindex. Os links podem ser seguidos, mas a página não é indexada;
+    nofollow. A página é indexada, mas os links não são seguidos;
+    none. Os robôs podem ignorar a página;
+    noarchive A página não é arquivada.
+
+Meta tag "author"  Serve para especificar e indicar quem é o autor da página.
+
+Meta tag "revisit-after"  Sua função é informar com qual frequência os proxys devem refazer os caches das páginas de seu web site.
+
+<meta name="revisit-after" c />
+
+Meta tag "expires" Indica a "data de validade" de uma página web, quer dizer, indica quando uma página será considerada como expirada.
+
+<head>
+<meta charset="UTF-8">
+<meta c>
+<meta name="description" c>
+<meta name="keywords" c>
+<meta name="author" c>
+<meta c>
+<meta c>
+<meta c>
+</head>
+
+https://www.dublincore.org/
+Exemplos:
+
+    pt-BR - Português Brasileiro
+    pt-PT - Português de Portugal
+    en-US - Inglês Norte Americano
+
+color:#93c
+Language                    ISO Code
+
+Abkhazian	                ab                      
+Afar	                    aa                      
+Afrikaans	                af                       
+Akan	                    ak                       
+Albanian	                sq                      
+Amharic	                    am                  
+Arabic	                    ar                 
+Aragonese	                an                      
+Armenian	                hy              
+Assamese	                as              
+Avaric	                    av              
+Avestan	                    ae                                 
+Aymara	                    ay                                  
+Azerbaijani	                az
+Bambara	                    bm  
+Bashkir	                    ba
+Basque	                    eu
+Belarusian	                be
+Bengali (Bangla)            bn 
+Bihari	                    bh
+Bosnian	                    bs
+Breton	                    br
+Bulgarian	                bg
+Burmese	                    my
+Catalan	                    ca
+Chamorro	                ch 
+Chechen	                    ce
+Chichewa, Chewa, Nyanja     ny
+Chinese	                    zh
+Chinese (Simplified)	    zh-Hans
+Chinese (Traditional)       zh-Hant 
+Chuvash	                    cv 
+Cornish	                    kw
+Corsican	                co
+Cree	                    cr
+Croatian	                hr
+Czech	                    cs
+Danish	                    da
+Divehi, Dhivehi,Maldivian	dv
+Dutch	                    nl
+Dzongkha	                dz
+English	                    en
+Esperanto	                eo
+Estonian	                et
+Ewe	                        ee
+Faroese	                    fo                        
+Fijian	                    fj                      
+Finnish	                    fi                       
+French	                    fr               
+Fula, Fulah, Pulaar, Pular	ff                
+Galician	                gl                
+Gaelic (Scottish)	        gd                
+Gaelic (Manx)	            gv                                  
+Georgian	                ka                                  
+German	                    de                                  
+Greek	                    el
+Greenlandic	                kl
+Guarani	                    gn
+Gujarati	                gu
+Haitian Creole              ht
+Hausa	                    ha
+Hebrew	                    he 
+Herero	                    hz 
+Hindi	                    hi
+Hiri Motu                   ho
+Hungarian	                hu
+Icelandic	                is
+Ido	                        io 
+Igbo	                    ig 
+Indonesian	                id, in
+Interlingua	                ia
+Interlingue	                ie
+Inuktitut	                iu
+Japanese	                ja
+Japanese	                ja
+Javanese	                jv
+Inupiak	                    ik
+Irish    	                ga
+Italian	                    it
+Kalaallisut, Greenlandic    kl                
+Kannada	                    kn                
+Kanuri	                    kr               
+Kashmiri	                ks               
+Kazakh	                    kk                
+Khmer	                    km                
+Kikuyu	                    ki                
+Kinyarwanda (Rwanda)	    rw                
+Kirundi	                    rn                
+Kyrgyz	                    ky                
+Komi	                    kv                                          
+Kongo	                    kg
+Korean	                    ko
+Kurdish	                    ku
+Kwanyama	                kj
+Lao	                        lo
+Latin	                    la
+Latvian (Lettish)	        lv 
+Limburgish ( Limburger)	    li 
+Lingala	                    ln
+Lithuanian	                lt
+Luga-Katanga	            lu
+Luganda, Ganda	            lg
+Luxembourgish	            lb
+Manx	                    gv
+Macedonian                  mk
+Malagasy	                mg
+Malay	                    ms
+Malayalam	                ml
+Maltese	                    mt
+Maori	                    mi
+Marathi	                    mr
+Marshallese                 mh
+Moldavian	                mo
+Mongolian	                mn
+Moldavian	                mo                 
+Mongolian  	                mn                
+Nauru	                    na                
+Navajo	                    nv                 
+Ndonga	                    ng                 
+Northern Ndebele            nd                 
+Nepali	                    ne
+Norwegian	                no
+Norwegian bokmål            nb
+Norwegian nynorsk           nn
+Nuosu	                    ii
+Occitan	                    oc
+Ojibwe	                    oj 
+Old Church Slavonic, Old Bulgarian	cu 
+Oriya	                    or
+Oromo (Afaan Oromo)	        om
+Ossetian	                os
+Pāli	                    pi
+Pashto, Pushto	            ps
+Pe rsian (Farsi)	        fa
+Polish	                    pl
+Portuguese	                pt
+Punjabi (Eastern)           pa
+Quechua	                    qu               
+Romansh	                    rm                                  
+Romanian                    ro                                    
+Russian	                    ru                                                
+Sami	                    se
+Samoan	                    sm
+Sango	                    sg
+Sanskrit	                sa
+Serbian	                    sr                             
+Serbo-Croatian	            sh                                 
+Sesotho	                    st                            
+Setswana	                tn                                             
+Shona	                    sn                                                
+Sichuan Yi	                ii                                               
+Sindhi	                    sd
+Sinhalese	                si
+Siswati	                    ss
+Slovak	                    sk
+Slovenian	                sl
+Somali	                    so
+Southern Ndebele	        nr
+Spanish	                    es
+Sundanese	                su
+Swahili (Kiswahili)	        sw
+Swati	                    ss
+Swedish	                    sv
+Tagalog	                    tl
+Tahitian                    ty
+Tajik	                    tg
+Tamil	                    ta
+Tatar	                    tt
+Telugu	                    te
+Thai	                    th
+Tibetan	                    bo
+Tigrinya                    ti
+Tonga	                    to
+Tsonga	                    ts
+Turkish	                    tr
+Turkmen	                    tk
+Twi	                        tw
+Uyghur	                    ug 
+Ukrainian                   uk
+Urdu	                    ur
+Uzbek	                    uz
+Venda	                    ve
+Vietnamese	                vi
+Volapük	                    vo
+Wallon	                    wa
+Welsh	                    cy
+Wolof	                    wo
+Western Frisian	            fy
+Xhosa	                    xh
+Yiddish	                    yi, ji
+Yoruba	                    yo
+Zhuang, Chuang              za
+Zulu	                    zu
+
+color:#93c
+#ISO Country Codes
+Country	                                        ISO Code
+
+AFGHANISTAN	                                    AF
+ALBANIA	                                        AL
+ALGERIA 	                                    DZ
+AMERICAN SAMOA	                                AS
+ANDORRA	                                        AD
+ANGOLA	                                        AO
+ANTARCTICA	                                    AQ
+ANTIGUA AND BARBUDA	                            AG
+ARGENTINA	                                    AR
+ARMENIA	                                        AM
+ARUBA	                                        AW
+AUSTRALIA	                                    AU
+AUSTRIA	                                        AT
+AZERBAIJAN	                                    AZ
+BAHAMAS	                                        BS
+BAHRAIN	                                        BH
+BANGLADESH	                                    BD
+BARBADOS	                                    BB
+BELARUS	                                        BY
+BELGIUM	                                        BE
+BELIZE	                                        BZ
+BENIN	                                        BJ
+BERMUDA	                                        BM
+BHUTAN	                                        BT
+BOLIVIA	                                        BO
+BOSNIA AND HERZEGOVINA	                        BA
+BOTSWANA	                                    BW
+BOUVET ISLAND	                                BV
+BRAZIL	                                        BR
+BRITISH INDIAN OCEAN TERRITORY	                IO
+BRUNEI DARUSSALAM	                            BN
+BULGARIA	                                    BG
+BURKINA FASO	                                BF
+BURUNDI	                                        BI
+CAMBODIA	                                    KH
+CAMEROON	                                    CM
+CANADA	                                        CA
+CAPE VERDE	                                    CV
+CAYMAN ISLANDS	                                KY
+CENTRAL AFRICAN REPUBLIC	                    CF
+CHAD	                                        TD
+CHILE	                                        CL
+CHINA	                                        CN
+CHRISTMAS ISLAND	                            CX
+COCOS (KEELING) ISLANDS  	                    CC
+COLOMBIA	                                    CO
+COMOROS	                                        KM
+CONGO	                                        CG
+CONGO, THE DEMOCRATIC REPUBLIC OF THE	        CD
+COOK ISLANDS	                                CK
+COSTA RICA	                                    CR
+CÔTE D'IVOIRE	                                CI
+CROATIA	                                        HR
+CUBA	                                        CU
+CYPRUS	                                        CY
+CZECH REPUBLIC	                                CZ
+DENMARK	                                        DK
+DJIBOUTI	                                    DJ
+DOMINICA	                                    DM
+DOMINICAN REPUBLIC	                            DO
+ECUADOR	                                        EC
+EGYPT	                                        EG
+EL SALVADOR	                                    SV
+EQUATORIAL GUINEA	                            GQ
+ERITREA	                                        ER
+ESTONIA	                                        EE
+ETHIOPIA	                                    ET
+FALKLAND ISLANDS (MALVINAS)	                    FK
+FAROE ISLANDS	                                FO
+FIJI	                                        FJ
+FINLAND	                                        FI
+FRANCE	                                        FR
+FRENCH GUIANA	                                GF
+FRENCH POLYNESIA	                            PF
+FRENCH SOUTHERN TERRITORIES	                    TF
+GABON	                                        GA
+GAMBIA	                                        GM
+GEORGIA	                                        GE
+GERMANY	                                        DE
+GHANA	                                        GH
+GIBRALTAR	                                    GI
+GREECE	                                        GR
+GREENLAND	                                    GL
+GRENADA	                                        GD
+GUADELOUPE	                                    GP
+GUAM	                                        GU
+GUATEMALA	                                    GT
+GUINEA	                                        GN
+GUINEA-BISSAU	                                GW
+GUYANA	                                        GY
+HAITI	                                        HT
+HEARD ISLAND AND MCDONALD ISLANDS	            HM
+HONDURAS	                                    HN
+HONG KONG	                                    HK
+HUNGARY	                                        HU
+ICELAND	                                        IS
+INDIA	                                        IN
+INDONESIA	                                    ID
+IRAN, ISLAMIC REPUBLIC OF	                    IR
+IRAQ	                                        IQ
+IRELAND	                                        IE
+ISRAEL	                                        IL
+ITALY	                                        IT
+JAMAICA	                                        JM
+JAPAN	                                        JP
+JORDAN	                                        JO
+KAZAKHSTAN	                                    KZ
+KENYA	                                        KE
+KIRIBATI	                                    KI
+KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF	        KP
+KOREA, REPUBLIC OF	                            KR
+KUWAIT	                                        KW
+KYRGYZSTAN	                                    KG
+LAO PEOPLE'S DEMOCRATIC REPUBLIC (LAOS)	        LA
+LATVIA	                                        LV
+LEBANON	                                        LB
+LESOTHO	                                        LS
+LIBERIA	                                        LR
+LIBYA, STATE OF	                                LY
+LIECHTENSTEIN	                                LI
+LITHUANIA	                                    LT
+LUXEMBOURG	                                    LU
+MACAO	                                        MO
+MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF	    MK
+MADAGASCAR	                                    MG
+MALAWI	                                        MW
+MALAYSIA	                                    MY
+MALDIVES	                                    MV
+MALI	                                        ML
+MALTA	                                        MT
+MARSHALL ISLANDS	                            MH
+MARTINIQUE	                                    MQ
+MAURITANIA	                                    MR
+MAURITIUS	                                    MU
+MAYOTTE	                                        YT
+MEXICO	                                        MX
+MICRONESIA, FEDERATED STATES OF	                FM
+MOLDOVA, REPUBLIC OF	                        MD
+MONACO	                                        MC
+MONGOLIA	                                    MN
+MONTENEGRO	                                    ME
+MONTSERRAT	                                    MS
+MOROCCO	                                        MA
+MOZAMBIQUE	                                    MZ
+MYANMAR	                                        MM
+NAMIBIA	                                        NA
+NAURU	                                        NR
+NEPAL, FEDERAL DEMOCRATIC REPUBLIC OF	        NP
+NETHERLANDS	                                    NL
+NETHERLANDS ANTILLES	                        AN
+NEW CALEDONIA	                                NC
+NEW ZEALAND	                                    NZ
+NICARAGUA	                                    NI
+NIGER	                                        NE
+NIGERIA	                                        NG
+NIUE	                                        NU
+NORFOLK ISLAND	                                NF
+NORTHERN MARIANA ISLANDS	                    MP
+NORWAY	                                        NO
+OMAN	                                        OM
+PAKISTAN	                                    PK
+PALAU	                                        PW
+PALESTINE, STATE OF	                            PS
+PANAMA	                                        PA
+PAPUA NEW GUINEA	                            PG
+PARAGUAY	                                    PY
+PERU	                                        PE
+PHILIPPINES	                                    PH
+PITCAIRN	                                    PN
+POLAND	                                        PL
+PORTUGAL	                                    PT
+PUERTO RICO	                                    PR
+QATAR	                                        QA
+RÉUNION	                                        RE
+ROMANIA            	                            RO
+RUSSIAN FEDERATION	                            RU
+RWANDA	                                        RW
+SAINT HELENA	                                SH
+SAINT KITTS AND NEVIS	                        KN
+SAINT LUCIA	                                    LC
+SAINT PIERRE AND MIQUELON	                    PM
+SAINT VINCENT AND THE GRENADINES	            VC
+SAMOA	                                        WS
+SAN MARINO	                                    SM
+SAO TOME AND PRINCIPE	                        ST
+SAUDI ARABIA	                                SA
+SENEGAL	                                        SN
+SERBIA	                                        RS
+SEYCHELLES	                                    SC
+SIERRA LEONE	                                SL
+SINGAPORE	                                    SG
+SLOVAKIA	                                    SK
+SLOVENIA	                                    SI
+SOLOMON ISLANDS	                                SB
+SOMALIA	                                        SO
+SOUTH AFRICA	                                ZA
+SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS	GS
+SOUTH SUDAN	                                    SS
+SPAIN	                                        ES
+SRI LANKA	                                    LK
+SUDAN	                                        SD
+SURINAME	                                    SR
+SVALBARD AND JAN MAYEN	                        SJ
+SWAZILAND	                                    SZ
+SWEDEN	                                        SE
+SWITZERLAND	                                    CH
+SYRIAN ARAB REPUBLIC	                        SY
+TAIWAN	                                        TW
+TAJIKISTAN	                                    TJ
+TANZANIA, UNITED REPUBLIC OF	                TZ
+THAILAND	                                    TH
+TIMOR-LESTE	                                    TL
+TOGO	                                        TG
+TOKELAU	                                        TK
+TONGA	                                        TO
+TRINIDAD AND TOBAGO	                            TT
+TUNISIA	                                        TN
+TURKEY	                                        TR
+TURKMENISTAN	                                TM
+TURKS AND CAICOS ISLANDS	                    TC
+TUVALU	                                        TV
+UGANDA	                                        UG
+UKRAINE	                                        UA
+UNITED ARAB EMIRATES	                        AE
+UNITED KINGDOM	                                GB
+UNITED STATES	                                US
+UNITED STATES MINOR OUTLYING ISLANDS	        UM
+URUGUAY	                                        UY
+UZBEKISTAN	                                    UZ
+VANUATU	                                        VU
+VENEZUELA	                                    VE
+VIET NAM	                                    VN
+VIRGIN ISLANDS, BRITISH	                        VG
+VIRGIN ISLANDS, U.S.	                        VI
+WALLIS AND FUTUNA	                            WF
+WESTERN SAHARA	                                EH
+YEMEN	                                        YE
+ZAMBIA	                                        ZM
+ZIMBABWE	                                    ZW
+
+<head>
+A parte pensante de nossa página.
+    
+<body>
+A parte que ira receber o conteúdo que será apresentado na página web.
+
+<title>
+Tag que apresenta o nome do documento para que apareça na aba do navegador.
+
+<h1>
+Tag de estilo nativo para formatação de título sendo essencial para otimização.
+
+
+color:#93c
+- HTML5 Element Index
+
+Head      Sections  Grouping    Tables    Forms     Forms 2  Interactive  Edits     Embedded  Text-level  Text-level 2
+doctype   body      p           table     form      keygen   details      del, ins  img       a           time
+html      article   hr          caption   fieldset  output   summary                iframe    em          code
+head      nav       pre         thead     legend    progress command                embed     strong      kbd
+title     aside     blockquote  tbody     label     meter    menu                   object    i, b        samp
+base      section   ol          tfoot     input                                     param     u           var
+link      header    ul          tr        button                                    video     s           mark
+meta      footer    li          th        select                                    audio     small       bdi
+style     h1-h6     dl, dt, dd  td        datalist                                  source    abbr        bdo
+script    main      figure      col       optgroup                                  canvas    q           ruby, rt, rp
+noscript  address   figcaption  colgroup  option                                    track     cite        span
+                    div                   textarea                                  map       dfn         br
+                                                                                    area      sub, sup    wbr
+color:#93c #Lista de Elementos
+
+Descrição   Tag
+
+<!DOCTYPE>  Define o tipo de documento
+<a>         Define um hiperlink
+<abbr>      Define uma abreviação ou um acrônimo
+<acronym>   Não suportado em HTML5. Em vez disso, use <abbr>. Define um acrônimo
+<endereço>  Define as informações de contato do autor/proprietário de um documento
+<applet>    Não suportado em HTML5. Use <embed> ou <object> em vez disso. Define um applet embutido
+<area>      Define uma área dentro de um mapa de imagem
+<article>   Define um artigo
+<aside>     Define o conteúdo além do conteúdo da página
+<audio>     Define o conteúdo de som incorporado
+<b>         Define o texto em negrito
+<base>      Especifica a URL/alvo base para todas as URLs relativas em um documento
+<basefont>      Não suportado em HTML5. Em vez disso, use CSS. Especifica uma cor, tamanho e fonte padrão 
+                para todo o texto em um documento.
+<bdi>           Isola uma parte do texto que pode estar formatada em uma direção diferente de outro texto 
+                fora dele.
+<bdo>        Substitui a direção do texto atual
+<big>        Não suportado em HTML5. Em vez disso, use CSS. Define texto grande
+<blockquote> Define uma seção que é citada de outra fonte
+<body>       Define o corpo do documento
+<br>         Define uma única quebra de linha
+<button>     Define um botão clicável
+<canvas>     Usado para desenhar gráficos, em tempo real, via script (geralmente JavaScript)
+<caption>    Define uma legenda de tabela
+<center>     Não suportado em HTML5. Em vez disso, use CSS. Define o texto centrado
+<cite>       Define o título de uma obra
+<code>       Define um pedaço de código de computador
+<col>        Especifica as propriedades da coluna para cada coluna dentro de um elemento <colgroup>
+<colgroup>   Especifica um grupo de uma ou mais colunas em uma tabela para formatação
+<data>       Adiciona uma tradução legível por máquina de um determinado conteúdo
+<datalist>   Especifica uma lista de opções predefinidas para controles de entrada
+<dd>         Define uma descrição/valor de um termo em uma lista de descrição
+<del>        Define o texto que foi excluído de um documento
+<details>    Define detalhes adicionais que o usuário pode visualizar ou ocultar
+<dfn>        Especifica um termo que será definido dentro do conteúdo
+<dialog>     Define uma caixa de diálogo ou janela
+<dir>        Não suportado em HTML5. Em vez disso, use <ul>. Define uma lista de diretórios
+<div>        Define uma seção em um documento
+<dl>         Define uma lista de descrição
+<dt>         Define um termo/nome em uma lista de descrição
+<em>         Define o texto enfatizado
+<embed>      Define um contêiner para um aplicativo externo
+<fieldset>   Agrupa elementos relacionados em um formulário
+<figcaption> Define uma legenda para um elemento <figure>
+<figure>     Especifica o conteúdo independente
+<font>       Não suportado em HTML5. Em vez disso, use CSS. Define a fonte, a cor e o tamanho do texto
+<footer>     Define um rodapé para um documento ou seção
+<form>       Define um formulário HTML para entrada do usuário
+<frame>      Não suportado em HTML5. Define uma janela (um quadro) em um conjunto de quadros
+<frameset>   Não suportado em HTML5. Define um conjunto de quadros
+<h1> a <h6>  Define cabeçalhos HTML
+<head>       Contém metadados/informações para o documento
+<header>     Define um cabeçalho para um documento ou seção
+<hr>         Define uma mudança temática no conteúdo
+<html>       Define a raiz de um documento HTML
+<i>          Define uma parte do texto em uma voz ou humor alternativo
+<iframe>     Define um quadro embutido
+<img>        Define uma imagem
+<input>      Define um controle de entrada
+<ins>        Define um texto que foi inserido em um documento
+<kbd>        Define a entrada do teclado
+<label>      Define um rótulo para um elemento <input>
+<legend>     Define uma legenda para um elemento <fieldset>
+<li>         Define um item de lista
+<link>       Define o relacionamento entre um documento e um recurso externo (mais usado para vincular a folhas de estilo)
+<main>       Especifica o conteúdo principal de um documento
+<map>        Define um mapa de imagem
+<mark>       Define o texto marcado/destacado
+<meta>       Define metadados sobre um documento HTML
+<meter>      Define uma medição escalar dentro de um intervalo conhecido (um medidor)
+<nav>        Define links de navegação
+<noframes>   Não suportado em HTML5. Define um conteúdo alternativo para usuários que não suportam frames
+<noscript>   Define um conteúdo alternativo para usuários que não suportam scripts do lado do cliente
+<object>     Define um contêiner para um aplicativo externo
+<ol>         Define uma lista ordenada
+<optgroup>   Define um grupo de opções relacionadas em uma lista suspensa
+<option>     Define uma opção em uma lista suspensa
+<output>     Define o resultado de um cálculo
+<p>          Define um parágrafo
+<param>      Define um parâmetro para um objeto
+<picture>    Define um contêiner para vários recursos de imagem
+<pre>        Define o texto pré-formatado
+<progress>   Representa o progresso de uma tarefa
+<q>          Define uma citação curta
+<rp>         Define o que mostrar em navegadores que não suportam anotações ruby
+<rt>         Define uma explicação/pronúncia de caracteres (para tipografia do Leste Asiático)
+<ruby>       Define uma anotação rubi (para tipografia do Leste Asiático)
+<s>          Define o texto que não está mais correto
+<samp>       Define a saída de amostra de um programa de computador
+<script>     Define um script do lado do cliente
+<section>    Define uma seção em um documento
+<selecionar> Define uma lista suspensa
+<small>      Define um texto menor
+<source>     Define vários recursos de mídia para elementos de mídia (<vídeo> e <áudio>)
+<span>       Define uma seção em um documento
+<strike>     Não suportado em HTML5. Use <del> ou <s> em vez disso
+<strong>     Define o texto importante
+<estilo>     Define informações de estilo para um documento
+<sub>        Define o texto subscrito
+<summary>    Define um cabeçalho visível para um elemento <details>
+<sup>        Define o texto sobrescrito
+<svg>        Define um contêiner para gráficos SVG
+<table>      Define uma tabela
+<tbody>      Agrupa o conteúdo do corpo em uma tabela
+<td>         Define uma célula em uma tabela
+<template>   Define um contêiner para o conteúdo que deve ser ocultado quando a página é carregada
+<textarea>   Define um controle de entrada multilinha (área de texto)
+<tfoot>      Agrupa o conteúdo do rodapé em uma tabela
+<th>         Define uma célula de cabeçalho em uma tabela
+<thead>      Agrupa o conteúdo do cabeçalho em uma tabela
+<time>       Define uma hora específica (ou datetime)
+<title>      Define um título para o documento
+<tr>         Define uma linha em uma tabela
+<track>      Define trilhas de texto para elementos de mídia (<video> e <audio>)
+<tt>         Não suportado em HTML5. Em vez disso, use CSS. Define o texto do teletipo
+<u>          Define algum texto que não é articulado e tem um estilo diferente do texto normal
+<ul>         Define uma lista não ordenada
+<var>        Define uma variável
+<video>      Define o conteúdo de vídeo incorporado
+<wbr>        Define uma possível quebra de linha
+
+18/05/2023
+Tempo aplicado: 10m.
+
+###################################################################################################
+color:#93c 11. Dicas do Code.
+
+Reforço de customização da IDE como alteração de tema.
+
+Para atividades de trabalho sugere-se o tema escuro para redução do desgaste da vista junto ao 
+monitor e para didática de apresentação o tema claro fica mais sugestivo elementos mais visíveis.
+
+Dicas
+
+Em: Arquivo->Preferências->Configurações-> 'É aberto na área de trabalho 'Estage Area' o 
+arquivo de configuração do VScode'
+
+No arquivo de  'Configurações' no menu roll-over no Título 'Editor de Texto' podemos 
+definir entre eles a fonte a ser utilizada no VSCode no ambiente de desenvolvimento e 
+seu tamanho que pode ser alterado em 'Font Size' optando por Fonte: Consolas, Tamanho 16px.
+
+Com o 'Go Live' habilitado as alterações efetuadas se atualizam em tempo real.
+
+No arquivo de 'Configurações' deixar habilitado em 'Files:Auto Save' a opção 
+'afterDelay'definindo seu tempo em 'Files: Auto Save Delay' a opção default 1000ms =  
+milésimos de segundo = 1 segundo para auto salvar a edição da página no 'Estage Area'.
+
+18/05/2023
+Tempo aplicado: 4m.
+###################################################################################################
+color:#93c 12. Breve Histórico HTML5.
+
+Em 2004 a W3C iniciou o deenvolvimento do XHTML dois pontos eram frustados com os rumos do XHTML 
+2.0. Um grupo deprofissinais e corporações iniciou o desenvolvimento do que foi chamado de HTML5. 
+Este grupo é chamado de Web HipertextApplication Technology Working Group ou WHATWG. 
+  
+O grupo inicia as especifica&ccedil;&otilde;es que eles chamam de Web Applications 1.0.
+Em 2007 a W3C adotou as especificações do WHATWG e o renomeou para HTML5. Desde então o 
+XHTML 2.0 foi revogado, deixando apenas o HTML5 como substituto do HTML4.
+  
+Oque tem de especial no HTML5
+  -Mant&eacute;m toda a compatibilidde com as vers&otilde;es anteriores do HTML 
+  -HTML5 comt&eacute;m muitas caracter&iacute;sticas que facilitam o desenvolvimento de aplicações
+  -Foco no desenvolvimento de Web Application.
+  -Incluindo melhores campos de formulários e suporte diversos tipos de API's.
+    
+Estas características ajudam profissionais a criarem web e mobile aplications, 
+diponiblizando vídeos e áudios e além de um conteúdo mais interativo.
+
+18/05/2023
+Tempo aplicado: 1m.
+####################################################################################
+color:#93c 13. Como baixar os arquivos limpos.
+
+Instruções para download arquivos de estudos.
+
+18/05/2023
+Tempo aplicado: 3m.
+####################################################################################
+color:#93c 14. Link para download exercicios limpos.
+
+Instruções para download arquivos de estudos.
+
+18/05/2023
+Tempo aplicado: 1m.
+####################################################################################
+color:#93c 15. Como usar os arquivos limpos.
+
+Instruções para download arquivos de estudos.
+
+18/05/2023
+Tempo aplicado: 3m.
+####################################################################################
+color:#93c 16. Esta gostando do curso.
+
+Instruções para avaliação do curso.
+
+18/05/2023
+Tempo aplicado: 2m.
+####################################################################################
+color:#93c 25. Adicionando Heading
+
+Vamos trabalhar com texto de documento iniciando com os 'heds' que são os cabeçalhos,
+bastante comum em editores de texto.
+Os heds são sub-estilos padrões e restritos reconhecidos pelo navegador por herdados do HTML4,
+no qual através de CSS podem ser etilizados através de classes. 
+
+<h1></h1> Aplicado ao texto de maior destaque.Nos 'heds' exitem 6 tipos de tamanhos entre eles:
+
+  <h1> O maior, mais usada em títulos principalmente em otimização SEO.
+  <h2> Mais usada em sub-títulos.
+  <h3>
+  <h4>
+  <h5>
+  <h6> O menor.
+  <hgroup> 
+  Esta tag nasceu com o HTML5 para otimizar a semântica dos documentos web, serve para agrupar, reunir 
+  os cabeçalhos 'heds'.
+
+19/05/2023
+Tempo aplicado: 10m.
+####################################################################################
+color:#93c 26. Adicionando Parágrafos
+
+O parágrafo é o texto mais comum exisntentes em documentos web.
+
+A cada parágrafo é determinado pelo elemento <p></p>
+
+
+19/05/2023
+Tempo aplicado: 10m.
+####################################################################################
+color:#93c 27. Line Break
+
+'<br>'
+
+Break Row ou Break Line
+
+Usada para pular a alinha entre um texto e outro. Uma das tags que não é necessário a sua abertura e fechamento também herdada do HTML4.
+
+Quando o espaço entre linhas que é detrminado por padrão utilizando <p></p> o <br> é uma opção para quebra de linhas entre textos. Reduzindo o espaço de separação de quebras de linha comparado ao pagrágrafo.
+
+19/05/2023
+Tempo aplicado: 10m.
+####################################################################################
+color:#93c 28. Usar marcação.
+
+Marcação ou marking em seus textos é possível através de tags padrões do HTML dentre elas:
+
+Negrito/Bold:           <b>Texto</b>
+Itálico:                <i>Texto</i>
+Sublinhado/Underline:   <u>Texto</u>
+Subscrito:              <sub>Texto</sub>
+Superescrito:           <sup>Texto</sup>
+Riscado:                <s>Texto</s>
+
+Pode-se fazer via CSS porém são tags padrões que naturalmente o navegador está programado para 
+reconhecer.
+
+19/05/2023
+Tempo aplicado: 10m.
+
+####################################################################################
+color:#93c 30. Usar as tags 'i' e 'em'.
+
+Especificações indica o uso nas seguintes situações de textos:
+
+<i> - Voz alternativa como transliterado palavras estrangeiras, termos técnicos e texto tipograficamente em itálico.
+
+<b>-  estava em negrito, agora para texto “estilicamente deslocado”, como palavras-chave e texto tipograficamente em negrito
+
+<em> - ênfase, agora para ênfase tônica , ou seja, algo que você pronunciaria de forma diferente.
+
+<strong> - <strong>— era para ênfase mais forte, agora para importância forte , basicamente a mesma coisa (ênfase ou importância mais forte agora é indicada por aninhamento) 
+
+<i> e <b> eram elementos de estilo de fonte HTML4 e ainda são usados ​​na apresentação quando apropriado para seguir as convenções tipográficas. Eles agora têm significado semântico, no entanto, e seu estilo pode ser alterado via CSS, o que significa que eles não são apenas de apresentação — <b>, por exemplo, não precisa ser em negrito. Por isso, é recomendável usar classes para indicar o significado para facilitar a alteração do estilo posteriormente.
+
+o <i> elemento
+
+O elemento i representa um trecho de texto em uma voz ou humor alternativo, ou de outra forma deslocado da prosa normal de uma maneira que indica uma qualidade diferente de texto, como uma designação taxonômica, um termo técnico, uma frase idiomática de outro idioma, um pensamento, ou um nome de navio em textos ocidentais.
+
+Para opinião de terceiros.
+
+Use somente <i> quando nada mais adequado estiver disponível — por exemplo, <em> para texto com ênfase, <strong> para texto com importância semântica, <cite> para títulos em uma citação ou bibliografia, <dfn> para a instância definidora de uma palavra e <var> para variáveis ​​matemáticas. Em vez disso, use CSS para colocar blocos de texto em itálico.
+
+Outras coisas que são tipicamente em itálico incluem palavras estrangeiras transliteradas (usando o atributo lang=""), instruções de palco embutidas em um script, alguma notação musical e ao representar texto manuscrito embutido:
+
+Exemplo:
+
+<p>There is a xertain <i lang="fr">je ne sais quoi</i> in the air.</p>
+
+Para o usuário esta notação não há muita relevância mas para o engine de renderização do navegador e semântica são úteis.
+
+https://html5doctor.com/
+
+
+20/05/2023
+Tempo aplicado: 20m.
+####################################################################################
+color:#93c 31. Usar as tags bold '<b>' e strong '<strong>'.
+
+As duas tgs na aparência fazem a mesma coisa deixam o texto em negrito.
+
+Quando devemos usar o bold e quando devemos usar o strong? Quando queremos dar uma chamada de atenção, cuidado ou força no texto.
+O uso do <strong></strong> é mais semântico.
+
+'<b></b>' O uso do bolde pra quando queremos da um enfoque na palavra.
+
+A diferença é semântica mas a aparência é a mesma.
+
+20/05/2023
+Tempo aplicado: 10m.
+####################################################################################

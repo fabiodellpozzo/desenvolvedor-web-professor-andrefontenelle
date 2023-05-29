@@ -1,0 +1,101 @@
+<!-- 
+    production
+
+34. Alinhando Imagem
+
+Neste exercícios usamos o método de estilo css interno através de classes css, utilizando '<style></style>' com suas formatações no head do documento.
+
+<style>
+  .img-prato{
+                
+  }
+</style>
+
+Sendo necessário o acréscimo de '.' para a especificação de classe atribuída a '.img-prato' onde sem o ponto é reconhecido pelo navegador apenas como uma tag padrão.
+
+Configurado a formatação dentro de '<style>' através de suas atribuições faz-se a ligação a imagem no qual será editada através do acréscimo 'class="img-prato"' dentro da tag '<img>'
+
+<style>
+  .img-prato{
+              float:right;
+            }
+</style>
+
+<img  
+      src="src/images/pato_laranja.jpg" width="250" height="250"
+      title="Foto do prato Pato com Laranja"
+      alt="Foto do prato Pato com Laranja"
+      class="img-prato"
+>
+
+20/05/2023
+Tempo aplicado: 20m.
+-->
+<!doctype html>
+<!-- created 2023/05/20 -->
+<html lang="pt-BR">
+    <head>
+        <title>SEção 7 - Unidade 06 - Alinhando Imagen</title>
+        <meta charset="UTF-8">
+        <style>
+            .clear-right {
+                clear:right;
+            }
+            .img-prato{
+                float:right;
+                margin-left: 10px;
+                margin-bottom:20px;
+                border: 1px solid #000;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Café Fontenebleu</h1>
+
+        <h2>Um ambiente agradável</h2>
+
+        <h3>Prato do dia</h3>
+
+        <img  src="src/images/pato_laranja.jpg" width="250" height="250"
+              title="Foto do prato Pato com Laranja"
+              alt="Foto do prato Pato com Laranja"
+              class="img-prato"
+            >
+
+        <p>
+            Descasque as batatas e cozinhe até  ficarem al dente. Retire toda a polpa das laranjas e corte 
+            as cascas em tiras finas. Deixe ferver as cascas em uma panela, por cinco minutos, e coe-as. 
+            Repita o processo por 3 vezes para tirar o amargo da casca. Mas guarde a água da fervura e 
+            reserve as cascas.
+        </p>
+
+        <!-- 
+            ao adicionar a classe 'clear-right' ocasionou a desocupação de toda a área  pelo título e e parágrafos de texto segredo do chef no qual invadia a area ao lado da imagem seguindo o parágrafo inicial dando enfase ao parágrafo inicial a imagem.
+            Adicionando margin-bottom a classe da imagem distanciando em 20px  o título <h4> da imagem principal.
+        -->
+
+        <h4 class="clear-right">Segredo do Chef</h4>
+
+        <p>
+            Pincele todo o pato com óleo e tempere com sal e piment-do-reino a gosto. Em uma panela com um pouco óleo, sele todos os lados do pato. Retire o pato e o óleo da panela, colocando a água da fervura da laranja com o açucar na panela. Adicione o vinagre e mexa tudo até engrossar. Adicione o suco de 3 laranjas e o caldo de carne.
+        </p>
+
+        <p>
+            Volte o pato na panela, regue-o com o molho da panela e deixe cozinhae por duas horas, sempre regando ele a cada 10 minutos. Após cozido, esprema mai uma laranja e um limão na panela e coloque as batatas, as cascas de laranja e tempere com salsinha por cima.
+        </p>
+
+        <h3 style="clear:left">Ingredientes</h3>
+
+          <ul>
+            <li>1 pato inteiro limpo</li>
+            <li>500g batata pequena</li>
+            <li>Suco de 3 laranjas</li>
+            <li>Suco de 1 limão</li>
+            <li>100g açucar</li>
+            <li>12 xícaras de óleo</li>
+            <li>Pimenta-do-reino</li>
+            <li>Sal</li>
+            <li>20g de salsinha picada</li>
+          </ul>
+    </body>
+</html>

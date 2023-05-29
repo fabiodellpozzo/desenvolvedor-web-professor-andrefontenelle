@@ -1,0 +1,221 @@
+<!-- 
+    production 
+32. Usando imagens.
+
+'<img>'
+
+Os formatos de imagem são padrões de codificação, compressão e definição que determinam o tipo de arquivo 
+gráfico, como JPEG, PNG, BMP, GIF e TIFF. Cada extensão tem suas particularidades, e você precisa compreender 
+as principais delas para trabalhar com conteúdo digital ou impresso.
+
+Muitas vezes, o formato escolhido é uma questão de equilíbrio entre a qualidade e o tamanho da imagem, de 
+acordo com a aplicação desejada.
+
+Os atributos que aplicamos na programação da imagem podem nos trazer transformações em suas características.
+
+O atributo 'src=""' ou source é o atributo responsável para invocar a imagem do arquivo para a página web.
+A tag <img> é uma das tags padrões que não necessitam de fechamento.
+
+Entre os atributos padrão do navegador que altera suas características temos entre elas:
+
+'width=' = altera a largura da imagem.
+'height' = altera a altura da imagem.
+'title'  = atribui título a imagem onde ao passar com cursor sobre a imagem o navegador apresenta o balão hint  
+com as informações acrescidas ao title.
+'alt' = O 'alt' tem uma outra importância diferente do 'title' no qual possui duas funções principais entre elas
+a questão de ARIA Controls onde usuários portadores de condições especiais podem se beneficiar desta 
+informações em sua navegação no qual softwares que fazem leitura de tela apresenta as informações relacionadas 
+a imagem. Sua outra importância de baixa velocidade de conexão, redução de banda e renderização de imagem ou até mesmo quebra do 'src' de invocação da imagem a página esta informação é apresentada no navegador.
+ 
+1. JPEG
+
+O JPEG, ou JPG, é o formato mais utilizado na web, graças à sua alta taxa de compressão que reduz 
+consideravelmente o espaço ocupado pelas imagens. A sigla significa Joint Photographic Experts Group, 
+que foi o comitê responsável pela criação do formato. O grupo foi criado em 1986 e pertencia ao Comitê Técnico 
+ISO/IEC, responsável pela padronização e codificação das imagens estáticas. Uma das principais vantagens do 
+formato JPEG é sua compressão ajustável, que permite a regulagem da relação entre qualidade e tamanho da imagem.
+Geralmente, ele alcança uma proporção de compressão de 10:1, sem que a perda de qualidade fique muito evidente.
+O tamanho máximo suportado para imagens do tipo é de 65.535 x 65.535 pixels, e suas extensões podem ser o 
+clássico “.jpg”, “.jpeg” ou, mais raramente, “.jpe” e “.jfif”. O JPEG, ou JPG, é o formato mais utilizado na 
+web, graças à sua alta taxa de compressão que reduz consideravelmente o espaço ocupado pelas imagens.
+
+A sigla significa Joint Photographic Experts Group, que foi o comitê responsável pela criação do formato.
+O grupo foi criado em 1986 e pertencia ao Comitê Técnico ISO/IEC, responsável pela padronização e codificação 
+das imagens estáticas. Uma das principais vantagens do formato JPEG é sua compressão ajustável, que permite a 
+regulagem da relação entre qualidade e tamanho da imagem.
+
+Geralmente, ele alcança uma proporção de compressão de 10:1, sem que a perda de qualidade fique muito evidente.
+O tamanho máximo suportado para imagens do tipo é de 65.535 x 65.535 pixels, e suas extensões podem ser o 
+clássico “.jpg”, “.jpeg” ou, mais raramente, “.jpe” e “.jfif”.
+
+2. GIF
+O GIF é um formato que ficou famoso na web por conta das imagens animadas. A sigla quer dizer Graphics 
+Interchange Format, ou formato para intercâmbio de gráficos, em português. O formato foi criado em junho de 
+
+1987, por uma equipe de cientistas da computação da CompuServe, um provedor de serviços online norte-americano.
+Na época, o que chamou a atenção dos usuários foi sua tecnologia de compressão de dados sem perda de qualidade, 
+chamada LZW (Lempel-Ziv-Welch). Assim, era possível reduzir o tamanho dos arquivos sem prejudicar a qualidade 
+visual. No entanto, os GIFs têm uma limitação: só trabalham com esquema de 256 cores (8 bits).
+
+Apesar das poucas cores, o formato é ótimo para gráficos web, sendo largamente utilizado em ícones, 
+ilustrações, miniclipes de vídeo e pequenas animações. Além disso, os GIFs oferecem a vantagem de salvar 
+arquivos com fundo transparente e sem perda de qualidade. Atualmente, a tendência é que o formato perca espaço 
+para as extensões PNG e TIFF, que são mais versáteis e compatíveis com as conexões de banda larga.
+
+3. PNG
+O PNG é um formato criado para substituir o GIF, que suporta muito mais cores e mantém o fundo transparente e 
+capacidade de compressão. Ele foi criado em 1996, sob o nome de Portable Network Graphics, logo após o 
+algoritmo do GIF ter sido patenteado. Como formato livre, passou a ser recomendado pela W3C (World Wide Web 
+Consortium), um consórcio internacional que padroniza a web. Apesar de suportar animações em algumas variações 
+(ANPG), foi decidido que o PNG seria um formato estático. Seu grande diferencial é o poder de compressão, que 
+gera imagens de alta qualidade e tamanho razoável para os padrões da internet atual. Além disso, o PNG possui o 
+canal alfa, que funciona como um quarto canal de cor (Vermelho, Verde, Azul e Alfa no RGBA) e facilita o 
+encaixe suave da imagem em qualquer fundo.
+
+4. BMP
+
+O BMP (Windows Bitmap) é um dos primeiros formatos de imagens existentes, utilizado pelos gráficos do Microsoft 
+Windows na década de 1990. Sua extensão é a clássica “.bmp”, que remete diretamente ao software Paint. Também  
+chamado de DIB (Device Independent Bitmap), é um mapa de bits (composto por pixels) que gera arquivos grandes e 
+não compactados. O BMP não suporta transparência e preserva todos os detalhes do arquivo original, mas caiu em 
+desuso assim que surgiram os novos formatos com compressão de alta qualidade.
+
+5. TIFF
+
+O TIFF (Tagged Image File Format) é um formato composto por pixels criado especialmente para imagens digitais.
+Controlado atualmente pela Adobe, é um dos melhores formatos de alta qualidade para trabalhar em softwares de 
+manipulação de imagem, como o próprio Photoshop. Por isso, é o preferido de muitos designer gráficos que atuam 
+com edição e impressão. Também é indicado para transferir imagens entre diferentes plataformas, por preservar a 
+elevada definição de cores e qualidade do arquivo. A limitação fica por conta do tamanho, pois os arquivos com 
+extensão “.tif” ou “.tiff” costumam ser mais pesados.
+
+6. PSD
+
+O PSD (Adobe Photoshop Document) é, na verdade, um formato criado por meio do software Adobe Photoshop.
+Ao salvar uma imagem com essa extensão, as camadas, máscaras e esquema de cores ficam preservados, permitindo a 
+edição avançada do arquivo. Normalmente, os designers utilizam o formato para manter a estrutura original da 
+imagem, de modo que consigam salvar em extensões JPEG e PNG quando for preciso. Com a extensão .psb (Photoshop 
+Big), por exemplo, o software da Adobe é capaz de salvar arquivos de até 300 MB. Logo, o PSD é indicado para 
+armazenar a versão original das imagens com sua qualidade 100% preservada.
+
+7. EXIF (Exchangeable Image File Format)
+
+O EXIF (Exchangeable Image File Format) é um formato semelhante ao TIFF que suporta 8,16, 24 e até 48 bits de  
+cores. Os arquivos .exif são comuns em câmeras digitais que gravam informações técnicas sobre a imagem, 
+incluindo metadados sobre abertura do diafragma, velocidade do obturador e sensibilidade ISO. Esses dados são 
+importantes para fotógrafos profissionais, que registram as condições de captura das fotos através do formato.
+Além disso, as imagens EXIF possuem altíssima qualidade e fidelidade, e quem utiliza a extensão não está 
+preocupado com o tamanho final. O formato foi criado pela Japan Electronic Industries Development Association 
+(JEIDA), por volta dos anos 2000.
+
+8. RAO RAW, ou formato cru, 
+
+Caracteriza as imagens capturadas diretamente do sensor das câmeras digitais, sem nenhum tipo de compressão ou 
+tratamento. É um formato que contém todos os dados da captura intactos, com grande profundidade de cor e 
+detalhes minuciosos. Por isso, o RAW também é chamado de “negativo digital”, pois equivale a um filme negativo 
+na fotografia analógica. A partir desse arquivo, o profissional responsável pode “revelar” a foto, usando um 
+software para editar e tratar a imagem como desejar. Isso porque o RAW traz um aspecto de imagem “lavada”, com 
+pouquíssimo contraste e saturação, e cabe ao editor configurar os padrões de cor e efeitos de acordo com a 
+proposta. Obviamente, são arquivos muito grandes, que são utilizados exclusivamente por profissionais da 
+fotografia. Cada câmera produz arquivos tipo RAW em uma extensão diferente, como os .crw ou .cr2 da Canon e .
+nef ou .nrw da  Nikon.
+
+9. PDF
+
+O PDF (Portable Document Format) é um formato de arquivos desenvolvido pela Adobe Systems em 1993.
+Sua função é representar textos, gráficos e imagens em um formato independente de dispositivos e resoluções 
+específicas. Basicamente, é um formato aberto que pode ser usado em qualquer software. No caso das imagens, é  
+possível gerar um PDF em alta qualidade a partir de programas gráficos como o Photoshop, Gimp ou Illustrator.
+Via de regra, é o formato original da imagem que determina sua qualidade no PDF. Por isso, uma imagem em PNG 
+preservará sua definição após a conversão, mas um JPEG pode apresentar perda de informações no processo.
+
+10. EPS
+
+O EPS (Encapsulated PostScript) é um formato de imagens desenvolvido pela Adobe que utiliza uma linguagem de 
+descrição de páginas. Ou seja: ao invés de definir pixels, o PostScript é composto por comandos que são lidos 
+por um dispositivo de saída (impressoras, por exemplo). Assim, o EPS pode ser usado para armazenar vetores e 
+bitmaps com fins de impressão. O arquivo .eps pode ser aberto em softwares de edição de imagens como Adobe 
+Photoshop e Illustrator, e também em programas de editoração como PageMaker e Quark. Antigamente, era o formato 
+predominante em gráficas e trabalhos de impressão em geral. Porém, foi gradualmente substituído pelo PDF, que 
+apresenta uma qualidade superior.
+
+11. SVG
+
+O SVG (Scalable Vector Graphics), ou Gráficos Vetoriais Escalonáveis, é um formato vetorial para desenhos e 
+gráficos bidimensionais, estáticos ou animados. Sua principal característica é a escalabilidade, que permite 
+que o arquivo seja ampliado sem perder qualidade ou aumentar o peso. Além disso, o SVG é um formato aberto, 
+criado pela World Wide Web Consortium em 1999. Por isso, é suportado por todos os navegadores web modernos e 
+pode ser animado em HTML 5.0.
+
+12. WEBP
+
+O WEBP é um formato de imagem desenvolvido pelo Google em 2010, com o objetivo de otimizar a compressão de 
+arquivos e preservar a qualidade. Sua grande vantagem é unir os principais diferenciais de outros formatos: a 
+capacidade de compressão do JPEG, a transparência do PNG e suporte de animações do GIF. Ao converter um formato 
+de imagem PNG em WEBP, por exemplo, a redução de tamanho chega a 45%, sem perder nenhuma informação. Muitos 
+dizem que o WEBP é o formato do futuro, mas ainda não superou a popularidade dos JPEGs. Como você pôde ver, a 
+escolha do melhor formato de imagem depende exclusivamente da aplicação. As principais variáveis são a 
+qualidade e tamanho, que determinam a relação entre o espaço ocupado pelo arquivo e a exigência de detalhes, 
+além do propósito da imagem. Assim, um formato para a web será totalmente diferente de um formato para 
+impressão, e cada mídia terá seus próprios padrões de tamanho, resolução e codificação.
+
+Veja alguns dos formatos mais utilizados em cada situação.
+
+- Melhor formato de imagem para impressão
+
+Atualmente, o melhor formato de imagem para impressão é o TIFF, utilizado por muitas gráficas para imprimir em 
+alta resolução. O PDF também é uma ótima escolha, pois preserva as informações da imagem e evita erros no 
+processo de impressão. Além de escolher o formato, é importante que os arquivos estejam no modo CMYK (Ciano, 
+Magenta, Amarelo e Preto) e com resolução média de 300 dpi.
+
+- Sobre o formato de imagem para TV.
+
+A maioria dos televisores atuais suporta os formatos JPEG, PNG e BMP.
+
+Ao exibir imagens na TV, é importante verificar também a proporção da tela. Hoje, a maioria dos aparelhos de TV 
+usam o padrão Widescreen, de 16:9, mas também há uma tendência “Ultrawide” de 21:9. O melhor formato para 
+salvar imagens no Photoshop depende do uso, pois o software permite que você escolha entre TIFF, JPEG, GIF, 
+EPS, RAW, PDF, BPM e vários outros. Como vimos, os melhores formatos para impressão são aqueles que preservam a 
+qualidade da imagem, como o TIFF e PDF. Agora, se você pretende enviar uma imagem por e-mail ou mensagem, 
+publicar no seu blog ou site, postar nas  mídias sociais ou qualquer outro uso na web, poderá escolher os 
+formatos mais leves como JPEG, GIF e PNG. Inclusive, o Photoshop possui uma função de “Salvar para a web e 
+outros dispositivos” que já comprime o  arquivo, permitindo que você configure a taxa de compactação, nível de 
+qualidade, tamanho e outros aspectos. Um outro caso possível é a criação de um ebook ou documento digital, que 
+exigirá o formato PDF. Vale lembrar que o tamanho das imagens também é influenciado pelo modo de cor, 
+resolução, camadas e aplicação de filtros.
+
+- Formatos de imagem vetorial
+
+Os formatos de imagem vetorial são os famosos “arquivos em curvas”, que são escaláveis, ou seja, podem ser 
+ampliados sem perder qualidade. Isso porque essas imagens não são formadas por pixels, mas sim por curvas, 
+linhas e pontos independentes. Por isso, é essencial usar os formatos vetoriais para imagens como logotipos, 
+ícones e ilustrações, para evitar distorções em aplicações de impressos e mídias digitais.
+Atualmente, o formato mais utilizado para vetores é o SVG, mas também é possível utilizar o EPS e os formatos 
+nativos de softwares como AI (Illustrator), PSD (Photoshop) e CDR (Corel Draw).
+
+
+20/05/2023
+Tempo aplicado: 20m.
+-->
+<!doctype html>
+<html lang="pt-BR">
+<!-- created 2023/05/20 -->
+    <head>
+        <title>Seção 07 - Unidade 06 - 32. Usando Imagens</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <img src="src/images/imagem-gif.gif">
+        <br>
+        <img src="src/images/imagem-jpg.jpg">
+        <br>
+        <img src="src/images/imagem-png-st.png">
+        <br>
+        <img src="src/images/imagen-png-ct.png">
+        <br>
+        <img src="src/images/imagem-gif.gif" width="200px" height="200px" title="Imagem GIF Estática redimensionada por  width e height" alt="Imagem GIF Estática redimensionada por  width e height">
+        <br>
+        <br>
+        <img src="src/images/imag" width="100px" height="100px" title="Imagem com link quebrado não aparece." alt="Imagem com link quebrado não aparece o alt apresenta a sua informação.">
+    </body>
+</html>

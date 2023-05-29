@@ -1,0 +1,52 @@
+<!--
+#Notas de Estudos
+secao-14-curso-I-unidade-13-formularios
+####################################################################################
+61. Adicionar os novos input types tel, email e url.
+
+Adição de novas características de 'form' do HTML5.
+
+Ao preencher em um telefone o formulário muda para números.
+
+<input type="tel">              Usado para campos de entrada que devem conter um número de telefone.
+<input type="email">            É usado para campos de entrada que devem conter um endereço de e-mail.
+
+
+
+
+21/05/2023
+Tempo aplicado: 3m.
+####################################################################################
+ -->
+<!doctype html>
+<!-- created 2023/05/21 -->
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Formulário Email - Telefone - URL</title>
+			<link href="src/css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    
+    <style>
+		
+
+	</style>
+
+    <body>
+		<form action="destino.php" method="post">
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" size="30" maxlength="60">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" name="telefone" size="30" maxlength="30">
+
+			<label for="site">Url</label>
+			<input type="url" id="site" name="site" size="30" maxlength="100">
+
+			<input type="submit" id="botao" value="Login">
+
+		</form>
+    </body>
+
+</html>

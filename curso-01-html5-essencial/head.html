@@ -1,0 +1,339 @@
+<!-- 
+    production
+    
+###################################################################################
+22. Explorando o <head>
+
+Fazendo a analogia ao corpo humano o 'head' é a cabeça o 'body' é o corpo e o 
+'html' é o conjunto destes dois elementos.
+
+O <head></head> é a parte pensante da nossa página, nesta seção é que fica partes 
+mimportantes do seu arquivo entre eles os metadados, os estilos, links externos e 
+scripts entre outros elementos.
+Os metadados são informações sobre a página e o conteúdo publicado.
+
+Metadados, ou Metainformação, são dados sobre outros dados. Um item de um metadado 
+pode dizer do que se trata aquele dado, geralmente uma informação inteligível por um c
+computador. Os metadados facilitam o entendimento dos relacionamentos e a utilidade 
+das informações dos dados. Metadados são indispensáveis para a comunicação entre 
+computadores, mas podem ser inteligíveis também por humanos. Todos os dados 
+descritivos de um documento, físico ou digital, sobre autor, data de criação, local 
+de criação, conteúdo, forma, dimensões e outras informações são metadados.
+
+Metadados são informações estruturadas que auxiliam na descrição, identificação, 
+gerenciamento, localização, compreensão e preservação de documentos digitais, além de 
+facilitar a interoperabilidade de repositórios.
+
+Dublin Core é um esquema de metadados que visa descrever objetos digitais, tais como, 
+videos, sons, imagens, textos e sites na web. Aplicações de Dublin Core utilizam XML 
+e o RDF (Resource Description Framework).
+
+A Dublin Core Metadata Initiative (DCMI) (Iniciativa Dublin Core Metadados) é uma 
+organização dedicada a promover a adoção de padrões de interoperabilidade de 
+metadados e desenvolver vocabulários especializados para descrever fontes e recursos 
+da Web para que os sistemas de busca e recuperação de informações sejam mais rápidos 
+e flexíveis.
+
+https://www.dublincore.org/
+
+O Elemento de Metadados Dublin Core Simples (Core Metadata Element Set, DCMES) 
+consiste de quinze elementos de metadados:
+
+Title: 
+Título - Um título será o nome pelo qual o recurso é formalmente conhecido, podendo 
+ser o próprio título.
+
+Creator: 
+Autor - Pode uma pessoa, uma organização ou um serviço.
+
+Subject: 
+Assunto/ palavras-chave - O assunto será expresso com palavras-chave, descritores ou 
+códigos de classificação que descrevem o tema do recurso (indica o conteúdo 
+informativo) .
+
+Description: 
+Descrição - descrição pode incluir tabelas de conteúdo, referências para uma 
+representação de conteúdo ou um texto livre de relato do conteúdo.
+
+Publisher: 
+Editor - Inclui uma pessoa, uma organização ou serviço.( o nome do editor deve ser 
+usado para indicar uma entidade).
+
+Contributor: 
+Contribuidor/ colaborador - Inclui uma pessoa, uma organização ou serviço.( o nome do 
+editor deve ser usado para indicar uma entidade).
+
+Date: 
+Data - Data será associada a criação ou disponibilização do recurso. recomenda-se o 
+uso da norma ISO 8601 e segue o formato AAAA-MM-DD.
+
+Type: 
+Tipo do recurso - O elemento Type (DC.Type) é usado para descrever a categoria ou o 
+gênero do conteúdo do recurso. Para fins de interoperabilidade, o valor primário deve 
+ser selecionado na lista enumerada apresentada aqui. O tipo selecionado nessas listas 
+será usado sem anotação ou qualificação no Dublin Core ™ simples. texto: recursos em 
+que o conteúdo é principalmente palavras para leitura. Por exemplo - livros, cartas, 
+dissertações, poemas, jornais, artigos, arquivos de listas de discussão. Observe que 
+imagens de textos ainda são do gênero de texto. Imagem: o conteúdo é principalmente 
+representação visual que não seja texto. Por exemplo - imagens e fotografias de 
+objetos físicos, pinturas, gravuras, desenhos, outras imagens e gráficos, animações e 
+imagens em movimento, filmes, diagramas, mapas, notação musical. Observe que a imagem 
+pode incluir representações eletrônicas e físicas. Som: o conteúdo é basicamente 
+áudios. Exemplos: música, discursos, gravações de som, podcasts. Conjunto de dados: 
+informações estruturadas codificadas em listas, tabelas, bancos de dados, etc. 
+Normalmente estarão em um formato disponível para processamento direto da máquina. 
+Por exemplo - planilhas, bancos de dados, dados GIS, dados midi. Observe que números 
+e palavras não estruturados serão normalmente considerados como texto do tipo. 
+Programas: programas de computador na fonte ou em formato compilado que possam estar 
+disponíveis para instalação não transitória em outra máquina. Para software que 
+existe apenas para criar um ambiente interativo, use interativo. Interativo: recursos 
+que exigem que a interação do usuário seja entendida, executada ou experimentada. Por 
+exemplo - formulários em páginas da web, objetos de aprendizado multimídia, serviços 
+de bate-papo, realidade virtual. Evento: ocorrência não persistente e baseada no 
+tempo. Os metadados de um evento fornecem informações descritivas que são a base para 
+a descoberta do objetivo, local, duração, agentes responsáveis ​​e links para eventos 
+e recursos relacionados. O recurso do tipo evento pode não ser recuperável se a 
+instanciação descrita expirou ou ainda está para ocorrer. Exemplos - exibição, 
+transmissão na web, conferência, oficina, dia aberto, performance, batalha, 
+julgamento, casamento, conflagração. Objeto físico: objetos ou substâncias. Por 
+exemplo - uma pessoa, um computador, a grande pirâmide, uma escultura, trigo. Observe 
+que representações digitais ou substitutos para essas coisas devem usar imagem, texto 
+ou um dos outros tipos.
+
+Format: 
+Formato. O formato (DC.Format) de um arquivo refere-se ao formato de dados. Isso é 
+importante na recuperação da informação, pois permite ao usuário entender que 
+software, hardware ou outra infraestrutura é necessária para exibir, operar ou usar o 
+recurso. Para fins de interoperabilidade, o valor do formato ou da mídia de dados 
+deve ser selecionado em uma lista enumerada, conforme discutido abaixo. Os valores 
+para DC.Format selecionados nessas listas serão usados ​​sem anotação no Dublin Core 
+simples. Para recursos eletrônicos, é recomendável selecionar um valor de DC.Format 
+na lista de Tipos de mídia da Internet (valores MIME) sempre que possível. O tamanho 
+de um recurso digital será normalmente fornecido em bytes, mas medidas adicionais 
+podem ser apropriadas para recursos específicos, por exemplo, duração (em segundos) 
+para uma dimensão sonora, linear ou geométrica (em pixels) para uma imagem, contagem 
+de palavras para um texto. Para outros recursos, recomenda-se selecionar um valor de 
+DC.Format a partir de listas de tipos de mídia físicos, como fornecido no AAT (Arte e 
+Arquitetura), mantido pelo Getty Information Institute.
+
+Identifier: 
+Identificador do recurso - recomenda-se utilizar o string ou número conforme um 
+sistema de identificação formal. Exemplo: (Uniform Resource Identificador - URI) e 
+outros.
+
+Source: 
+Fonte - O presente recurso pode ser derivado de uma fonte de recurso inteira ou em 
+parte, recomenda-se utilizar o string ou número conforme um sistema de identificação 
+formal.
+
+Language: Idioma - A recomendação para o melhor uso dos valores do elemento língua é 
+definida pela RFC 1766 que inclui um código de língua em 2 letras( do padrão ISO 
+639), seguido opcionalmente pelo código do país em 2 letras também (do padrão ISO 
+3166).
+
+Relation: 
+Relação - Recomenda-se utilizar o string ou número conforme um sistema de 
+identificação formal.
+
+Coverage: Abrangência/ Cobertura - Inclui localização espacial, período temporal ou 
+jurisdição, recomenda-se utilizar vocabulário controlado.
+
+Rights: Gerenciamento de Direitos autorais - Conterá uma declaração de gerenciamento 
+de direitos para o recurso. Informações de Direitos frequentemente abrangem Direito 
+de Propriedade Intelectual (Intellectual Property Rights - IPR), Copyright, e várias 
+propriedades de Direitos.
+
+
+Descriçãoo dos 5 elementos que compões o Head.
+
+- Title Element
+- Base Element
+- Link Element
+- Meta Element
+- Style Element
+
+Link para Estilos
+Unindo o html com css para incorporar programação para estilizar utilizamos o elemento: 
+
+<link rel="stylesheet" href="estilos.css">
+
+Método usado para ligar de forma extena o arquivo de estilização. 
+
+
+19/05/2023
+Tempo aplicado: 12m.
+####################################################################################
+23. Aplicar CSS ao documento HTML
+
+Para que serve o estilo?
+
+O estilo serve para personalizar a aparência de uma página.
+
+Existe 3 método para utilizar o css entre eles:
+
+- Inline
+
+Estilo inline é quando os estilos CSS são aplicados diretamente dentro da tag de 
+abertura de um elemento HTML. No entanto, este tipo de uso das CSS não é recomendado 
+e encontra-se em desuso pelos desenvolvedores WEB. Veja a seguir um exemplo de 
+utilização deste tipo de estilo:
+
+<div style=“background-color:blue; color: red; width:300px; height:200px;”>
+    <h1>...</h1>
+    <p>...</p>
+    <p>...</p>
+ </div>
+
+Veja que para o elemento div acima existe uma formatação de estilo inline, ou seja, 
+dentro da própria tag de abertura do elemento div.
+
+Como dito anteriormente, isso não é recomendado pelo fato de que o código CSS do 
+estilo acima não é reaproveitado nem usado em outras páginas do site. Além disso, a 
+manutenção deste tipo de CSS é muito complicada e difícil, gerando altos custos para 
+o projeto.
+
+- Estilo Incorporado
+
+O estilo incorporado também não é o mais indicado e recomendado, uma vez que estilos 
+escritos desta forma ficam restritos a um único documento, não sendo possível a sua 
+reutilização em outras páginas do projeto WEB.
+
+Neste método, você declara a folha de estilo diretamente dentro da seção head do 
+documento HTML, utilizando o elemento style. Veja um exemplo a seguir da utilização 
+deste tipo de estilo:
+
+ <html>
+    <head>
+        <style type="text/css">
+            h2 {color:#000;}
+        </style>
+    </head>
+    <body>
+        <h2>Título Secundário da Página</h2>
+    </body>
+ </html>
+
+Veja que no exemplo acima o elemento h2 está recebendo uma formatação de estilo. 
+Perceba que esta formatação está embutida no próprio documento HTML, na seção head.
+
+- Estilo Externo
+
+Este tipo de uso de CSS em documentos HTML é o mais indicado e recomendado. Neste tipo, os códigos CSS ficam em um documento externo ao documento HTML, separando assim as camadas de estrutura e apresentação do projeto WEB.
+
+Existem duas formas de incorporar folhas de estilos CSS externa ao documento WEB. Veja-as a seguir:
+
+1. Linkadas
+
+Para o tipo de estilo CSS externo linkado, usa-se o elemento link para incorporar o documento CSS externo ao documento HTML. O elemento link deve ser usado dentro da seção head do documento HTML.
+
+Veja a seguir um exemplo da utilização do elemento link para incorporar uma folha de estilo CSS ao documento HTML. Neste exemplo, imagine que o documento CSS esteja dentro de uma pasta chamada “css” e o seu arquivo HTML, “index.html” esteja na raiz, como pode ser visto na ilustração abaixo:
+
+ <head>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/estilos.css" />
+ </head>
+
+Partindo do princípio que o documento CSS esteja nomeado como “estilos.css” e que esteja dentro de uma pasta chamada “css”, o atributo href deve ficar exatamente com esta informação: “css/estilos.css”, que é a forma com que o navegador entenderár onde se encontra o arquivo CSS a ser linkado.
+
+2. Importadas
+
+O tipo de estilo das CSS importadas funciona igualmente ao tipo de estilo das CSS linkadas. O que difere aqui é somente a forma com que isto é feito, uma vez que, neste caso, é usada a diretiva @import dentro do elemento style, na seção head do documento HTML, como pode ser visto no exemplo abaixo:
+
+<head>
+    <style type=“text/css”>
+        @import url("css/estilos.css") screen, projection;
+    </style>
+</head>
+
+19/05/2023
+Tempo aplicado: 12m.
+####################################################################################
+24. Aplicar script JavaScript interno.
+
+Noção inicial de integração javascript ao documento.
+
+'<script></script>'
+
+A tag padrão para a incorporação de JavaScript no documento.
+Um elemento fundamental para a ligação do conteúdo no <body> que vai ser afetado pelo
+javaScript é o identificar '<p id=""></p>' nele fazemos a ligação do elemento do 
+corpo do com a lógica adotada do JavaScript. 
+
+<script>
+  function
+</script>
+
+A function determina a função adotada como parâmetro da lógica utilizando o 
+JavaScript.
+
++Notas no código
+
+19/05/2023
+Tempo aplicado: 12m.
+####################################################################################
+
+-->
+<!doctype html>
+<!-- created 2023/05/19 -->
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+
+        <!-- link estilo externo -->
+        <link rel="stylesheet" href="estilos.css">
+
+        <!-- estilo incorporado -->
+        <style>
+            body{
+                background: #f00; /* Edita a cor do fundo da página*/
+                font-family: Arial, Helvetica, sans-serif; /* Edita o timpo de fonte */
+                color:#fff;/* Edita a cor da fonte */
+            }
+        </style>
+
+        <script>
+            /**
+             * A 'function' determina a função adotada como parâmetro da lógica 
+             * utilizando o JavaScript.
+             * 
+             * escreverNome()  
+             * nomeia a função o método usado para escrever o nome da 
+             * função é o CamelCase onde a primeira palavra se inicia em minúsculo e 
+             * a segunda palavra se inicia com a letra maiúscula. 
+             * 
+             * 'innerHTML' é a função restrida da linguagem JavaScript que exibe o 
+             * conteúdo atribuido a ela através do '='
+             * 
+             * 'nome' atribuido através de '.' ao innerHTML faz a ligação ao 'id' 
+             * determinado a ligação do parágrafo em seu método.
+             * * Após criar a função devemos chama-la.
+             * 'window.onload' Quando a página for carregada chama a função atribuida 
+             * por '=' ao nome da função.
+             */
+
+            function escreverNome(){
+                nome.innerHTML = "Informação que irá aparecer no documento";
+            }
+            window.onload = escreverNome;
+
+        </script>
+    </head>
+    <body>
+        <!-- Comentário de uma linha -->
+        <!-- 
+            Comentário de mais linhas.
+            Comentário de mais linhas. 
+            Comentário de mais linhas.  
+        -->
+        <p>Até amanhã.</p>
+        <p>
+            Parágrafo com espaço adicional adicionando a entidade html &nbsp; &nbsp; para palavras ficarem mais distantes uma das outras 
+        </p>
+        <p>
+            Parágrafo utilizando entidades especiais html  &lt; &gt; &amp; &cent; 
+            &cent; &yen; &yen; &yen; &reg;
+        </p>
+        <!-- id atribui a ação da lógica javascript -->
+        <p id="nome"></p>
+    </body>
+</html>

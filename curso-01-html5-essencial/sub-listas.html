@@ -1,0 +1,86 @@
+<!-- 
+    production
+
+40. Criação de Listas
+
+Vide mais opções e definições em 'nota-de-estudos.txt' -> 'sec-06-cur-I-unid-05-texto-documento'
+
+Neste exercício editamos o estilo da lista através do css utilizando a tag default do html 'li'
+
+Exemplo:
+
+<style>
+  li {
+    list-style-type: circle;
+  }
+</style>
+
+Nota-se que por mais que definimos qual estlização usamos diretamente no '<ol>' a engine de renderização do browser adota como estilo principal o '<style>' css no '<head>' do documento.
+
+Para adição de ícone na estilização das listas adotamos a classe 'list-style-image' invocando 
+o arquivo via 'url(caminho-do-icone).
+
+<style>
+  li {
+    list-style-image: url(caminho-do-icone);
+  }
+</style>
+
+20/05/2023
+Tempo aplicado: 20m.
+
+41. Criação de sub-listas.
+
+Vide mais opções e definições em 'nota-de-estudos.txt' -> 'sec-06-cur-I-unid-05-texto-documento'
+
+20/05/2023
+Tempo aplicado: 20m.
+-->
+<!doctype html>
+<!-- created 2023/05/20 -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial - Criação de sub-listas</title>
+        
+        <style>
+            body {
+                font-family: sans-serif;
+                font-size: 12 px;
+            }
+
+            li {
+                /* list-style-type: circle; */
+                /* list-style-image: url(src/images/estrela.png); */
+            }
+		</style>
+    </head>
+    
+    <body>
+        <ul>
+            <li>Brasil</li>
+                <ul>
+                    <li>São Paulo</li>
+                    <li>Rio de Janeiro</li>
+                    <li>Recife</li>
+                    <li>Porto Alegre</li>
+                </ul>
+            <li>Argentina</li>
+            <li>México</li>
+            <li>Angola</li>
+        </ul>
+
+        <ol type="a">
+            <li>Brasil</li>
+            <ul>
+                <li>São Paulo</li>
+                <li>Rio de Janeiro</li>
+                <li>Recife</li>
+                <li>Porto Alegre</li>
+            </ul>
+            <li>Argentina</li>
+            <li>México</li>
+            <li>Angola</li>
+        </ol>
+    </body>
+</html>

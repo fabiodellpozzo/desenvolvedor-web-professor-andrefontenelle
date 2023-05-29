@@ -1,0 +1,177 @@
+<!--
+#Notas de Estudos
+secao-13-curso-I-unidade-12-tabelas
+####################################################################################
+57. Tabela semântica.
+
+Estilizar de forma semântica para facilitar a leitura e otimizar sua renderização no browser.
+
+Neste métodp atual na tabela utlizamos:
+
+<thead></thead> Table Head
+<tfoot></tfoot> Table Foot
+<tbody></tbody> Table Body
+
+Para uma customização um pouco mais vançada utilizamos no CSS:
+
+thead tr th:first-child {text-align:left;} Para o alinhamento preciso do '<thead>''.
+
+tbody tr:nth-child(odd) {background-color: rgb(247, 247, 244);} O uso do elemento :nth-child(odd)
+Para intercalar a cor de fundo entre 'rows' pares definido utilizando 'odd'.
+
+tbody tr:nth-child(even) {background-color: rgb(233, 233, 230);} O uso do elemento :nth-child(even)
+Para intercalar a cor de fundo entre 'rows' ímpares definido utilizando 'odd'.
+
+Melhor detalhamento de suas funções no curso de CSS.
+
+20/05/2023
+Tempo aplicado: 20m.
+####################################################################################
+
+-->
+<!doctype html>
+<!-- created 2023/05/20 -->
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Curso HTML5 Essencial</title>
+    </head>
+    
+    <style>
+		body {
+			font-family:Arial, Helvetica, sans-serif;
+		}
+	
+		table { 
+			width:700px;
+			margin:0 auto;
+			border-spacing:0;
+			border-right:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+		}
+		
+		caption {
+			font-size:130%;
+			font-weight:bold;
+			padding:5px 0;
+			background-color:#ECECEC;
+			border:1px solid #ccc;
+			border-bottom:none;
+		}
+		
+		tr, td, th {
+			border:thin solid #ccc;
+			border-bottom:none;
+			border-right:none;
+			padding:5px;
+		}
+		
+		td { 
+			text-align:center;
+		}
+		
+		th {
+			text-align:left;
+		}
+		
+		thead th {
+			text-align:center;
+			background-color:#E0E0E0;
+		}
+
+		thead tr th:first-child {
+			text-align:left;
+		}
+		
+		tfoot td {
+			font-size:.9em;
+			color:#666;
+		}
+
+		tbody tr:nth-child(odd) {
+			background-color: rgb(247, 247, 244);
+		}
+
+		tbody tr:nth-child(even) {
+			background-color: rgb(233, 233, 230);
+		}
+	
+
+	</style>
+
+    <body>
+		
+        <table>
+
+			<caption>Olimpiadas do Rio de Janeiro</caption>
+
+			<!--- thead ---->
+			<thead>
+				<tr>
+					<td></td>
+					<td>Ouro</td>
+					<td>Prata</td>
+					<td>Bronze</td>
+					<td>Total</td>
+				</tr>
+			</thead>
+
+
+			<!--- tfoot ---->
+			<tfoot>
+				<tr>
+					<td></td>
+					<td>Ouro</td>
+					<td>Prata</td>
+					<td>Bronze</td>
+					<td>Total</td>
+				</tr>
+			</tfoot>
+
+			<!--- tbody ---->
+			<tbody>
+				<tr>
+					<td>Brasil</td>
+					<td>100</td>
+					<td>130</td>
+					<td>200</td>
+					<td>430</td>
+				</tr>
+
+				<tr>
+					<td>USA</td>
+					<td>90</td>
+					<td>110</td>
+					<td>210</td>
+					<td>420</td>
+				</tr>
+
+				<tr>
+					<td>China</td>
+					<td>89</td>
+					<td>100</td>
+					<td>100</td>
+					<td>289</td>
+				</tr>
+
+				<tr>
+					<td>Inglaterra</td>
+					<td>89</td>
+					<td>100</td>
+					<td>100</td>
+					<td>289</td>
+				</tr>
+
+				<tr>
+					<td>França</td>
+					<td>89</td>
+					<td>100</td>
+					<td>100</td>
+					<td>289</td>
+				</tr>
+			</tbody>
+
+        </table>
+
+    </body>
+</html>

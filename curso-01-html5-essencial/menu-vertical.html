@@ -1,0 +1,114 @@
+<!-- 
+    production
+
+42. Criação de menu vertical com listas.
+
+Nesta seção utilizaremos tags com recursos adicionais para customização de menus horizontais,
+utilizando as seguintes combinações de tags e propriedades defualt do browser:
+
+<style>
+  ul{
+
+  }
+
+  li {
+
+  }
+
+  li a {
+
+  }
+
+  li a:hover {
+    
+  }
+</style>
+
+'ul' -> organiza a lista.
+'li' -> item da lista.
+'li a' -> acrescenta ancora ao li.
+'li a:hover' -> acrescenta efeito ao item.
+
+20/05/2023
+Tempo aplicado: 20m. 
+-->
+<!doctype html>
+<!-- created 2023/05/20 -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial - Criação de Menu Vertical</title>
+        
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif,sans-serif;
+                font-size: 13px;
+            }
+
+            ul {
+                /* 1º Reset de margin e padding. */
+                margin: 0; padding: 0;
+
+                /* Como não há 'div' determinando divisões no menu editamos seu tamanho por aqui. */
+                width: 200px;
+            }
+          
+            li {
+                /*  2º  Após reset de ul o bullet point ainda estapor lá acrescentando 
+                    'none' ao 'list-style' efetivamente retiramos ele do documento.  
+                    Método usado para principalmente a retirada em renderização de 
+                    navegadores mais antigos.
+                */
+                list-style: none;   
+            
+            }
+          
+            li a {
+                /* 3º Extende a ocupação do 'a' em toda a largura do documento. */
+                display:block;
+
+                /* 4º Retira o 'underline' default do link. */
+                text-decoration: none;
+                
+                /* 5º Determina uma cor para o fundo do link. Aplicando esta ação nota-se claramente o 
+                corpo do link expandido no documento de efeito do 'display:block' */
+                background-color: #09c;
+                
+                /* 6º Margeia para estilização abaixo do link. */
+                margin-bottom: 1px;
+
+                /* 7º Espaçamento afetando todos os lados do link nota-se um método prático de 
+                estilização onde '5px' define a distância acima e a baixo e '3px' define a distância 
+                para esquerda e para direita um método otimizado para definir espaçamentos. */
+                padding: 5px 3px;
+
+                /* 8º Determina  cor do texto do link. */
+                color:#fff;
+
+            }
+          
+            li a:hover {
+                /* 9º o hover para efeito de sobreposição do mouse */
+                /* 10º alteração de cor de fundo do link para revelar a ação do 'hover'. */
+                background-color: #6cf;
+            }
+          </style>
+          
+    </head>
+    
+    <body>
+
+
+        <ul>
+            <li><a href="brasil.html">Brasil</a></li>
+            <li><a href="portugal.html">Portugal</a></li>
+            <li><a href="angola.html">Angola</a></li>
+            <li><a href="mocambique.html">Moçambique</a></li>
+            <li><a href="caboverde.html">Cabo Verde</a></li>
+        </ul>
+
+        
+
+      
+    </body>
+</html>

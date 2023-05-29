@@ -1,0 +1,50 @@
+<!--
+#Notas de Estudos
+secao-14-curso-I-unidade-13-formularios
+####################################################################################
+62. Adicionar os campos requeridos.
+
+'required'	Especifica que um campo de entrada é obrigatório (deve ser preenchido).
+			Normalmente para métodos mais avançados utiliza-se o JavaScript e linguagens de servidor para programar 
+			requisições de formulários de forma mais avançada mas o HTML tem como padrão ete recurso que funciona 
+			através do reconhecimento nativo da engine do browser.
+
+Em cada determinação 'required' no 'type' não preenchendo o formulário emite um aviso e determinado o 'type'
+especifico caso o usuário insira um dado não relacionado ao tipo é emitido um aviso exigindo que seja inserido o tipo 
+de dado correto.
+
+
+21/05/2023
+Tempo aplicado: 4m.
+####################################################################################
+ -->
+<!doctype html>
+<!-- created 2023/05/21 -->
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Formulário - Campos Requeridos</title>
+			<link href="src/css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+		<h2>Formulário</h2>
+		<form action="destino.php" method="post">
+
+			<label for="nome">Nome</label>
+			<input type="text" id="nome" name="nome"  size="30" maxlength="100" required>
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" name="telefone"  size="30" maxlength="100" required>
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" size="30" maxlength="100" required>
+
+			<label for="website">Website</label>
+			<input type="url" id="website" name="website" size="30" maxlength="100" required>
+
+
+			<input type="submit" id="enviar" id="enviar" value="Enviar">
+
+		</form>
+    </body>
+</html>

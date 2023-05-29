@@ -1,0 +1,40 @@
+<!--
+#Notas de Estudos
+secao-14-curso-I-unidade-13-formularios
+####################################################################################
+63. Adicionar placeholder e autofocus.
+
+'placeholder'   Adiciona um valor inicial que é apresentado no campo, mais usado como informação opção ao 'label'.
+'autofocus'     Determina o foco na caixa especificamente ao acessar o documento com form.
+
+21/05/2023
+Tempo aplicado: 20m.
+####################################################################################
+ -->
+<!doctype html>
+<!-- created 2023/05/21 -->
+<html>
+    <head>
+            <meta charset="utf-8">
+            <title>Formulários</title>
+			<link href="src/css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+		<h2>Formulário</h2>
+		<form action="destino.php" method="post">
+			<label for="nome">Nome</label>
+			<input type="text" id="nome" name="nome" placeholder="Insira seu nome" autofocus required>
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" name="telefone" placeholder="Insira seu telefone" required>
+
+			<label for="email">Telefone</label>
+			<input type="email" id="email" name="email" placeholder="Insira seu email" required>
+
+			<label for="site">Website</label>
+			<input type="url" id="site" name="site" placeholder="Insira seu website" required>
+
+			<input type="submit" id="botao" value="Enviar">
+		</form>
+    </body>
+</html>

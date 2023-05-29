@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>css-efeito-cascata</title>
+    <link href="src/css/estilo.css" rel="stylesheet">
+    <style>
+        h1 {
+            color: darkblue;
+        }
+
+    </style>
+  </head>
+  <body>
+
+    <!--
+        O efeito castata permite mudar atribuições anteriores.
+        Seguindo as seguintes prioridades:
+
+        1º regra prioriza css 'inline'
+           todas as regras no documento habilitadas a 'inline' é renderizada pelo browser.
+
+        2º regra prioriza css 'incorporado'
+           sem estilização 'inline' linkado com css'externo' o estilo interno é prioritario é renderizada pelo browser.
+        
+        3º regra prioriza css 'vinculado'
+           na ausencia de estilo formtando vindo do 'inline' e ' interno' o css 'externo' é prioritario é renderizada pelo browser.
+
+           Neste exemplo temos o <h1> definico sua cor em 'color:#FC6;' no arquivo css externo para o efeito cascata a 
+           a atribuição incorporada define a cor 'color: darkblue;' lembrando que o arquivo externo mantem a propriedades para todas as páginas estillizada por ela já o estilo incorporado irá mudar esta atribuição apenas a esta página.
+
+           Considera-se prioritário a formatação mais próxima da tag.
+
+    -->
+
+    <h1>Hello, world!</h1>
+
+    <p>Parágrafo 1.</p>
+
+    <p style="color:darkmagenta;">Parágrafo 2. estilo atribuindo estilo inline</p>
+
+    <ul>
+      <li>List item</li>
+    </ul>
+
+    <a href="#">Link com efeito hover declarado na folha de estilo externa.</a>
+
+  </body>
+</html>

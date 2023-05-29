@@ -1,0 +1,42 @@
+<!--
+#Notas de Estudos
+secao-14-curso-I-unidade-13-formularios
+####################################################################################
+66. Adicionar um TYPE RANGE + Count.
+
+
+<input type="range">            Define um controle para inserir número cujo valor exato não é importante
+                                (como um controle deslizante).
+
+								Para uma visualização do resultado precisamos utilizar JavaScript
+
+21/05/2023
+Tempo aplicado: 20m.
+####################################################################################
+ -->
+<!doctype html>
+<!-- created 2023/05/21 -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulário - Range Count</title>
+		<script>
+			var $range = document.querySelector('input'),
+			$value = document.querySelector('span');
+
+			$range.addEventListener('input', function() {
+			    $value.textContent = this.value;
+			});
+		</script>
+	</head>
+    <body>
+		<form action="destino.php" method="post">
+
+
+		<input type="range" name="vol" value="0" min="0" max="100" oninput="display.value=value" onchange="display.value=value">
+		<input type="text" id="display" value="0" readonly>
+
+
+		</form>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+<!--
+#Notas de Estudos
+secao-13-curso-I-unidade-12-tabelas
+###################################################################################
+56. Criando sua primeira tabela.
+
+'<table></table>'
+
+O elemento '<table>'' representa dados com mais de uma dimensão, na forma de tabela utilizado 
+para dados tabulados. Métodos mais atuais a estiliza via CSS.
+
+#Propósitos de aplicação:
+
+- As tabelas não devem ser usadas como ajuda de layout. Existem várias alternativas ao uso de tabelas 
+  HTML para layout, principalmente usando o posicionamento CSS e o modelo de tabela CSS.
+- Os usuários podem ter dificuldade em entender o conteúdo, os autores devem incluir informações explicativas  
+  na introdução da tabela. Esta informação é útil para todos os usuários, mas é especialmente útil para 
+  usuários que não podem ver a tabela, por ex. usuários de leitores de tela.
+- As tabelas possuem linhas e colunas fornecidas por seus descendentes. Uma tabela não deve ter uma linha ou 
+  coluna vazia.
+
+As tabelas tem linhas '<tr>' = table row.
+Dentro das table rows adiciona-se a '<td>' = table data.
+No cabeçalho da tabela '<th>' = table head.
+
+Métodos descontinuados estilizavam a tabela para seu layout utilizando 
+atributos de forma inline para estilização por exemplo:
+
+    <table width="300" border="1" cellspacing="5" cellpadding="5">
+
+Ainda renderizados pelas engines dos browsers.
+
+#Atributos descontinuados:
+
+'summary'     - Considere descrever a estrutura da tabela em um elemento de legenda ou em um elemento de 
+                figura contendo o elemento de tabela; ou simplifique a estrutura da tabela para que nenhuma descrição seja necessária.
+'align'       - descontinuado.
+'width'       - descontinuado.
+'bgcolor'     - descontinuado.
+'border'      - O valor do atributo border no elemento table deve ser "1" ou uma string vazia. Para 
+                regular a espessura das bordas da tabela.
+'cellpadding' - descontinuado.
+'cellspacing' - descontinuado.
+'frame'       - descontinuado.
+'rules'       - descontinuado.
+
+#Substituição de atributos:
+
+descontinuados                                  |atuais
+
+'type' on 'ol' elements                             'list-style-type' on <ol>.
+'align' on 'p' elements                             'text-align' on <p>.
+'width' on 'pre' elements                           'width' on pre.
+'align' on 'table' elements                         'margin-left:auto' and/or 'margin-auto' on <table>.
+'bgcolor' on 'table' elements                       'background-color' on <table>.
+'cellpadding' on 'table' elements                   'padding' on the table's <td> and <th>.
+'cellspacing' on 'table' elements                   'border-spacing' on the <table> <td> and <th>.
+'frame' on 'table' elements                         'border-color:black' and 'border-style' on <table>.
+'rules' on 'table' elements                         'border-color:black' and 'border-style' on the <table> 
+                                                     appropriate elements.
+'width' on 'table' elements                         'width' on <table>.
+'align' on 'tbody', 'thead', and 'tfoot' elements   'text-align' on '<tbody>', '<thead>' and '<tfoot>' 
+                                                     and 'margin-left:auto' and/or 'margin-right:auto' 
+                                                     on descendant blocks.
+'char' on 'tbody', 'thead',and 'tfoot' elements     -
+'charoff' on 'td' and 'th' elements                 -
+'height' on 'td' and 'th' elements                  'height' on <td> and <th>.
+'height' on 'td' and 'th' elements                  'white-space:nowrap' on <td> and <th>.
+'nowrap' on 'td' and 'th' elements                  'white-space:nowrap' on <td> and <th>.
+'valign' on 'td' and 'th' elements                  'vertical-align' on <td> and <th>.
+'width' on 'td' and 'th' elements                   'width' on <td> and <th>.
+'align' on 'tr' elements                            'text-align' on <tr> and 'margin-left:auto' 
+                                                     on descendant blocks.
+'bgcolor' on 'tr' elements                          'background-color' on <tr>.
+'char' on 'tr' elements                             -
+'charoff' on 'tr' elements                          -
+'valign' on 'tr' elements                           'vertical-align' on <tr>.
+'compact' on 'ul' elements                          -
+'type' on 'ul' elements                             'list-style-type' on <ul>
+
+
+21/05/2023 03:09
+Tempo aplicado: 20m.
+####################################################################################
+-->
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Crie sua primeira tabela.</title>
+        <style>
+            table {
+                width: 300px;
+                border-style: solid #333;
+                border-width: 1px; 
+            }
+
+            td, th {
+            /* border-style: solid; 
+               border-width: 1px;
+               padding: 10px; */
+               background: #ddd;
+               padding: 8px;
+            }
+            th {
+                text-align: left;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <th>Brasil</th>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Argentina</th>
+                <td>2</td>
+            </tr>
+        </table>
+    </body>
+</html>
