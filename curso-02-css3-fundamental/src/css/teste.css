@@ -1,0 +1,94 @@
+p {font-size:x-large;}
+
+/* Webfont: _aeiou2U */
+@font-face {
+    font-family: '_aeiou2U';
+    src: 
+      url('../fonts/_aeiou2U.ttf') format('truetype');
+
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* APompadourSample*/
+@font-face {
+  font-family: 'APompadourSample';
+
+  src: 
+      url('../fonts/APompadourSample.otf') format('opentype'),
+      url('../fonts/APompadourSample.ttf') format('truetype');
+
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+
+}
+
+/* APompadourTextSample*/
+@font-face {
+  font-family: 'APompadourTextSample';
+
+  src: url('../fonts/APompadourTextSample.otf') format('opentype'),
+       url('../fonts/APompadourTextSample.ttf') format('truetype');
+
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* APompadourBoldSample*/
+@font-face {
+  font-family: 'APompadourBoldSample';
+
+  src: url('../fonts/APompadourBoldSample.otf') format('opentype'),
+       url('../fonts/APompadourBoldSample.ttf') format('truetype');
+
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+
+
+
+
+/* Webfont: Mudzil-Regular */
+@font-face {
+  font-family: 'A-15-BIT';
+  src: url('../fonts/A-15-BIT.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+/* Webfont: Mudzil-Light */
+@font-face {
+  font-family: 'MudzilLight';
+  src: url('Mudzil Light.eot'); /* IE9 Compat Modes */
+  src: url('Mudzil Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Mudzil Light.woff') format('woff'), /* Modern Browsers */
+       url('Mudzil Light.woff2') format('woff2'), /* Modern Browsers */
+       url('Mudzil Light.ttf') format('truetype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Mudzil-Light */@font-face {
+  font-family: 'MudzilLight';
+  src: url('Mudzil Light.eot'); /* IE9 Compat Modes */
+  src: url('Mudzil Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Mudzil Light.woff') format('woff'), /* Modern Browsers */
+       url('Mudzil Light.woff2') format('woff2'), /* Modern Browsers */
+       url('Mudzil Light.ttf') format('truetype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
