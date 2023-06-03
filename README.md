@@ -1,7 +1,7 @@
 # desenvolvedor-web-professor-andrefontenelle
 Conteúdo de Desenvolvimento.
 
-#note -> Analisando as limitações de armazenamento de arquivos determinado a max 1000 files.
+#note -> Analisando as limitações de listagem armazenamento de arquivos determinado a max 1000 files.
 
 #note -> The following files are over 100mb.
        
