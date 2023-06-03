@@ -7,3 +7,5 @@ Conteúdo de Desenvolvimento.
        
 We recommended you avoid commiting the files our use Git LFS to store large file on GitHUb
 Recomendamos que você evite comprometer os arquivos ou use o Git LFS para armazenar arquivos grandes no GitHUb
+
+https://git-lfs.com/
