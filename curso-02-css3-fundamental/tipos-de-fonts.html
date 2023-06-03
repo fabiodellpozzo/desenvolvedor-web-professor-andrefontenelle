@@ -1,0 +1,204 @@
+
+<!-- 
+
+
+#fff Fontes TrueType (TTF)
+Vamos começar pelo TTF porque ele veio primeiro. Bem, isso não é inteiramente verdade. O TTF foi um esforço conjunto da Apple e da Microsoft no início dos anos 80. O objetivo era simples: Eles precisavam criar um formato que o Windows e o Mac pudessem usar nativamente, bem como um formato que pudesse ser lido por padrão pela maioria das impressoras. Fontes TrueType se encaixam nessa descrição.
+
+O pacote contendo a fonte incluía os dados da tela e da fonte da impressora em um único arquivo. Isso facilitou a instalação de novas fontes, e serviu como um formato inicial de fonte multiplataforma que era utilizável pela maioria dos dispositivos de consumo.
+
+#fff Fontes OpenType (OTF)
+O OTF também foi um esforço conjunto, mas dessa vez entre a Adobe e a Microsoft. Assim como o TTF, o OTF era multi-plataforma e incluía os dados de fonte de exibição e impressora em um único pacote, mas é aí que as semelhanças terminam.
+
+O OTF superou o TTF, oferecendo muitos recursos que o último não era capaz de fornecer. Por exemplo, o OTF apresentava um formato que permitia o armazenamento de até 65.000 caracteres.
+
+Obviamente, existem apenas 26 caracteres no alfabeto (AZ), dez números (0-9) e um punhado de extras, como pontuação, sinais de moeda e vários outros (@ #% ^ & *, etc.). No entanto, isso foi muito benéfico para o design e a criação de fontes.
+
+Como o formato oferecia armazenamento adicional para caracteres que excediam em muito o número de caracteres que o usuário médio precisaria, os designers tinham a capacidade de adicionar extras como:
+
+Ligaduras
+Glifos
+Small caps
+Caracteres alternativos
+Figuras de estilo antigo
+Anteriormente, esses extras tinham que ser adicionados como fontes adicionais usando o TTF. Com o OTF, eles puderam ser inseridos no mesmo arquivo do tipo de letra padrão, e permanecer facilmente acessíveis aos designers e afins.
+
+
+As diferenças entre OTF e TTF
+Para os designers, amadores e profissionais, a principal diferença útil entre o OTF e o TTF está nos recursos avançados de composição. O OTF apresenta enfeites como ligaduras e caracteres alternativos - também conhecidos como glifos - que existem para dar aos designers mais opções para trabalhar. Porém, para a maioria de usuários que não trabalha com edição, as opções adicionais provavelmente não serão utilizadas.
+
+Em outras palavras, o OTF é de fato o "melhor" dos dois devido aos recursos e opções adicionais, mas para o usuário médio, essas diferenças realmente não importam.
+
+
+#fff Type 1 (PostScript)
+O Adobe PostScript Type 1 é um padrão mundial para fontes desenvolvido pela Adobe Systems para uso em impressoras PostScript.
+
+O formato de fonte Type 1 é reconhecido em todas as plataformas de computadores, desde microcomputadores até mainframes. Ele imprime em praticamente todas as impressoras, através da interpretação de linguagem PostScript embutida.
+
+Originalmente, a somente a Adobe detinha os direitos sobre o formato, mas em pouco tempo liberou a extensão para outros fabricantes, garantindo mais de 30.000 fontes criadas neste formato.
+
+Por mais de uma década, Type 1 foi o formato preferido para o mercado gráfico.
+
+#fff O que é PostScript, afinal?
+o Adobe® PostScript® 3 ™ é o padrão mundial de impressão e imagem. A linguagem de programação PostScript foi desenvolvida pela Adobe Systems para passar instruções de impressão para impressoras digitais.
+Uma característica importante da linguagem PostScript é que ela é independente do dispositivo. Isso significa que ele produz imagens de boa aparência, independentemente da resolução ou do método de renderização de cores do dispositivo de saída, e aproveita plenamente os recursos incorporados no dispositivo. O Adobe Portable Document Format (PDF) é um subconjunto mais estruturado e compacto da linguagem PostScript. Quase tudo o que pode ser feito no PostScript pode ser feito em PDF.
+
+As fontes Type 1 são o formato de arquivo original usado para exibição de tipo em todas as impressoras PostScript. A linguagem PostScript foi posteriormente estendida para fornecer suporte para os padrões de fonte TrueType e OpenType® posteriores. Qualquer novo dispositivo de linguagem Adobe PostScript feito hoje oferece suporte a todos os três padrões de fonte.
+
+#fff TrueType
+TrueType é um padrão para fontes de tipo digital que foi desenvolvido pela Apple Computer e posteriormente licenciado para a Microsoft Corporation. Cada empresa criou extensões independentes para o TrueType, que é usado nos sistemas operacionais Windows e Macintosh. Assim, como o Type 1, o formato TrueType está disponível para o desenvolvimento de novas fontes.
+
+#fff O que é OpenType?
+O OpenType é o mais recente padrão para fontes, desenvolvido em conjunto pela Adobe e pela Microsoft.
+
+Uma fonte OpenType é um arquivo único, que pode ser usado em plataformas Macintosh e Windows sem conversão. As fontes OpenType têm muitas vantagens em relação aos formatos de fonte anteriores, porque eles contêm mais glifos (caracteres que englobal além de letras e números, símbolos e caracteres especiais), suportam mais idiomas (o OpenType usa o padrão Unicode para a codificação de caracteres) e suporta características tipográficas ricas, como small caps, oldstyle e ligaduras – tudo em uma única fonte.
+
+A partir do Adobe InDesign® e do Adobe Photoshop® 6.0, as aplicações começaram a suportar os recursos de layout do OpenType.
+
+Os recursos de uma fonte OpenType são muito mais sofisticados, e abrangem vantagens como:
+
+
+
+
+ #fff  O que é arquivo WOFF?
+
+WOFF (Web Open Font Format) é um formato aberto para armazenar fontes da web czcionek internetowych ; foi desenvolvido em 2009. Os arquivos WOFF contêm fontes compactadas (com ZLIB) nos formatos TrueType ( TTF ) e OpenType ( OTF ). O formato WOFF suporta informações de licenciamento de fontes, necessárias para poder usar as fontes.
+
+Popularidade dos arquivos WOFF
+Os arquivos WOFF são usados para implantar fontes personalizadas para sites. WOFF é o formato de fonte mais comum usado por web designers. O padrão aberto e o suporte total de muitos navegadores da web (versões mais recentes) são os principais motivos de sua popularidade.
+
+Design de formato WOFF
+O formato WOFF foi projetado com dois objetivos em mente. O primeiro objetivo era distinguir fontes para sites daqueles usados por aplicativos instalados localmente, que usam fontes instaladas no disco local. O segundo objetivo era reduzir a latência de fontes da Web quando as fontes são transferidas de um servidor para um cliente.
+
+Informação adicional
+Arquivos WOFF são referências em arquivos CSS usando o comando 'font-face'.
+O formato WOFF foi posteriormente substituído pela versão mais recente, WOFF2, que apresenta um esquema de compactação atualizado.
+Programas que suportam a extensão de arquivo WOFF
+A lista a seguir enumera programas compatíveis com os arquivos WOFF, divididos em 3 categorias com base no sistema operacional no qual estão disponíveis. Os arquivos WOFF podem ser encontrados em todas as plataformas do sistema, incluindo dispositivos móveis, mas não há garantia de que cada um oferecerá suporte adequado a esses arquivos.
+
+
+omo abrir o arquivo WOFF?
+Os problemas para acessar o WOFF podem ser devido a vários motivos. Felizmente, os problemas mais comuns com os arquivos WOFF podem ser resolvidos sem um profundo conhecimento de TI e, o mais importante, em questão de minutos. Nós preparamos uma lista dos quais o ajudarão a resolver seus problemas com os arquivos WOFF.
+
+A causa principal e mais frequente que impede os usuários de abrir arquivos WOFF é que nenhum programa que possa manipular arquivos WOFF está instalado no sistema do usuário. Este é fácil. Selecione Microsoft Internet Explorer ou um dos programas recomendados (por exemplo, Opera, Mozilla Firefox, Google Chrome) e faça o download da fonte apropriada e instale no seu sistema. Acima, você encontrará uma lista completa dos programas que suportam arquivos WOFF, classificados de acordo com as plataformas do sistema para as quais estão disponíveis. Um dos métodos mais seguros de baixar software é usar os links fornecidos pelos distribuidores oficiais. Visite o site Microsoft Internet Explorer e faça o download do instalador.
+
+Etapa 2. Verifique se você tem a versão mais recente de Microsoft Internet Explorer
+Se os problemas com a abertura de arquivos WOFF ainda ocorrerem mesmo após a instalação de Microsoft Internet Explorer, é possível que você tenha uma versão desatualizada do software. Verifique no site do desenvolvedor se uma versão mais recente de Microsoft Internet Explorer está disponível. Às vezes, os desenvolvedores de software introduzem novos formatos no lugar dos que já são compatíveis com as versões mais recentes de seus aplicativos. Se você tiver uma versão mais antiga do Microsoft Internet Explorer instalada, talvez ela não seja compatível com o formato WOFF. A versão mais recente do Microsoft Internet Explorer deve oferecer suporte a todos os formatos de arquivo compatíveis com versões mais antigas do software.
+
+Etapa 3. Associe arquivos Web Open Font Format a Microsoft Internet Explorer
+Depois de instalar Microsoft Internet Explorer (a versão mais recente), verifique se ele está definido como o aplicativo padrão para abrir arquivos WOFF. O processo de associação de formatos de arquivo ao aplicativo padrão pode diferir em detalhes, dependendo da plataforma, mas o procedimento básico é muito semelhante.
+
+O procedimento para alterar o programa padrão em Windows
+
+Escolha a entrada Abrir com no menu arquivo acessado com o botão direito do mouse no arquivo WOFF
+Em seguida, selecione a opção Escolher outro aplicativo e, usando Mais aplicativos abra a lista de aplicativos disponíveis
+Para finalizar o processo, selecione Procure outro aplicativo neste PC e, usando o gerenciador de arquivos, selecione a pasta de instalação Microsoft Internet Explorer. Confirme marcando Sempre usar este aplicativo para abrir a caixa de arquivos WOFF e clique no botão OK .
+O procedimento para alterar o programa padrão em Mac OS
+
+Ao clicar com o botão direito do mouse no arquivo WOFF selecionado, abra o menu e escolha Informações
+Prossiga para a seção Abrir com . Se estiver fechado, clique no título para acessar as opções disponíveis
+Selecione Microsoft Internet Explorer e clique em Change for all ...
+Se você seguiu as etapas anteriores, uma mensagem deve aparecer: Esta alteração será aplicada a todos os arquivos com extensão WOFF. Em seguida, clique no botão Continuar para finalizar o processo.
+Etapa 4. Verifique se o arquivo WOFF está completo e livre de erros
+Se o problema persistir após as etapas 1 a 3, verifique se o arquivo WOFF é válido. É provável que o arquivo esteja corrompido e, portanto, não possa ser acessado.
+
+1. Verifique se o WOFF em questão não está infectado com um vírus de computador
+Caso aconteça que o WOFF esteja infectado por um vírus, essa pode ser a causa que impede você de acessá-lo. Verifique imediatamente o arquivo usando uma ferramenta antivírus ou verifique todo o sistema para garantir que todo o sistema esteja seguro. Se o arquivo WOFF estiver realmente infectado, siga as instruções abaixo.
+
+2. Verifique se a estrutura do arquivo WOFF está intacta
+Se você obteve o arquivo WOFF problemático de terceiros, peça que eles forneçam outra cópia. É possível que o arquivo não tenha sido copiado corretamente para um armazenamento de dados e esteja incompleto e, portanto, não possa ser aberto. Pode acontecer que o processo de download do arquivo com a extensão WOFF tenha sido interrompido e os dados do arquivo estejam com defeito. Baixe o arquivo novamente da mesma fonte.
+
+3. Verifique se você possui direitos de acesso apropriados
+Existe a possibilidade de que o arquivo em questão possa ser acessado apenas por usuários com privilégios de sistema suficientes. Alterne para uma conta que tenha privilégios necessários e tente abrir o arquivo Web Open Font Format novamente.
+
+4. Verifique se o seu dispositivo atende aos requisitos para poder abrir Microsoft Internet Explorer
+Os sistemas operacionais podem observar recursos livres suficientes para executar o aplicativo que suporta arquivos WOFF. Feche todos os programas em execução e tente abrir o arquivo WOFF.
+
+5. Verifique se você possui os drivers e atualizações e patches mais recentes do sistema instalados
+O sistema e os drivers atualizados não apenas tornam seu computador mais seguro, mas também podem resolver problemas com o arquivo Web Open Font Format. Drivers ou software desatualizados podem ter causado a incapacidade de usar um dispositivo periférico necessário para manipular arquivos WOFF.
+
+Você quer ajudar?
+Se você tiver informações adicionais sobre a extensão do arquivo WOFF seremos gratos se você os compartilhar com os usuários do nosso site. Utilize o formulário localizado aqui e envie-nos as suas informações sobre o arquivo WOFF.
+
+Navegue Extensões de arquivo
+Top Extensões de Arquivo
+APKBINNOMEDIAPKPASSDATDLLOPUSTMPOXPSDWGMostrar mais
+Extensão de arquivo do dia
+DSN
+Database Source Name Format
+O DSN é um formato de arquivo de banco de dados genérico usado por vários programas de banco de dados para conectar-se a bancos de dados. Os arq...
+
+Etapa 4. Verifique se o arquivo WOFF está completo e livre de erros
+Se o problema persistir após as etapas 1 a 3, verifique se o arquivo WOFF é válido. É provável que o arquivo esteja corrompido e, portanto, não possa ser acessado.
+
+1. Verifique se o WOFF em questão não está infectado com um vírus de computador
+Caso aconteça que o WOFF esteja infectado por um vírus, essa pode ser a causa que impede você de acessá-lo. Verifique imediatamente o arquivo usando uma ferramenta antivírus ou verifique todo o sistema para garantir que todo o sistema esteja seguro. Se o arquivo WOFF estiver realmente infectado, siga as instruções abaixo.
+
+2. Verifique se a estrutura do arquivo WOFF está intacta
+Se você obteve o arquivo WOFF problemático de terceiros, peça que eles forneçam outra cópia. É possível que o arquivo não tenha sido copiado corretamente para um armazenamento de dados e esteja incompleto e, portanto, não possa ser aberto. Pode acontecer que o processo de download do arquivo com a extensão WOFF tenha sido interrompido e os dados do arquivo estejam com defeito. Baixe o arquivo novamente da mesma fonte.
+
+3. Verifique se você possui direitos de acesso apropriados
+Existe a possibilidade de que o arquivo em questão possa ser acessado apenas por usuários com privilégios de sistema suficientes. Alterne para uma conta que tenha privilégios necessários e tente abrir o arquivo Web Open Font Format novamente.
+
+4. Verifique se o seu dispositivo atende aos requisitos para poder abrir Microsoft Internet Explorer
+Os sistemas operacionais podem observar recursos livres suficientes para executar o aplicativo que suporta arquivos WOFF. Feche todos os programas em execução e tente abrir o arquivo WOFF.
+
+5. Verifique se você possui os drivers e atualizações e patches mais recentes do sistema instalados
+O sistema e os drivers atualizados não apenas tornam seu computador mais seguro, mas também podem resolver problemas com o arquivo Web Open Font Format. Drivers ou software desatualizados podem ter causado a incapacidade de usar um dispositivo periférico necessário para manipular arquivos WOFF.
+
+
+
+
+Extensão	Nome	Descrição
+abf	Adobe Binary Screen Font	
+afm	Adobe PostScript Font Metrics	normalmente usado em ambiente UNIX
+bco		
+bdf	Bitmap Distribution Format	formato de fonte bitmap da Adobe Systems
+bez		
+cfn	Calamus Font Notation	formato utilizado pelo programa Calamus
+chr		
+dfont	Data Fork Font	fonte do Mac OS X
+dwf		
+e24		utilizada em ambiente Atari
+eot	Embedded OpenType	fonte OpenType embebida
+fli		
+fon		fonte bitmap
+fot		
+fnt		
+gf	Generic Font	
+inf	Adobe PostScript Information	este ficheiro, em conjunto com um ficheiro AFM da mesma fonte, é possível criar um ficheiro PFM
+L30		utilizada em ambiente Atari
+mf		
+mgf		fonte MicroGrafx
+mmm	Adobe PostScript MultipleMaster	armazena dados da fonte para criação de outras personalizadas
+odt		fonte do OpenOffice.org (formato texto)
+otf	OpenType Font	fonte OpenType
+otl		utilizada em ambiente Atari
+p9		utilizada em ambiente Atari
+p24		utilizada em ambiente Atari
+pcf	Portable Compiled Font	
+pfa	Adobe PostScript Font ASCII	fonte numa codificação de texto, para uso em impressoras PostScript e ambientes UNIX
+pfb	Adobe PostScript Font Binary	armazena apenas o desenho da fonte
+pfm	Adobe PostScript Font Metrics	armazena apenas as métricas/espaçamento entre letras da fonte
+pk	TeX Packed	
+pl	TeX Property List	
+ps		
+psf		
+pso		
+pxl	TeX Pixel	
+qfm		utilizada em ambiente Atari
+sfl		
+sfp		
+sfs		
+snf	Server Normal Format	
+spd		
+suit	Font Suitcase	ficheiro de fontes do Mac OS, utilizadas nas versões anteriores ao Mac OS X
+tdf		
+tfm	TeX Font Metric	
+ttc	TrueType Collection	fonte TrueType
+ttf	TrueType Font	fonte TrueType
+vf	TeX Virtual Font	
+vpl	TeX Virtual Font Property List	
+
+
+->
