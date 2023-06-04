@@ -905,3 +905,21 @@ O elemento font-face-uri mencionado acima permite que você faça referência a 
     </font-face-src>
   </font-face>
 </font>
+
+
+color=#fff  - Embedded OpenType
+
+As fontes OpenType ( EOT ) incorporadas são uma forma compacta de fontes OpenType projetadas pela Microsoft para uso como fontes incorporadas em páginas da Web . Esses arquivos usam a extensão . Eles são suportados apenas pelo Microsoft Internet Explorer , ao contrário dos arquivos WOFF concorrentes . .eot
+
+A maioria das fontes comerciais tem um contrato de licença de usuário final (EULA) que especifica os direitos que uma pessoa que comprou uma licença para usar a fonte pode desfrutar. Como o direito de distribuir livremente a fonte para outros não é normalmente concedido, sendo restrito à instalação dentro de um conjunto limitado de parâmetros, existe a necessidade de um mecanismo que permita às pessoas que licenciaram a fonte para uso com seus documentos uma maneira de também usar a fonte para o conteúdo da web sem violar o contrato de EULA que eles aceitaram. O formato de arquivo EOT foi desenvolvido pela Microsoft em cooperação com criadores de fontes exatamente por esse motivo. A tecnologia foi aceita para uso por fabricantes de fontes por mais de 10 anos.
+
+Esta submissão estabelece as responsabilidades e expectativas para as seguintes classes de implementadores/usuários do formato de arquivo EOT:
+
+Ferramentas de autoria
+Servidores de conteúdo web
+Agentes de usuário
+
+https://www.w3.org/Submission/EOT/
+
+https://learn.microsoft.com/pt-br/typography/tools/vtt/
+https://learn.microsoft.com/pt-br/typography/tools/volt/
