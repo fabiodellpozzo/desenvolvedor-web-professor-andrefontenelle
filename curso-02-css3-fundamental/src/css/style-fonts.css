@@ -1,0 +1,21 @@
+p {font-size: x-large;font-style: normal;font-weight: normal;text-rendering: optimizeLegibility;}
+
+/* Webfont */
+
+@font-face {font-family:'arial';src:url('../fonts/arial.woff') format('woff');}
+@font-face {font-family:'arial-bold';src:url('../fonts/arial-bold.woff') format('woff');}
+@font-face {font-family:'arial-bold-italic';src:url('../fonts/arial-bold-italic.woff') format('woff');}
+@font-face {font-family:'arial-black-italic';src:url('../fonts/arial-black-italic.woff') format('woff');}
+
+
+
+
+/* Webfont */
+/* @font-face {
+  font-family: 'MudzilLight';
+  src:  url('Mudzil Light.eot');/* IE9 Compat Modes */
+/*  src:  url('Mudzil Light.eot?#iefix') format('embedded-opentype'),/* IE6-IE8 */
+ /*       url('ARIAL.woff') format('woff'),/* Modern Browsers */
+/*        url('Mudzil Light.woff2') format('woff2'),/* Modern Browsers */
+ /*       url('Mudzil Light.ttf') format('truetype');/* Safari, Android, iOS */
+/*}
