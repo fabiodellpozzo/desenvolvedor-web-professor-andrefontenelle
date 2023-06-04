@@ -715,11 +715,11 @@ https://www.w3schools.com/css/css_font_fallbacks.asp
 
 o tipo de arquivo correto:
 
-TTF
-OTF
-WOFF/WOFF2
-SVG
-EOT
+- TTF
+- OTF
+- WOFF/WOFF2
+- SVG
+- EOT
 
 Com estes tipos de arquivo de fonte, você poderá então utilizá-lo em todo o seu site e estilizá-lo com HTML e CSS.
 
@@ -754,7 +754,6 @@ Courier New (monospace)
 Brush Script MT (cursive)
 
 
-
 /* Webfont: nome-font */
 @font-face {
     font-family: 'nome-font';
@@ -772,6 +771,11 @@ Brush Script MT (cursive)
 color:#fff TrueType Font (TTF)
 O formato de arquivo TrueType Font (TTF) foi criado em parceria pela Apple Computer e pela Microsoft Corporation. É o formato mais comum de fontes utilizado nos sistemas operacionais Macintosh e Windows. O formato de arquivo TTF imprime caracteres como bitmaps ou vetores, dependendo dos recursos da impressora. As fontes TrueType são impressas e exibidas da mesma forma na tela, e podem ser redimensionadas em qualquer altura.
 
+No entanto, o IE8 não tem suporte para TTF; e a partir do IE9 é apenas parcialmente suportado, pois as fontes devem ser definidas como “instaláveis”.
+
+O TTF permite o tipo mais básico de gerenciamento de direitos digitais — um sinalizador incorporável que especifica se o autor permite a incorporação do arquivo de fonte em arquivos PDF e sites. Existem algumas ferramentas que permitem modificar este sinalizador, que é um dos maiores problemas do formato TTF. Outra desvantagem é que as fontes TTF/OTF não são compactadas e, como resultado, têm um tamanho de arquivo maior.
+
+
 color:#fff OpenType® 
 é um formato de arquivo de fonte multiplataforma desenvolvido em conjunto pela Adobe e pela Microsoft. A Adobe converteu toda a Adobe Type Library neste formato e agora oferece milhares de fontes OpenType.
 
@@ -787,6 +791,8 @@ color:#fff Tipografia avançada
 
 As fontes OpenType podem conter mais de 65.000 glifos, o que permite que um único arquivo de fonte contenha muitos glifos alternativos, como figuras de estilo antigo, maiúsculas pequenas, frações, swashes, superiores, inferiores, letras de título, alternativas contextuais e estilísticas e um gama de ligaduras.
 
+OTF também permite o armazenamento de até 65.000 caracteres. Esse espaço adicional dá aos designers a liberdade de incluir complementos, como versaletes, figuras de estilo antigo, caracteres alternativos e outros extras que antes precisavam ser distribuídos como fontes separadas.
+
 Historicamente, alguns dos tipos de letra da mais alta qualidade incluíram designs diferentes para tamanhos de impressão diferentes. Várias fontes OpenType da Adobe incluem variações de tamanho óptico, como: legenda, regular, subtítulo e exibição. Chamadas de “ópticas”, essas variações foram otimizadas para uso em tamanhos de pontos específicos. Embora os tamanhos exatos pretendidos variem de acordo com a família, os intervalos gerais de tamanho incluem: legenda (6-8 pontos), regular (9-13 pontos), subtítulo (14-24 pontos) e exibição (25-72 pontos).
 
 color:#fff Suporte ao recurso OpenType
@@ -795,6 +801,9 @@ No centro de uma discussão sobre o suporte ao recurso OpenType está a distinç
 
 Os recursos de layout OpenType podem ser usados ​​para posicionar ou substituir glifos. Para qualquer caractere, há um glifo padrão e um comportamento de posicionamento. A aplicação de recursos de layout a um ou mais caracteres pode alterar o posicionamento ou substituir um glifo diferente. Por exemplo, a aplicação do recurso de letras maiúsculas minúsculas ao “a” substituiria o glifo “a” de letras minúsculas pelo glifo “a” minúsculo comum. Para acessar glifos alternativos em uma fonte OpenType, um aplicativo fornece uma interface de usuário que permite aos usuários finais aplicar recursos de layout OpenType ao texto.
 
+color:#fff  Tipo aberto incorporado (EOT)
+
+As fontes EOT foram projetadas pela Microsoft para serem usadas na web. É uma tentativa de resolver as deficiências de direitos autorais de TTF e OTF ao publicar na web. O EOT usa uma ferramenta da Microsoft para criar uma fonte a partir de fontes TTF/OTF existentes. A compactação e a criação de subconjuntos tornam os arquivos de fonte menores. A criação de subconjuntos fornece alguma proteção de direitos autorais, mas o EOT também usa criptografia para proteção adicional. Parece promissor? Sim, mas o formato EOT é suportado apenas pelo Internet Explorer.
 
 color:#fff O formato de fonte aberta da Web (WOFF)
 WOFF (o Web Open Font Format) é um formato de fonte da web desenvolvido pela Mozilla em conjunto com Type Supply, LettError e outras organizações. Ele usa uma versão compactada da mesma estrutura sfnt baseada em tabela usada por TrueType, OpenType e Open Font Format, mas adiciona metadados e estruturas de dados de uso privado, incluindo campos predefinidos que permitem que fundições e fornecedores forneçam informações de licença, se desejado.
@@ -812,12 +821,20 @@ Você pode usar a propriedade CSS @font-face para usar fontes WOFF para texto em
 Ferramentas para trabalhar com fontes WOFF
 Estão disponíveis ferramentas para trabalhar com fontes WOFF. sfnt2woff e woff2sfnt convertem entre WOFF e OpenType.
 
+WOFF é basicamente OTF ou TTF com metadados e compactação suportados por todos os principais navegadores. Ele foi criado para viver na web. É o resultado da colaboração da Mozilla Foundation, Microsoft e Opera Software. Como as fontes são compactadas, elas carregam mais rápido. Os metadados permitem a inclusão de dados de licença no arquivo de fonte para tratar de questões de direitos autorais. É uma recomendação do World Wide Web Consortium e é claramente o futuro dos formatos de fonte.
+
+WOFF2 é a próxima geração de WOFF. O formato WOFF2 oferece um ganho médio de compressão de 30% sobre o WOFF original. Por ser apenas uma atualização recomendada, não possui o amplo suporte do WOFF.
+
 https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF
 
 
 color:#fff Fontes SVG
 
 Quando o SVG foi especificado, o suporte para fontes da web não foi difundido nos navegadores. Como acessar o arquivo de fonte correto é, no entanto, crucial para renderizar o texto corretamente, uma tecnologia de descrição de fonte foi adicionada ao SVG para fornecer essa capacidade. Não se destinava à compatibilidade com outros formatos como PostScript ou OTF, mas sim como um meio simples de incorporar informações de glifo em SVG quando renderizado.
+
+As fontes SVG são definidas usando o elemento 'font' do SVG. Essas fontes contêm os contornos do glifo como elementos e atributos SVG padrão, como se fossem um único objeto vetorial na imagem SVG. A maior desvantagem das fontes SVG é a falta de dicas de fonte. Dicas de fonte são informações extras incorporadas para renderizar tamanhos de fonte pequenos com qualidade e legibilidade. Além disso, SVG não é bom para corpo de texto. Como a seleção de texto é interrompida no Safari, Safari Mobile e Chrome, você não pode selecionar caracteres individuais, palavras ou qualquer seleção personalizada. Você só pode selecionar toda a linha ou parágrafo do texto.
+
+No entanto, se você estiver segmentando usuários de iPhone e iPad, as fontes SVG são sua única opção. Este é o único formato de arquivo permitido pela versão 4.1 e inferior do Safari para iOS.
 
 A base para definir uma fonte SVG é o elemento <font>.
 
@@ -923,3 +940,26 @@ https://www.w3.org/Submission/EOT/
 
 https://learn.microsoft.com/pt-br/typography/tools/vtt/
 https://learn.microsoft.com/pt-br/typography/tools/volt/
+
+ Apesar da enorme variedade de formatos, não existe um que funcione em todos os navegadores . O que isto significa? Que você terá que usar vários formatos de fonte para oferecer uma experiência consistente .
+
+ Sendo a cobinação otf/ttf/woff a mais recomendada.
+
+                            EOT  OTF/TTF   WOFF   WOFF2  SVG
+ IE 8-11                     x
+ IE 9-11                     x      x
+ Edge 12-14                         x       x
+ Firefox 40-45                      x       x       x
+ Chrome 43-49                       x       x       x
+ Safari 8-9                         x       x             x
+ Opera 32-35                        x       x       x
+ IOS Safari 8.4-9.1                 x       x             x
+ Android 4.4 -44                    x       x
+ Chrome for Android 46              x       x       x
+
+
+ https://medium.com/@aitareydesign/understanding-of-font-formats-ttf-otf-woff-eot-svg-e55e00a1ef2
+
+O Vendor ID identifica a empresa responsável pelo marketing e distribuição de fontes. Também é provável que os fornecedores tenham outros benefícios inerentes em suas fontes (mais pares de kern, dados não regularizados, dicas manuais, etc.). Esse identificador permitirá que o tipo correto do fornecedor seja usado sobre outro arquivo de fonte, possivelmente inferior.
+
+ Os produtores de fontes não são obrigados a registrar uma ID de fornecedor na Microsoft. No entanto, se eles se registrarem e incluírem seu ID de fornecedor em suas fontes, terão a certeza de que os usuários sempre poderão contatá-los, mesmo que mudem de endereço físico ou na Web.
