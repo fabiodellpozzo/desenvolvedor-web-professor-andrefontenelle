@@ -690,5 +690,218 @@ Existem inúmeras maneiras mais fáceis e simples de você utilizar web fonts em
 - fonts.com
 - Adobe Edge Web Fonts
 
+3 pontos importantes que devem influenciar a sua escolha das melhores fontes para sites:
+
+-Confiança
+-Legibilidade
+-Alinhamento com a marca
+
+principais tipos de fontes:
+
+- Serif — essas fontes incluem pequenas linhas ou traços (conhecidos como serifas) anexados a letras, símbolos e números maiores
+- Sans serif — essas fontes têm um design mais minimalista porque não possuem linhas/traços adicionados em símbolos, números e letras
+- Script — fontes que têm uma ênfase particular em se assemelhar a caligrafia
+- Display — fontes artísticas e atraentes, geralmente usadas para fins decorativos
+
+Uma fonte da Web é qualquer fonte usada no design de um site que não é instalada por padrão no dispositivo do usuário final - uma contraparte de uma fonte do sistema .
+
+A adoção generalizada de fontes da web aconteceu por volta de 2009–2011 graças ao aumento do suporte dos navegadores convencionais para duas coisas: @font-facedeclarações em CSS e o formato de arquivo WOFF.
+
+WOFF (e seu sucessor WOFF2) são formatos de arquivo compactados criados especificamente para fontes da web. Embora as fontes OpenType regulares (arquivos TTF e OTF) possam ser usadas como fontes da Web, esse uso não é recomendado, pois geralmente infringe os contratos de licença - e os arquivos são significativamente maiores. As fontes WOFF e WOFF2 geralmente não podem ser instaladas em computadores desktop.
+
+Observe que as fontes da web são recursos que precisam ser baixados e, portanto, afetam o desempenho geral dos tempos de carregamento da página; ou seja, quanto mais fontes da web usarmos, mais tempo levará para carregar nossos sites. Isso é potencialmente compensado com o uso de fontes variáveis .
+
+https://www.w3schools.com/css/css_font_fallbacks.asp
+
+o tipo de arquivo correto:
+
+TTF
+OTF
+WOFF/WOFF2
+SVG
+EOT
+
+Com estes tipos de arquivo de fonte, você poderá então utilizá-lo em todo o seu site e estilizá-lo com HTML e CSS.
+
+lista de fontes seguras na web que geralmente podem ser utilizadas.
+
+Arial
+Brush Script MT
+Comic Sans
+Courier New
+Garamond
+Georgia
+Helvetica
+Impact
+Lucida Console
+Palatino
+Tahoma
+Times New Roman
+Trebuchet MS
+Verdana
+
+Best Web Safe Fonts for HTML and CSS
+The following list are the best web safe fonts for HTML and CSS:
+
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
 
 
+
+/* Webfont: nome-font */
+@font-face {
+    font-family: 'nome-font';
+    src:    url('nome-font.eot'); /* IE9 Compat Modes */
+    src:    url('nome-font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('nome-font.woff') format('woff'), /* Modern Browsers */
+            url('nome-font.woff2') format('woff2'), /* Modern Browsers */
+            url('nome-font.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+color:#fff TrueType Font (TTF)
+O formato de arquivo TrueType Font (TTF) foi criado em parceria pela Apple Computer e pela Microsoft Corporation. É o formato mais comum de fontes utilizado nos sistemas operacionais Macintosh e Windows. O formato de arquivo TTF imprime caracteres como bitmaps ou vetores, dependendo dos recursos da impressora. As fontes TrueType são impressas e exibidas da mesma forma na tela, e podem ser redimensionadas em qualquer altura.
+
+color:#fff OpenType® 
+é um formato de arquivo de fonte multiplataforma desenvolvido em conjunto pela Adobe e pela Microsoft. A Adobe converteu toda a Adobe Type Library neste formato e agora oferece milhares de fontes OpenType.
+
+Os dois principais benefícios do formato OpenType são sua compatibilidade entre plataformas (o mesmo arquivo de fonte funciona em computadores Macintosh e Windows) e sua capacidade de suportar conjuntos de caracteres amplamente expandidos e recursos de layout, que fornecem suporte linguístico mais rico e controle tipográfico avançado. 
+
+O formato OpenType é uma extensão do formato TrueType SFNT que também pode suportar dados de fonte Adobe® PostScript® e novos recursos tipográficos. As fontes OpenType que contêm dados PostScript, como as da Adobe Type Library, têm um sufixo .otf no nome do arquivo de fonte, enquanto as fontes OpenType baseadas em TrueType têm um sufixo .ttf no nome do arquivo.
+As fontes OpenType incluem um conjunto de caracteres expandido e recursos de layout tipográfico, fornecendo suporte linguístico mais amplo e controle tipográfico mais preciso.
+
+Melhor suporte a idiomas
+Com base no Unicode, o padrão de codificação internacional que abrange praticamente todos os idiomas do mundo, as fontes OpenType facilitam a tipografia multilíngue.
+
+color:#fff Tipografia avançada
+
+As fontes OpenType podem conter mais de 65.000 glifos, o que permite que um único arquivo de fonte contenha muitos glifos alternativos, como figuras de estilo antigo, maiúsculas pequenas, frações, swashes, superiores, inferiores, letras de título, alternativas contextuais e estilísticas e um gama de ligaduras.
+
+Historicamente, alguns dos tipos de letra da mais alta qualidade incluíram designs diferentes para tamanhos de impressão diferentes. Várias fontes OpenType da Adobe incluem variações de tamanho óptico, como: legenda, regular, subtítulo e exibição. Chamadas de “ópticas”, essas variações foram otimizadas para uso em tamanhos de pontos específicos. Embora os tamanhos exatos pretendidos variem de acordo com a família, os intervalos gerais de tamanho incluem: legenda (6-8 pontos), regular (9-13 pontos), subtítulo (14-24 pontos) e exibição (25-72 pontos).
+
+color:#fff Suporte ao recurso OpenType
+
+No centro de uma discussão sobre o suporte ao recurso OpenType está a distinção entre caracteres e glifos. Os caracteres são os pontos de código atribuídos pelo padrão Unicode, que representam as menores unidades semânticas da linguagem, como as letras. Glifos são as formas específicas que esses personagens podem assumir. Um caractere pode corresponder a vários glifos; o “a” minúsculo, um maiúsculo “a” e um swash alternativo “a” minúsculo são todos o mesmo caractere, mas são três glifos separados. Um glifo também pode representar vários caracteres, como no caso da ligadura “ffi”, que corresponde a uma sequência de três caracteres: f, f e i.
+
+Os recursos de layout OpenType podem ser usados ​​para posicionar ou substituir glifos. Para qualquer caractere, há um glifo padrão e um comportamento de posicionamento. A aplicação de recursos de layout a um ou mais caracteres pode alterar o posicionamento ou substituir um glifo diferente. Por exemplo, a aplicação do recurso de letras maiúsculas minúsculas ao “a” substituiria o glifo “a” de letras minúsculas pelo glifo “a” minúsculo comum. Para acessar glifos alternativos em uma fonte OpenType, um aplicativo fornece uma interface de usuário que permite aos usuários finais aplicar recursos de layout OpenType ao texto.
+
+
+color:#fff O formato de fonte aberta da Web (WOFF)
+WOFF (o Web Open Font Format) é um formato de fonte da web desenvolvido pela Mozilla em conjunto com Type Supply, LettError e outras organizações. Ele usa uma versão compactada da mesma estrutura sfnt baseada em tabela usada por TrueType, OpenType e Open Font Format, mas adiciona metadados e estruturas de dados de uso privado, incluindo campos predefinidos que permitem que fundições e fornecedores forneçam informações de licença, se desejado.
+
+Existem três benefícios principais em usar o WOFF:
+
+Os dados da fonte são compactados, portanto, os sites que usam WOFF usarão menos largura de banda e serão carregados mais rapidamente do que se usassem arquivos TrueType ou OpenType descompactados equivalentes.
+Muitos fornecedores de fontes que não desejam licenciar suas fontes de formato TrueType ou OpenType para uso na Web licenciarão fontes de formato WOFF. Isso melhora a disponibilidade de fontes para os designers do site.
+Ambos os fornecedores de navegadores de software livre e proprietário gostam do formato WOFF, então ele tem o potencial de se tornar um formato de fonte verdadeiramente universal e interoperável para a web, ao contrário de outros formatos de fonte atuais.
+Existem duas versões do WOFF: WOFF e WOFF2. Eles diferem principalmente em relação ao algoritmo de compressão usado. Em @font-face, eles são identificados pelo descritor de formato 'woff' e 'woff2', respectivamente.
+
+Usando WOFF
+Você pode usar a propriedade CSS @font-face para usar fontes WOFF para texto em conteúdo da web. Ele funciona exatamente como as fontes de formato OpenType e TrueType, exceto que provavelmente permitirá que seu conteúdo seja baixado com mais eficiência devido à adição de compactação.
+
+Ferramentas para trabalhar com fontes WOFF
+Estão disponíveis ferramentas para trabalhar com fontes WOFF. sfnt2woff e woff2sfnt convertem entre WOFF e OpenType.
+
+https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF
+
+
+color:#fff Fontes SVG
+
+Quando o SVG foi especificado, o suporte para fontes da web não foi difundido nos navegadores. Como acessar o arquivo de fonte correto é, no entanto, crucial para renderizar o texto corretamente, uma tecnologia de descrição de fonte foi adicionada ao SVG para fornecer essa capacidade. Não se destinava à compatibilidade com outros formatos como PostScript ou OTF, mas sim como um meio simples de incorporar informações de glifo em SVG quando renderizado.
+
+A base para definir uma fonte SVG é o elemento <font>.
+
+Definindo uma fonte
+Existem alguns ingredientes necessários para incorporar uma fonte em SVG. Vamos mostrar um exemplo de declaração (o da especificação), e explicar os detalhes. A base para definir uma fonte SVG é o elemento <font>.
+
+<font id="Font1" horiz-adv-x="1000">
+  <font-face
+    font-family="Super Sans"
+    font-weight="bold"
+    font-style="normal"
+    units-per-em="1000"
+    cap-height="600"
+    x-height="400"
+    ascent="700"
+    descent="300"
+    alphabetic="0"
+    mathematical="350"
+    ideographic="400"
+    hanging="500">
+    <font-face-src>
+      <font-face-name name="Super Sans Bold" />
+    </font-face-src>
+  </font-face>
+  <missing-glyph><path d="M0,0h200v200h-200z" /></missing-glyph>
+  <!-- Outline of exclamation point glyph -->
+  <glyph unicode="!" horiz-adv-x="300"></glyph>
+  <glyph unicode="@"><!-- Outline of @ glyph --></glyph>
+  <!-- more glyphs -->
+</font>
+
+
+Começamos com o elemento <font>. Isso contém um atributo id, para permitir que seja referenciado por meio de um URI (veja abaixo). O atributo horiz-adv-x determina a largura média de um caractere em comparação com as definições de caminho dos glifos únicos. O valor 1000 define um valor razoável para trabalhar. Há vários atributos acompanhantes que ajudam a definir melhor o layout básico da caixa de glifos.
+
+O elemento <font-face> é o equivalente SVG da declaração CSS @font-face. Ele define as propriedades básicas da fonte final, como peso, estilo etc. No exemplo acima, a primeira e mais importante a ser definida é a família de fontes, cujo valor pode ser referenciado nas propriedades da família de fontes CSS e SVG . Os atributos font-weight e font-style têm o mesmo propósito que os descritores equivalentes em CSS. Todos os atributos a seguir são instruções de renderização para o mecanismo de layout de fonte; por exemplo, quanto das alturas gerais dos glifos são ascendentes.
+
+Seu filho, o elemento <font-face-src>, corresponde ao descritor src do CSS nas declarações @font-face. Você pode apontar para fontes externas para declarações de fonte por meio de seus filhos <font-face-name> e <font-face-uri>. O exemplo acima afirma que, se o renderizador tiver uma fonte local disponível chamada "Super Sans Bold", ele deve usá-la.
+
+Seguindo <font-face-src> está um elemento <missing-glyph>. Isso define o que deve ser exibido se um determinado glifo não for encontrado na fonte e se não houver mecanismos de fallback. Ele também mostra como os glifos são criados: Adicionando qualquer conteúdo gráfico SVG dentro. Você pode usar literalmente qualquer outro elemento SVG aqui, mesmo <filter>, <a> ou <script>. Para glifos simples, no entanto, você pode adicionar um atributo d — isso define uma forma para o glifo exatamente como funcionam os caminhos SVG padrão.
+
+Os glifos reais são então definidos pelos elementos <glyph>. O atributo mais importante é o unicode. Ele define o ponto de código unicode representado por este glifo. Se você também especificar o atributo lang em um glifo, poderá restringi-lo ainda mais a determinados idiomas (representados por xml:lang no destino) exclusivamente. Novamente, você pode usar SVG arbitrário para definir o glifo, o que permite ótimos efeitos no suporte a agentes de usuário.
+
+Mais dois elementos podem ser definidos dentro da fonte: <hkern> e <vkern>. Cada um carrega referências a pelo menos dois caracteres (atributos u1 e u2) e um atributo k que determina quanto a distância entre esses caracteres deve ser diminuída. O exemplo abaixo instrui os agentes do usuário a colocar os caracteres "A" e "V" mais próximos do que a distância padrão entre os caracteres.
+
+
+<hkern u1="A" u2="V" k="20" />
+
+Fazendo referência a uma fonte
+Depois de montar sua declaração de fonte conforme descrito acima, você pode usar apenas um atributo de família de fonte simples para realmente aplicar a fonte a algum texto SVG:
+
+<font>
+  <font-face font-family="Super Sans" />
+  <!-- and so on -->
+</font>
+
+<text font-family="Super Sans">My text uses Super Sans</text>
+
+No entanto, você pode combinar vários métodos para obter grande liberdade de como e onde definir a fonte.
+
+Opção: Use CSS @font-face
+
+Você pode usar @font-face para referenciar fontes remotas (e não tão remotas):
+
+
+<font id="Super_Sans">
+  <!-- and so on -->
+</font>
+
+<style>
+  @font-face {
+    font-family: "Super Sans";
+    src: url(#Super_Sans);
+  }
+</style>
+
+<text font-family="Super Sans">My text uses Super Sans</text>
+
+Opção: referenciar uma fonte remota
+O elemento font-face-uri mencionado acima permite que você faça referência a uma fonte externa; portanto, permitindo maior reutilização:
+
+<font>
+  <font-face font-family="Super Sans">
+    <font-face-src>
+      <font-face-uri xlink:href="fonts.svg#Super_Sans" />
+    </font-face-src>
+  </font-face>
+</font>
