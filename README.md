@@ -4,7 +4,7 @@ Agradeço ao instrutor André Fontenelle  https://www.udemy.com/user/andrefonten
 
 Conteúdo de Desenvolvimento.
 
-#note -> Analisando as limitações de listagem armazenamento de arquivos determinado a max 1000 files.
+#note -> Analisando as limitações de listagem armazenamento de arquivos determinado a max 1000 files via GitHub Desktop.
 
 #note -> The following files are over 100mb.
        
