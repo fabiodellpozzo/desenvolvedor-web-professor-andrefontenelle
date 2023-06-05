@@ -1,4 +1,7 @@
 # desenvolvedor-web-professor-andrefontenelle
+
+Agradeço ao instrutor André Fontenelle  https://www.udemy.com/user/andrefontenelle-2/ por disponibilizar seus conhecimentos.
+
 Conteúdo de Desenvolvimento.
 
 #note -> Analisando as limitações de listagem armazenamento de arquivos determinado a max 1000 files.
